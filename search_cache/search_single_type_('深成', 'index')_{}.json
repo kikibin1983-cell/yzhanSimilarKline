@@ -1,0 +1,74 @@
+[
+  {
+    "code": "399002",
+    "name": "深成指R",
+    "type": "index",
+    "exchange": ""
+  },
+  {
+    "code": "399659",
+    "name": "深成指EW",
+    "type": "index",
+    "exchange": ""
+  },
+  {
+    "code": "399680",
+    "name": "深成能源行业指数",
+    "type": "index",
+    "exchange": ""
+  },
+  {
+    "code": "399681",
+    "name": "深成原材料行业指数",
+    "type": "index",
+    "exchange": ""
+  },
+  {
+    "code": "399682",
+    "name": "深成工业行业指数",
+    "type": "index",
+    "exchange": ""
+  },
+  {
+    "code": "399683",
+    "name": "深成可选消费行业指数",
+    "type": "index",
+    "exchange": ""
+  },
+  {
+    "code": "399684",
+    "name": "深成主要消费行业指数",
+    "type": "index",
+    "exchange": ""
+  },
+  {
+    "code": "399685",
+    "name": "深成医药卫生行业指数",
+    "type": "index",
+    "exchange": ""
+  },
+  {
+    "code": "399686",
+    "name": "深成金融地产行业指数",
+    "type": "index",
+    "exchange": ""
+  },
+  {
+    "code": "399687",
+    "name": "深成信息技术行业指数",
+    "type": "index",
+    "exchange": ""
+  },
+  {
+    "code": "399688",
+    "name": "深成电信业务行业指数",
+    "type": "index",
+    "exchange": ""
+  },
+  {
+    "code": "399689",
+    "name": "深成公用事业行业指数",
+    "type": "index",
+    "exchange": ""
+  }
+]

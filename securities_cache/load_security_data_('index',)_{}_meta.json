@@ -1,0 +1,7 @@
+{
+  "timestamp": "2026-03-07 22:15:24",
+  "function": "load_security_data",
+  "args": "('index',)",
+  "kwargs": "{}",
+  "data_type": "dataframe"
+}
