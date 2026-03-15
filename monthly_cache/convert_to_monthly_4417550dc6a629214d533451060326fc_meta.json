@@ -1,0 +1,8 @@
+{
+  "timestamp": "2026-03-15 18:24:40",
+  "function": "convert_to_monthly",
+  "data_hash": "4417550dc6a629214d533451060326fc",
+  "data_rows": 20,
+  "data_start": "2019-06-01",
+  "data_end": "2021-01-01"
+}

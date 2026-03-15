@@ -1,0 +1,457 @@
+[
+  {
+    "code": "000099",
+    "name": "上证F300",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz000099.day"
+  },
+  {
+    "code": "000300",
+    "name": "沪深300",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz000300.day"
+  },
+  {
+    "code": "000803",
+    "name": "300波动",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz000803.day"
+  },
+  {
+    "code": "000821",
+    "name": "300红利",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz000821.day"
+  },
+  {
+    "code": "000828",
+    "name": "300高贝",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz000828.day"
+  },
+  {
+    "code": "000829",
+    "name": "300低贝",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz000829.day"
+  },
+  {
+    "code": "000843",
+    "name": "300动态",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz000843.day"
+  },
+  {
+    "code": "000844",
+    "name": "300稳定",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz000844.day"
+  },
+  {
+    "code": "000849",
+    "name": "沪深300非银行金融指数",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz000849.day"
+  },
+  {
+    "code": "000850",
+    "name": "沪深300有色金属指数",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz000850.day"
+  },
+  {
+    "code": "000908",
+    "name": "300能源",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz000908.day"
+  },
+  {
+    "code": "000909",
+    "name": "300材料",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz000909.day"
+  },
+  {
+    "code": "000910",
+    "name": "300工业",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz000910.day"
+  },
+  {
+    "code": "000911",
+    "name": "300可选",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz000911.day"
+  },
+  {
+    "code": "000912",
+    "name": "300消费",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz000912.day"
+  },
+  {
+    "code": "000913",
+    "name": "300医药",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz000913.day"
+  },
+  {
+    "code": "000914",
+    "name": "300金融",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz000914.day"
+  },
+  {
+    "code": "000915",
+    "name": "300信息",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz000915.day"
+  },
+  {
+    "code": "000916",
+    "name": "300电信",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz000916.day"
+  },
+  {
+    "code": "000917",
+    "name": "300公用",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz000917.day"
+  },
+  {
+    "code": "000918",
+    "name": "300成长",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz000918.day"
+  },
+  {
+    "code": "000919",
+    "name": "300价值",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz000919.day"
+  },
+  {
+    "code": "000920",
+    "name": "300R成长",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz000920.day"
+  },
+  {
+    "code": "000921",
+    "name": "300R价值",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz000921.day"
+  },
+  {
+    "code": "000950",
+    "name": "300基建",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz000950.day"
+  },
+  {
+    "code": "000951",
+    "name": "300银行",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz000951.day"
+  },
+  {
+    "code": "000952",
+    "name": "300地产",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz000952.day"
+  },
+  {
+    "code": "000957",
+    "name": "300运输",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz000957.day"
+  },
+  {
+    "code": "000968",
+    "name": "300周期",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz000968.day"
+  },
+  {
+    "code": "000969",
+    "name": "300非周",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz000969.day"
+  },
+  {
+    "code": "000972",
+    "name": "300沪市",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz000972.day"
+  },
+  {
+    "code": "000981",
+    "name": "300分层",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz000981.day"
+  },
+  {
+    "code": "000984",
+    "name": "300等权",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz000984.day"
+  },
+  {
+    "code": "399007",
+    "name": "深证300",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz399007.day"
+  },
+  {
+    "code": "399008",
+    "name": "中小300",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz399008.day"
+  },
+  {
+    "code": "399012",
+    "name": "创业300",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz399012.day"
+  },
+  {
+    "code": "399300",
+    "name": "沪深300",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz399300.day"
+  },
+  {
+    "code": "399312",
+    "name": "国证300",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz399312.day"
+  },
+  {
+    "code": "399344",
+    "name": "深证300R",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz399344.day"
+  },
+  {
+    "code": "399416",
+    "name": "I300",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz399416.day"
+  },
+  {
+    "code": "399633",
+    "name": "深300EW",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz399633.day"
+  },
+  {
+    "code": "399657",
+    "name": "300绩效",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz399657.day"
+  },
+  {
+    "code": "399692",
+    "name": "创业300低波动率指数",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz399692.day"
+  },
+  {
+    "code": "399908",
+    "name": "沪深300能源指数",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz399908.day"
+  },
+  {
+    "code": "399909",
+    "name": "沪深300原材料指数",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz399909.day"
+  },
+  {
+    "code": "399910",
+    "name": "沪深300工业指数",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz399910.day"
+  },
+  {
+    "code": "399911",
+    "name": "沪深300可选消费指数",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz399911.day"
+  },
+  {
+    "code": "399912",
+    "name": "沪深300主要消费指数",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz399912.day"
+  },
+  {
+    "code": "399913",
+    "name": "沪深300医药卫生指数",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz399913.day"
+  },
+  {
+    "code": "399914",
+    "name": "沪深300金融地产指数",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz399914.day"
+  },
+  {
+    "code": "399915",
+    "name": "沪深300信息技术指数",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz399915.day"
+  },
+  {
+    "code": "399916",
+    "name": "沪深300电信业务指数",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz399916.day"
+  },
+  {
+    "code": "399917",
+    "name": "沪深300公用事业指数",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz399917.day"
+  },
+  {
+    "code": "399918",
+    "name": "沪深300成长指数",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz399918.day"
+  },
+  {
+    "code": "399919",
+    "name": "沪深300价值指数",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz399919.day"
+  },
+  {
+    "code": "399920",
+    "name": "沪深300相对成长指数",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz399920.day"
+  },
+  {
+    "code": "399950",
+    "name": "沪深300基建主题指数",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz399950.day"
+  },
+  {
+    "code": "399951",
+    "name": "沪深300银行指数",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz399951.day"
+  },
+  {
+    "code": "399952",
+    "name": "沪深300地产指数",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz399952.day"
+  },
+  {
+    "code": "399957",
+    "name": "沪深300运输指数",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz399957.day"
+  },
+  {
+    "code": "399968",
+    "name": "沪深300周期行业指数",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz399968.day"
+  },
+  {
+    "code": "399969",
+    "name": "沪深300非周期行业指数",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz399969.day"
+  },
+  {
+    "code": "399972",
+    "name": "300深市",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz399972.day"
+  },
+  {
+    "code": "399981",
+    "name": "沪深300行业分层等权重指数",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz399981.day"
+  },
+  {
+    "code": "399983",
+    "name": "沪深300地产等权重指数",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz399983.day"
+  }
+]

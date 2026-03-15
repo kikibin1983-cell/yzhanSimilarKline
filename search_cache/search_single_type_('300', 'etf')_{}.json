@@ -1,0 +1,149 @@
+[
+  {
+    "code": "501300",
+    "name": "ETF-501300",
+    "type": "etf",
+    "exchange": "上海",
+    "source_file": "D:\\new_tdx\\vipdoc\\sh\\lday\\sh501300.day"
+  },
+  {
+    "code": "510300",
+    "name": "ETF-510300",
+    "type": "etf",
+    "exchange": "上海",
+    "source_file": "D:\\new_tdx\\vipdoc\\sh\\lday\\sh510300.day"
+  },
+  {
+    "code": "513000",
+    "name": "ETF-513000",
+    "type": "etf",
+    "exchange": "上海",
+    "source_file": "D:\\new_tdx\\vipdoc\\sh\\lday\\sh513000.day"
+  },
+  {
+    "code": "513300",
+    "name": "ETF-513300",
+    "type": "etf",
+    "exchange": "上海",
+    "source_file": "D:\\new_tdx\\vipdoc\\sh\\lday\\sh513300.day"
+  },
+  {
+    "code": "515300",
+    "name": "ETF-515300",
+    "type": "etf",
+    "exchange": "上海",
+    "source_file": "D:\\new_tdx\\vipdoc\\sh\\lday\\sh515300.day"
+  },
+  {
+    "code": "516300",
+    "name": "ETF-516300",
+    "type": "etf",
+    "exchange": "上海",
+    "source_file": "D:\\new_tdx\\vipdoc\\sh\\lday\\sh516300.day"
+  },
+  {
+    "code": "517300",
+    "name": "ETF-517300",
+    "type": "etf",
+    "exchange": "上海",
+    "source_file": "D:\\new_tdx\\vipdoc\\sh\\lday\\sh517300.day"
+  },
+  {
+    "code": "530000",
+    "name": "ETF-530000",
+    "type": "etf",
+    "exchange": "上海",
+    "source_file": "D:\\new_tdx\\vipdoc\\sh\\lday\\sh530000.day"
+  },
+  {
+    "code": "530050",
+    "name": "ETF-530050",
+    "type": "etf",
+    "exchange": "上海",
+    "source_file": "D:\\new_tdx\\vipdoc\\sh\\lday\\sh530050.day"
+  },
+  {
+    "code": "530060",
+    "name": "ETF-530060",
+    "type": "etf",
+    "exchange": "上海",
+    "source_file": "D:\\new_tdx\\vipdoc\\sh\\lday\\sh530060.day"
+  },
+  {
+    "code": "530080",
+    "name": "ETF-530080",
+    "type": "etf",
+    "exchange": "上海",
+    "source_file": "D:\\new_tdx\\vipdoc\\sh\\lday\\sh530080.day"
+  },
+  {
+    "code": "530300",
+    "name": "ETF-530300",
+    "type": "etf",
+    "exchange": "上海",
+    "source_file": "D:\\new_tdx\\vipdoc\\sh\\lday\\sh530300.day"
+  },
+  {
+    "code": "551300",
+    "name": "ETF-551300",
+    "type": "etf",
+    "exchange": "上海",
+    "source_file": "D:\\new_tdx\\vipdoc\\sh\\lday\\sh551300.day"
+  },
+  {
+    "code": "560300",
+    "name": "ETF-560300",
+    "type": "etf",
+    "exchange": "上海",
+    "source_file": "D:\\new_tdx\\vipdoc\\sh\\lday\\sh560300.day"
+  },
+  {
+    "code": "561300",
+    "name": "ETF-561300",
+    "type": "etf",
+    "exchange": "上海",
+    "source_file": "D:\\new_tdx\\vipdoc\\sh\\lday\\sh561300.day"
+  },
+  {
+    "code": "562300",
+    "name": "ETF-562300",
+    "type": "etf",
+    "exchange": "上海",
+    "source_file": "D:\\new_tdx\\vipdoc\\sh\\lday\\sh562300.day"
+  },
+  {
+    "code": "563000",
+    "name": "ETF-563000",
+    "type": "etf",
+    "exchange": "上海",
+    "source_file": "D:\\new_tdx\\vipdoc\\sh\\lday\\sh563000.day"
+  },
+  {
+    "code": "563300",
+    "name": "ETF-563300",
+    "type": "etf",
+    "exchange": "上海",
+    "source_file": "D:\\new_tdx\\vipdoc\\sh\\lday\\sh563300.day"
+  },
+  {
+    "code": "588300",
+    "name": "ETF-588300",
+    "type": "etf",
+    "exchange": "上海",
+    "source_file": "D:\\new_tdx\\vipdoc\\sh\\lday\\sh588300.day"
+  },
+  {
+    "code": "589300",
+    "name": "ETF-589300",
+    "type": "etf",
+    "exchange": "上海",
+    "source_file": "D:\\new_tdx\\vipdoc\\sh\\lday\\sh589300.day"
+  },
+  {
+    "code": "159300",
+    "name": "ETF-159300",
+    "type": "etf",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz159300.day"
+  }
+]

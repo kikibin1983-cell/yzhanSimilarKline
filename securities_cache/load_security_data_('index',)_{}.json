@@ -1,2906 +1,3632 @@
 [
   {
     "index_code": "000001",
-    "name": "上证指数"
+    "name": "上证指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "000002",
-    "name": "A股指数"
+    "name": "A股指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "000003",
-    "name": "B股指数"
+    "name": "B股指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "000004",
-    "name": "工业指数"
+    "name": "工业指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "000005",
-    "name": "商业指数"
+    "name": "商业指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "000006",
-    "name": "地产指数"
+    "name": "地产指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "000007",
-    "name": "公用指数"
+    "name": "公用指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "000008",
-    "name": "综合指数"
+    "name": "综合指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "000009",
-    "name": "上证380"
+    "name": "上证380",
+    "exchange": "深圳"
   },
   {
     "index_code": "000010",
-    "name": "上证180"
+    "name": "上证180",
+    "exchange": "深圳"
   },
   {
     "index_code": "000011",
-    "name": "基金指数"
+    "name": "基金指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "000012",
-    "name": "国债指数"
+    "name": "国债指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "000013",
-    "name": "上证企业债指数"
+    "name": "上证企业债指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "000015",
-    "name": "红利指数"
+    "name": "红利指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "000016",
-    "name": "上证50"
+    "name": "上证50",
+    "exchange": "深圳"
   },
   {
     "index_code": "000017",
-    "name": "新综指"
+    "name": "新综指",
+    "exchange": "深圳"
   },
   {
     "index_code": "000018",
-    "name": "180金融"
+    "name": "180金融",
+    "exchange": "深圳"
   },
   {
     "index_code": "000019",
-    "name": "治理指数"
+    "name": "治理指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "000020",
-    "name": "中型综指"
+    "name": "中型综指",
+    "exchange": "深圳"
   },
   {
     "index_code": "000021",
-    "name": "180治理"
+    "name": "180治理",
+    "exchange": "深圳"
   },
   {
     "index_code": "000022",
-    "name": "上证公司债指数"
+    "name": "上证公司债指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "000025",
-    "name": "180基建"
+    "name": "180基建",
+    "exchange": "深圳"
   },
   {
     "index_code": "000026",
-    "name": "180资源"
+    "name": "180资源",
+    "exchange": "深圳"
   },
   {
     "index_code": "000027",
-    "name": "180运输"
+    "name": "180运输",
+    "exchange": "深圳"
   },
   {
     "index_code": "000028",
-    "name": "180成长"
+    "name": "180成长",
+    "exchange": "深圳"
   },
   {
     "index_code": "000029",
-    "name": "180价值"
+    "name": "180价值",
+    "exchange": "深圳"
   },
   {
     "index_code": "000030",
-    "name": "180R成长"
+    "name": "180R成长",
+    "exchange": "深圳"
   },
   {
     "index_code": "000031",
-    "name": "180R价值"
+    "name": "180R价值",
+    "exchange": "深圳"
   },
   {
     "index_code": "000032",
-    "name": "上证能源"
+    "name": "上证能源",
+    "exchange": "深圳"
   },
   {
     "index_code": "000033",
-    "name": "上证材料"
+    "name": "上证材料",
+    "exchange": "深圳"
   },
   {
     "index_code": "000034",
-    "name": "上证工业"
+    "name": "上证工业",
+    "exchange": "深圳"
   },
   {
     "index_code": "000035",
-    "name": "上证可选"
+    "name": "上证可选",
+    "exchange": "深圳"
   },
   {
     "index_code": "000036",
-    "name": "上证消费"
+    "name": "上证消费",
+    "exchange": "深圳"
   },
   {
     "index_code": "000037",
-    "name": "上证医药"
+    "name": "上证医药",
+    "exchange": "深圳"
   },
   {
     "index_code": "000038",
-    "name": "上证金融"
+    "name": "上证金融",
+    "exchange": "深圳"
   },
   {
     "index_code": "000039",
-    "name": "上证信息"
+    "name": "上证信息",
+    "exchange": "深圳"
   },
   {
     "index_code": "000040",
-    "name": "上证电信"
+    "name": "上证电信",
+    "exchange": "深圳"
   },
   {
     "index_code": "000041",
-    "name": "上证公用"
+    "name": "上证公用",
+    "exchange": "深圳"
   },
   {
     "index_code": "000042",
-    "name": "上证央企"
+    "name": "上证央企",
+    "exchange": "深圳"
   },
   {
     "index_code": "000043",
-    "name": "超大盘"
+    "name": "超大盘",
+    "exchange": "深圳"
   },
   {
     "index_code": "000044",
-    "name": "上证中盘"
+    "name": "上证中盘",
+    "exchange": "深圳"
   },
   {
     "index_code": "000045",
-    "name": "上证小盘"
+    "name": "上证小盘",
+    "exchange": "深圳"
   },
   {
     "index_code": "000046",
-    "name": "上证中小"
+    "name": "上证中小",
+    "exchange": "深圳"
   },
   {
     "index_code": "000047",
-    "name": "上证全指"
+    "name": "上证全指",
+    "exchange": "深圳"
   },
   {
     "index_code": "000048",
-    "name": "责任指数"
+    "name": "责任指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "000049",
-    "name": "上证民企"
+    "name": "上证民企",
+    "exchange": "深圳"
   },
   {
     "index_code": "000050",
-    "name": "50等权"
+    "name": "50等权",
+    "exchange": "深圳"
   },
   {
     "index_code": "000051",
-    "name": "180等权"
+    "name": "180等权",
+    "exchange": "深圳"
   },
   {
     "index_code": "000052",
-    "name": "50基本"
+    "name": "50基本",
+    "exchange": "深圳"
   },
   {
     "index_code": "000053",
-    "name": "180基本"
+    "name": "180基本",
+    "exchange": "深圳"
   },
   {
     "index_code": "000054",
-    "name": "上证海外"
+    "name": "上证海外",
+    "exchange": "深圳"
   },
   {
     "index_code": "000055",
-    "name": "上证地企"
+    "name": "上证地企",
+    "exchange": "深圳"
   },
   {
     "index_code": "000056",
-    "name": "上证国企"
+    "name": "上证国企",
+    "exchange": "深圳"
   },
   {
     "index_code": "000057",
-    "name": "全指成长"
+    "name": "全指成长",
+    "exchange": "深圳"
   },
   {
     "index_code": "000058",
-    "name": "全指价值"
+    "name": "全指价值",
+    "exchange": "深圳"
   },
   {
     "index_code": "000059",
-    "name": "全R成长"
+    "name": "全R成长",
+    "exchange": "深圳"
   },
   {
     "index_code": "000060",
-    "name": "全R价值"
+    "name": "全R价值",
+    "exchange": "深圳"
   },
   {
     "index_code": "000061",
-    "name": "沪企债30"
+    "name": "沪企债30",
+    "exchange": "深圳"
   },
   {
     "index_code": "000062",
-    "name": "上证沪企"
+    "name": "上证沪企",
+    "exchange": "深圳"
   },
   {
     "index_code": "000063",
-    "name": "上证周期"
+    "name": "上证周期",
+    "exchange": "深圳"
   },
   {
     "index_code": "000064",
-    "name": "非周期"
+    "name": "非周期",
+    "exchange": "深圳"
   },
   {
     "index_code": "000065",
-    "name": "上证龙头"
+    "name": "上证龙头",
+    "exchange": "深圳"
   },
   {
     "index_code": "000066",
-    "name": "上证商品"
+    "name": "上证商品",
+    "exchange": "深圳"
   },
   {
     "index_code": "000067",
-    "name": "上证新兴"
+    "name": "上证新兴",
+    "exchange": "深圳"
   },
   {
     "index_code": "000068",
-    "name": "上证资源"
+    "name": "上证资源",
+    "exchange": "深圳"
   },
   {
     "index_code": "000069",
-    "name": "消费80"
+    "name": "消费80",
+    "exchange": "深圳"
   },
   {
     "index_code": "000070",
-    "name": "能源等权"
+    "name": "能源等权",
+    "exchange": "深圳"
   },
   {
     "index_code": "000071",
-    "name": "材料等权"
+    "name": "材料等权",
+    "exchange": "深圳"
   },
   {
     "index_code": "000072",
-    "name": "工业等权"
+    "name": "工业等权",
+    "exchange": "深圳"
   },
   {
     "index_code": "000073",
-    "name": "可选等权"
+    "name": "可选等权",
+    "exchange": "深圳"
   },
   {
     "index_code": "000074",
-    "name": "消费等权"
+    "name": "消费等权",
+    "exchange": "深圳"
   },
   {
     "index_code": "000075",
-    "name": "医药等权"
+    "name": "医药等权",
+    "exchange": "深圳"
   },
   {
     "index_code": "000076",
-    "name": "金融等权"
+    "name": "金融等权",
+    "exchange": "深圳"
   },
   {
     "index_code": "000077",
-    "name": "信息等权"
+    "name": "信息等权",
+    "exchange": "深圳"
   },
   {
     "index_code": "000078",
-    "name": "电信等权"
+    "name": "电信等权",
+    "exchange": "深圳"
   },
   {
     "index_code": "000079",
-    "name": "公用等权"
+    "name": "公用等权",
+    "exchange": "深圳"
   },
   {
     "index_code": "000090",
-    "name": "上证流通"
+    "name": "上证流通",
+    "exchange": "深圳"
   },
   {
     "index_code": "000091",
-    "name": "沪财中小"
+    "name": "沪财中小",
+    "exchange": "深圳"
   },
   {
     "index_code": "000092",
-    "name": "资源50"
+    "name": "资源50",
+    "exchange": "深圳"
   },
   {
     "index_code": "000093",
-    "name": "180分层"
+    "name": "180分层",
+    "exchange": "深圳"
   },
   {
     "index_code": "000094",
-    "name": "上证上游"
+    "name": "上证上游",
+    "exchange": "深圳"
   },
   {
     "index_code": "000095",
-    "name": "上证中游"
+    "name": "上证中游",
+    "exchange": "深圳"
   },
   {
     "index_code": "000096",
-    "name": "上证下游"
+    "name": "上证下游",
+    "exchange": "深圳"
   },
   {
     "index_code": "000097",
-    "name": "高端装备"
+    "name": "高端装备",
+    "exchange": "深圳"
   },
   {
     "index_code": "000098",
-    "name": "上证F200"
+    "name": "上证F200",
+    "exchange": "深圳"
   },
   {
     "index_code": "000099",
-    "name": "上证F300"
+    "name": "上证F300",
+    "exchange": "深圳"
   },
   {
     "index_code": "000100",
-    "name": "上证F500"
+    "name": "上证F500",
+    "exchange": "深圳"
   },
   {
     "index_code": "000101",
-    "name": "5年信用"
+    "name": "5年信用",
+    "exchange": "深圳"
   },
   {
     "index_code": "000102",
-    "name": "沪投资品"
+    "name": "沪投资品",
+    "exchange": "深圳"
   },
   {
     "index_code": "000103",
-    "name": "沪消费品"
+    "name": "沪消费品",
+    "exchange": "深圳"
   },
   {
     "index_code": "000104",
-    "name": "380能源"
+    "name": "380能源",
+    "exchange": "深圳"
   },
   {
     "index_code": "000105",
-    "name": "380材料"
+    "name": "380材料",
+    "exchange": "深圳"
   },
   {
     "index_code": "000106",
-    "name": "380工业"
+    "name": "380工业",
+    "exchange": "深圳"
   },
   {
     "index_code": "000107",
-    "name": "380可选"
+    "name": "380可选",
+    "exchange": "深圳"
   },
   {
     "index_code": "000108",
-    "name": "380消费"
+    "name": "380消费",
+    "exchange": "深圳"
   },
   {
     "index_code": "000109",
-    "name": "380医药"
+    "name": "380医药",
+    "exchange": "深圳"
   },
   {
     "index_code": "000110",
-    "name": "380金融"
+    "name": "380金融",
+    "exchange": "深圳"
   },
   {
     "index_code": "000111",
-    "name": "380信息"
+    "name": "380信息",
+    "exchange": "深圳"
   },
   {
     "index_code": "000112",
-    "name": "380电信"
+    "name": "380电信",
+    "exchange": "深圳"
   },
   {
     "index_code": "000113",
-    "name": "380公用"
+    "name": "380公用",
+    "exchange": "深圳"
   },
   {
     "index_code": "000114",
-    "name": "持续产业"
+    "name": "持续产业",
+    "exchange": "深圳"
   },
   {
     "index_code": "000115",
-    "name": "380等权"
+    "name": "380等权",
+    "exchange": "深圳"
   },
   {
     "index_code": "000116",
-    "name": "信用100"
+    "name": "信用100",
+    "exchange": "深圳"
   },
   {
     "index_code": "000117",
-    "name": "380成长"
+    "name": "380成长",
+    "exchange": "深圳"
   },
   {
     "index_code": "000118",
-    "name": "380价值"
+    "name": "380价值",
+    "exchange": "深圳"
   },
   {
     "index_code": "000119",
-    "name": "380R成长"
+    "name": "380R成长",
+    "exchange": "深圳"
   },
   {
     "index_code": "000120",
-    "name": "380R价值"
+    "name": "380R价值",
+    "exchange": "深圳"
   },
   {
     "index_code": "000121",
-    "name": "医药主题"
+    "name": "医药主题",
+    "exchange": "深圳"
   },
   {
     "index_code": "000122",
-    "name": "农业主题"
+    "name": "农业主题",
+    "exchange": "深圳"
   },
   {
     "index_code": "000123",
-    "name": "180动态"
+    "name": "180动态",
+    "exchange": "深圳"
   },
   {
     "index_code": "000125",
-    "name": "180稳定"
+    "name": "180稳定",
+    "exchange": "深圳"
   },
   {
     "index_code": "000126",
-    "name": "消费50"
+    "name": "消费50",
+    "exchange": "深圳"
   },
   {
     "index_code": "000128",
-    "name": "380基本"
+    "name": "380基本",
+    "exchange": "深圳"
   },
   {
     "index_code": "000129",
-    "name": "180波动"
+    "name": "180波动",
+    "exchange": "深圳"
   },
   {
     "index_code": "000130",
-    "name": "380波动"
+    "name": "380波动",
+    "exchange": "深圳"
   },
   {
     "index_code": "000131",
-    "name": "上证高新"
+    "name": "上证高新",
+    "exchange": "深圳"
   },
   {
     "index_code": "000132",
-    "name": "上证100"
+    "name": "上证100",
+    "exchange": "深圳"
   },
   {
     "index_code": "000133",
-    "name": "上证150"
+    "name": "上证150",
+    "exchange": "深圳"
   },
   {
     "index_code": "000134",
-    "name": "上证银行"
+    "name": "上证银行",
+    "exchange": "深圳"
   },
   {
     "index_code": "000135",
-    "name": "180高贝"
+    "name": "180高贝",
+    "exchange": "深圳"
   },
   {
     "index_code": "000136",
-    "name": "180低贝"
+    "name": "180低贝",
+    "exchange": "深圳"
   },
   {
     "index_code": "000137",
-    "name": "380高贝"
+    "name": "380高贝",
+    "exchange": "深圳"
   },
   {
     "index_code": "000138",
-    "name": "380低贝"
+    "name": "380低贝",
+    "exchange": "深圳"
   },
   {
     "index_code": "000139",
-    "name": "上证转债"
+    "name": "上证转债",
+    "exchange": "深圳"
   },
   {
     "index_code": "000141",
-    "name": "380动态"
+    "name": "380动态",
+    "exchange": "深圳"
   },
   {
     "index_code": "000142",
-    "name": "380稳定"
+    "name": "380稳定",
+    "exchange": "深圳"
   },
   {
     "index_code": "000145",
-    "name": "优势资源"
+    "name": "优势资源",
+    "exchange": "深圳"
   },
   {
     "index_code": "000146",
-    "name": "优势制造"
+    "name": "优势制造",
+    "exchange": "深圳"
   },
   {
     "index_code": "000147",
-    "name": "优势消费"
+    "name": "优势消费",
+    "exchange": "深圳"
   },
   {
     "index_code": "000148",
-    "name": "消费领先"
+    "name": "消费领先",
+    "exchange": "深圳"
   },
   {
     "index_code": "000149",
-    "name": "180红利"
+    "name": "180红利",
+    "exchange": "深圳"
   },
   {
     "index_code": "000150",
-    "name": "380红利"
+    "name": "380红利",
+    "exchange": "深圳"
   },
   {
     "index_code": "000151",
-    "name": "上国红利"
+    "name": "上国红利",
+    "exchange": "深圳"
   },
   {
     "index_code": "000152",
-    "name": "上央红利"
+    "name": "上央红利",
+    "exchange": "深圳"
   },
   {
     "index_code": "000153",
-    "name": "上民红利"
+    "name": "上民红利",
+    "exchange": "深圳"
   },
   {
     "index_code": "000155",
-    "name": "市值百强"
+    "name": "市值百强",
+    "exchange": "深圳"
   },
   {
     "index_code": "000158",
-    "name": "上证环保"
+    "name": "上证环保",
+    "exchange": "深圳"
   },
   {
     "index_code": "000159",
-    "name": "上证沪股通指数"
+    "name": "上证沪股通指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "000160",
-    "name": "上证一带一路主题指数"
+    "name": "上证一带一路主题指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "000161",
-    "name": "上证中国制造2025主题指数"
+    "name": "上证中国制造2025主题指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "000162",
-    "name": "上证互联网+主题指数"
+    "name": "上证互联网+主题指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "000171",
-    "name": "新兴成指"
+    "name": "新兴成指",
+    "exchange": "深圳"
   },
   {
     "index_code": "000188",
-    "name": "中国波指"
+    "name": "中国波指",
+    "exchange": "深圳"
   },
   {
     "index_code": "000300",
-    "name": "沪深300"
+    "name": "沪深300",
+    "exchange": "深圳"
   },
   {
     "index_code": "000510",
-    "name": "中证A500"
+    "name": "中证A500",
+    "exchange": "深圳"
   },
   {
     "index_code": "000680",
-    "name": "科创综指"
+    "name": "科创综指",
+    "exchange": "深圳"
   },
   {
     "index_code": "000681",
-    "name": "科创价格"
+    "name": "科创价格",
+    "exchange": "深圳"
   },
   {
     "index_code": "000682",
-    "name": "科创信息"
+    "name": "科创信息",
+    "exchange": "深圳"
   },
   {
     "index_code": "000683",
-    "name": "科创生物"
+    "name": "科创生物",
+    "exchange": "深圳"
   },
   {
     "index_code": "000685",
-    "name": "科创芯片"
+    "name": "科创芯片",
+    "exchange": "深圳"
   },
   {
     "index_code": "000687",
-    "name": "科创高装"
+    "name": "科创高装",
+    "exchange": "深圳"
   },
   {
     "index_code": "000688",
-    "name": "科创50"
+    "name": "科创50",
+    "exchange": "深圳"
   },
   {
     "index_code": "000689",
-    "name": "科创材料"
+    "name": "科创材料",
+    "exchange": "深圳"
   },
   {
     "index_code": "000690",
-    "name": "科创成长"
+    "name": "科创成长",
+    "exchange": "深圳"
   },
   {
     "index_code": "000691",
-    "name": "科创ESG"
+    "name": "科创ESG",
+    "exchange": "深圳"
   },
   {
     "index_code": "000692",
-    "name": "科创新能"
+    "name": "科创新能",
+    "exchange": "深圳"
   },
   {
     "index_code": "000693",
-    "name": "科创机械"
+    "name": "科创机械",
+    "exchange": "深圳"
   },
   {
     "index_code": "000695",
-    "name": "科长三角"
+    "name": "科长三角",
+    "exchange": "深圳"
   },
   {
     "index_code": "000697",
-    "name": "科大湾区"
+    "name": "科大湾区",
+    "exchange": "深圳"
   },
   {
     "index_code": "000698",
-    "name": "科创100"
+    "name": "科创100",
+    "exchange": "深圳"
   },
   {
     "index_code": "000699",
-    "name": "科创200"
+    "name": "科创200",
+    "exchange": "深圳"
   },
   {
     "index_code": "000801",
-    "name": "资源80"
+    "name": "资源80",
+    "exchange": "深圳"
   },
   {
     "index_code": "000802",
-    "name": "500沪市"
+    "name": "500沪市",
+    "exchange": "深圳"
   },
   {
     "index_code": "000803",
-    "name": "300波动"
+    "name": "300波动",
+    "exchange": "深圳"
   },
   {
     "index_code": "000804",
-    "name": "500波动"
+    "name": "500波动",
+    "exchange": "深圳"
   },
   {
     "index_code": "000805",
-    "name": "A股资源"
+    "name": "A股资源",
+    "exchange": "深圳"
   },
   {
     "index_code": "000806",
-    "name": "消费服务"
+    "name": "消费服务",
+    "exchange": "深圳"
   },
   {
     "index_code": "000807",
-    "name": "食品饮料"
+    "name": "食品饮料",
+    "exchange": "深圳"
   },
   {
     "index_code": "000808",
-    "name": "医药生物"
+    "name": "医药生物",
+    "exchange": "深圳"
   },
   {
     "index_code": "000809",
-    "name": "细分农业"
+    "name": "细分农业",
+    "exchange": "深圳"
   },
   {
     "index_code": "000810",
-    "name": "细分能源"
+    "name": "细分能源",
+    "exchange": "深圳"
   },
   {
     "index_code": "000811",
-    "name": "细分有色"
+    "name": "细分有色",
+    "exchange": "深圳"
   },
   {
     "index_code": "000812",
-    "name": "细分机械"
+    "name": "细分机械",
+    "exchange": "深圳"
   },
   {
     "index_code": "000813",
-    "name": "细分化工"
+    "name": "细分化工",
+    "exchange": "深圳"
   },
   {
     "index_code": "000814",
-    "name": "细分医药"
+    "name": "细分医药",
+    "exchange": "深圳"
   },
   {
     "index_code": "000815",
-    "name": "细分食品"
+    "name": "细分食品",
+    "exchange": "深圳"
   },
   {
     "index_code": "000816",
-    "name": "细分地产"
+    "name": "细分地产",
+    "exchange": "深圳"
   },
   {
     "index_code": "000817",
-    "name": "兴证海峡"
+    "name": "兴证海峡",
+    "exchange": "深圳"
   },
   {
     "index_code": "000818",
-    "name": "细分金融"
+    "name": "细分金融",
+    "exchange": "深圳"
   },
   {
     "index_code": "000819",
-    "name": "有色金属"
+    "name": "有色金属",
+    "exchange": "深圳"
   },
   {
     "index_code": "000820",
-    "name": "煤炭指数"
+    "name": "煤炭指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "000821",
-    "name": "300红利"
+    "name": "300红利",
+    "exchange": "深圳"
   },
   {
     "index_code": "000822",
-    "name": "500红利"
+    "name": "500红利",
+    "exchange": "深圳"
   },
   {
     "index_code": "000823",
-    "name": "中证800有色金属指数"
+    "name": "中证800有色金属指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "000824",
-    "name": "国企红利"
+    "name": "国企红利",
+    "exchange": "深圳"
   },
   {
     "index_code": "000825",
-    "name": "央企红利"
+    "name": "央企红利",
+    "exchange": "深圳"
   },
   {
     "index_code": "000826",
-    "name": "民企红利"
+    "name": "民企红利",
+    "exchange": "深圳"
   },
   {
     "index_code": "000827",
-    "name": "中证环保"
+    "name": "中证环保",
+    "exchange": "深圳"
   },
   {
     "index_code": "000828",
-    "name": "300高贝"
+    "name": "300高贝",
+    "exchange": "深圳"
   },
   {
     "index_code": "000829",
-    "name": "300低贝"
+    "name": "300低贝",
+    "exchange": "深圳"
   },
   {
     "index_code": "000830",
-    "name": "500高贝"
+    "name": "500高贝",
+    "exchange": "深圳"
   },
   {
     "index_code": "000831",
-    "name": "500低贝"
+    "name": "500低贝",
+    "exchange": "深圳"
   },
   {
     "index_code": "000832",
-    "name": "中证转债"
+    "name": "中证转债",
+    "exchange": "深圳"
   },
   {
     "index_code": "000833",
-    "name": "中高企债"
+    "name": "中高企债",
+    "exchange": "深圳"
   },
   {
     "index_code": "000838",
-    "name": "创业价值"
+    "name": "创业价值",
+    "exchange": "深圳"
   },
   {
     "index_code": "000839",
-    "name": "浙企综指"
+    "name": "浙企综指",
+    "exchange": "深圳"
   },
   {
     "index_code": "000840",
-    "name": "浙江民企"
+    "name": "浙江民企",
+    "exchange": "深圳"
   },
   {
     "index_code": "000841",
-    "name": "800医药"
+    "name": "800医药",
+    "exchange": "深圳"
   },
   {
     "index_code": "000842",
-    "name": "800等权"
+    "name": "800等权",
+    "exchange": "深圳"
   },
   {
     "index_code": "000843",
-    "name": "300动态"
+    "name": "300动态",
+    "exchange": "深圳"
   },
   {
     "index_code": "000844",
-    "name": "300稳定"
+    "name": "300稳定",
+    "exchange": "深圳"
   },
   {
     "index_code": "000846",
-    "name": "ESG100"
+    "name": "ESG100",
+    "exchange": "深圳"
   },
   {
     "index_code": "000847",
-    "name": "中证腾安价值100指数"
+    "name": "中证腾安价值100指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "000849",
-    "name": "沪深300非银行金融指数"
+    "name": "沪深300非银行金融指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "000850",
-    "name": "沪深300有色金属指数"
+    "name": "沪深300有色金属指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "000851",
-    "name": "中证百度百发策略100指数"
+    "name": "中证百度百发策略100指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "000852",
-    "name": "中证1000指数"
+    "name": "中证1000指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "000853",
-    "name": "中证申万一带一路主题投资指数"
+    "name": "中证申万一带一路主题投资指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "000854",
-    "name": "500原料"
+    "name": "500原料",
+    "exchange": "深圳"
   },
   {
     "index_code": "000855",
-    "name": "央视财经500指数"
+    "name": "央视财经500指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "000856",
-    "name": "500工业"
+    "name": "500工业",
+    "exchange": "深圳"
   },
   {
     "index_code": "000857",
-    "name": "500医药"
+    "name": "500医药",
+    "exchange": "深圳"
   },
   {
     "index_code": "000858",
-    "name": "500信息"
+    "name": "500信息",
+    "exchange": "深圳"
   },
   {
     "index_code": "000888",
-    "name": "上证收益"
+    "name": "上证收益",
+    "exchange": "深圳"
   },
   {
     "index_code": "000891",
-    "name": "中国战略新兴产业综合指数"
+    "name": "中国战略新兴产业综合指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "000901",
-    "name": "小康指数"
+    "name": "小康指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "000902",
-    "name": "中证流通"
+    "name": "中证流通",
+    "exchange": "深圳"
   },
   {
     "index_code": "000903",
-    "name": "中证100"
+    "name": "中证100",
+    "exchange": "深圳"
   },
   {
     "index_code": "000904",
-    "name": "中证200"
+    "name": "中证200",
+    "exchange": "深圳"
   },
   {
     "index_code": "000905",
-    "name": "中证500"
+    "name": "中证500",
+    "exchange": "深圳"
   },
   {
     "index_code": "000906",
-    "name": "中证800"
+    "name": "中证800",
+    "exchange": "深圳"
   },
   {
     "index_code": "000907",
-    "name": "中证700"
+    "name": "中证700",
+    "exchange": "深圳"
   },
   {
     "index_code": "000908",
-    "name": "300能源"
+    "name": "300能源",
+    "exchange": "深圳"
   },
   {
     "index_code": "000909",
-    "name": "300材料"
+    "name": "300材料",
+    "exchange": "深圳"
   },
   {
     "index_code": "000910",
-    "name": "300工业"
+    "name": "300工业",
+    "exchange": "深圳"
   },
   {
     "index_code": "000911",
-    "name": "300可选"
+    "name": "300可选",
+    "exchange": "深圳"
   },
   {
     "index_code": "000912",
-    "name": "300消费"
+    "name": "300消费",
+    "exchange": "深圳"
   },
   {
     "index_code": "000913",
-    "name": "300医药"
+    "name": "300医药",
+    "exchange": "深圳"
   },
   {
     "index_code": "000914",
-    "name": "300金融"
+    "name": "300金融",
+    "exchange": "深圳"
   },
   {
     "index_code": "000915",
-    "name": "300信息"
+    "name": "300信息",
+    "exchange": "深圳"
   },
   {
     "index_code": "000916",
-    "name": "300电信"
+    "name": "300电信",
+    "exchange": "深圳"
   },
   {
     "index_code": "000917",
-    "name": "300公用"
+    "name": "300公用",
+    "exchange": "深圳"
   },
   {
     "index_code": "000918",
-    "name": "300成长"
+    "name": "300成长",
+    "exchange": "深圳"
   },
   {
     "index_code": "000919",
-    "name": "300价值"
+    "name": "300价值",
+    "exchange": "深圳"
   },
   {
     "index_code": "000920",
-    "name": "300R成长"
+    "name": "300R成长",
+    "exchange": "深圳"
   },
   {
     "index_code": "000921",
-    "name": "300R价值"
+    "name": "300R价值",
+    "exchange": "深圳"
   },
   {
     "index_code": "000922",
-    "name": "中证红利"
+    "name": "中证红利",
+    "exchange": "深圳"
   },
   {
     "index_code": "000923",
-    "name": "公司债"
+    "name": "公司债",
+    "exchange": "深圳"
   },
   {
     "index_code": "000925",
-    "name": "基本面50"
+    "name": "基本面50",
+    "exchange": "深圳"
   },
   {
     "index_code": "000926",
-    "name": "中证央企"
+    "name": "中证央企",
+    "exchange": "深圳"
   },
   {
     "index_code": "000927",
-    "name": "央企100"
+    "name": "央企100",
+    "exchange": "深圳"
   },
   {
     "index_code": "000928",
-    "name": "中证能源"
+    "name": "中证能源",
+    "exchange": "深圳"
   },
   {
     "index_code": "000929",
-    "name": "中证材料"
+    "name": "中证材料",
+    "exchange": "深圳"
   },
   {
     "index_code": "000930",
-    "name": "中证工业"
+    "name": "中证工业",
+    "exchange": "深圳"
   },
   {
     "index_code": "000931",
-    "name": "中证可选"
+    "name": "中证可选",
+    "exchange": "深圳"
   },
   {
     "index_code": "000932",
-    "name": "中证消费"
+    "name": "中证消费",
+    "exchange": "深圳"
   },
   {
     "index_code": "000933",
-    "name": "中证医药"
+    "name": "中证医药",
+    "exchange": "深圳"
   },
   {
     "index_code": "000934",
-    "name": "中证金融"
+    "name": "中证金融",
+    "exchange": "深圳"
   },
   {
     "index_code": "000935",
-    "name": "中证信息"
+    "name": "中证信息",
+    "exchange": "深圳"
   },
   {
     "index_code": "000936",
-    "name": "中证电信"
+    "name": "中证电信",
+    "exchange": "深圳"
   },
   {
     "index_code": "000937",
-    "name": "中证公用"
+    "name": "中证公用",
+    "exchange": "深圳"
   },
   {
     "index_code": "000938",
-    "name": "中证民企"
+    "name": "中证民企",
+    "exchange": "深圳"
   },
   {
     "index_code": "000939",
-    "name": "民企200"
+    "name": "民企200",
+    "exchange": "深圳"
   },
   {
     "index_code": "000940",
-    "name": "财富大盘"
+    "name": "财富大盘",
+    "exchange": "深圳"
   },
   {
     "index_code": "000941",
-    "name": "新能源"
+    "name": "新能源",
+    "exchange": "深圳"
   },
   {
     "index_code": "000942",
-    "name": "内地消费"
+    "name": "内地消费",
+    "exchange": "深圳"
   },
   {
     "index_code": "000943",
-    "name": "内地基建"
+    "name": "内地基建",
+    "exchange": "深圳"
   },
   {
     "index_code": "000944",
-    "name": "内地资源"
+    "name": "内地资源",
+    "exchange": "深圳"
   },
   {
     "index_code": "000945",
-    "name": "内地运输"
+    "name": "内地运输",
+    "exchange": "深圳"
   },
   {
     "index_code": "000946",
-    "name": "内地金融"
+    "name": "内地金融",
+    "exchange": "深圳"
   },
   {
     "index_code": "000947",
-    "name": "内地银行"
+    "name": "内地银行",
+    "exchange": "深圳"
   },
   {
     "index_code": "000948",
-    "name": "内地地产"
+    "name": "内地地产",
+    "exchange": "深圳"
   },
   {
     "index_code": "000949",
-    "name": "内地农业"
+    "name": "内地农业",
+    "exchange": "深圳"
   },
   {
     "index_code": "000950",
-    "name": "300基建"
+    "name": "300基建",
+    "exchange": "深圳"
   },
   {
     "index_code": "000951",
-    "name": "300银行"
+    "name": "300银行",
+    "exchange": "深圳"
   },
   {
     "index_code": "000952",
-    "name": "300地产"
+    "name": "300地产",
+    "exchange": "深圳"
   },
   {
     "index_code": "000953",
-    "name": "中证地企"
+    "name": "中证地企",
+    "exchange": "深圳"
   },
   {
     "index_code": "000954",
-    "name": "地企100"
+    "name": "地企100",
+    "exchange": "深圳"
   },
   {
     "index_code": "000955",
-    "name": "中证国企"
+    "name": "中证国企",
+    "exchange": "深圳"
   },
   {
     "index_code": "000956",
-    "name": "国企200"
+    "name": "国企200",
+    "exchange": "深圳"
   },
   {
     "index_code": "000957",
-    "name": "300运输"
+    "name": "300运输",
+    "exchange": "深圳"
   },
   {
     "index_code": "000958",
-    "name": "创业成长"
+    "name": "创业成长",
+    "exchange": "深圳"
   },
   {
     "index_code": "000959",
-    "name": "银河99"
+    "name": "银河99",
+    "exchange": "深圳"
   },
   {
     "index_code": "000960",
-    "name": "中证龙头"
+    "name": "中证龙头",
+    "exchange": "深圳"
   },
   {
     "index_code": "000961",
-    "name": "中证上游"
+    "name": "中证上游",
+    "exchange": "深圳"
   },
   {
     "index_code": "000962",
-    "name": "中证中游"
+    "name": "中证中游",
+    "exchange": "深圳"
   },
   {
     "index_code": "000963",
-    "name": "中证下游"
+    "name": "中证下游",
+    "exchange": "深圳"
   },
   {
     "index_code": "000964",
-    "name": "中证新兴"
+    "name": "中证新兴",
+    "exchange": "深圳"
   },
   {
     "index_code": "000965",
-    "name": "基本200"
+    "name": "基本200",
+    "exchange": "深圳"
   },
   {
     "index_code": "000966",
-    "name": "基本400"
+    "name": "基本400",
+    "exchange": "深圳"
   },
   {
     "index_code": "000967",
-    "name": "基本600"
+    "name": "基本600",
+    "exchange": "深圳"
   },
   {
     "index_code": "000968",
-    "name": "300周期"
+    "name": "300周期",
+    "exchange": "深圳"
   },
   {
     "index_code": "000969",
-    "name": "300非周"
+    "name": "300非周",
+    "exchange": "深圳"
   },
   {
     "index_code": "000970",
-    "name": "ESG40"
+    "name": "ESG40",
+    "exchange": "深圳"
   },
   {
     "index_code": "000971",
-    "name": "等权90"
+    "name": "等权90",
+    "exchange": "深圳"
   },
   {
     "index_code": "000972",
-    "name": "300沪市"
+    "name": "300沪市",
+    "exchange": "深圳"
   },
   {
     "index_code": "000973",
-    "name": "技术领先"
+    "name": "技术领先",
+    "exchange": "深圳"
   },
   {
     "index_code": "000974",
-    "name": "中证800金融指数"
+    "name": "中证800金融指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "000975",
-    "name": "钱江30"
+    "name": "钱江30",
+    "exchange": "深圳"
   },
   {
     "index_code": "000976",
-    "name": "新华金牛"
+    "name": "新华金牛",
+    "exchange": "深圳"
   },
   {
     "index_code": "000977",
-    "name": "内地低碳"
+    "name": "内地低碳",
+    "exchange": "深圳"
   },
   {
     "index_code": "000978",
-    "name": "医药100"
+    "name": "医药100",
+    "exchange": "深圳"
   },
   {
     "index_code": "000979",
-    "name": "大宗商品"
+    "name": "大宗商品",
+    "exchange": "深圳"
   },
   {
     "index_code": "000980",
-    "name": "中证超大"
+    "name": "中证超大",
+    "exchange": "深圳"
   },
   {
     "index_code": "000981",
-    "name": "300分层"
+    "name": "300分层",
+    "exchange": "深圳"
   },
   {
     "index_code": "000982",
-    "name": "500等权"
+    "name": "500等权",
+    "exchange": "深圳"
   },
   {
     "index_code": "000983",
-    "name": "智能资产"
+    "name": "智能资产",
+    "exchange": "深圳"
   },
   {
     "index_code": "000984",
-    "name": "300等权"
+    "name": "300等权",
+    "exchange": "深圳"
   },
   {
     "index_code": "000985",
-    "name": "中证全指"
+    "name": "中证全指",
+    "exchange": "深圳"
   },
   {
     "index_code": "000986",
-    "name": "全指能源"
+    "name": "全指能源",
+    "exchange": "深圳"
   },
   {
     "index_code": "000987",
-    "name": "全指材料"
+    "name": "全指材料",
+    "exchange": "深圳"
   },
   {
     "index_code": "000988",
-    "name": "全指工业"
+    "name": "全指工业",
+    "exchange": "深圳"
   },
   {
     "index_code": "000989",
-    "name": "全指可选"
+    "name": "全指可选",
+    "exchange": "深圳"
   },
   {
     "index_code": "000990",
-    "name": "全指消费"
+    "name": "全指消费",
+    "exchange": "深圳"
   },
   {
     "index_code": "000991",
-    "name": "全指医药"
+    "name": "全指医药",
+    "exchange": "深圳"
   },
   {
     "index_code": "000992",
-    "name": "全指金融"
+    "name": "全指金融",
+    "exchange": "深圳"
   },
   {
     "index_code": "000993",
-    "name": "全指信息"
+    "name": "全指信息",
+    "exchange": "深圳"
   },
   {
     "index_code": "000994",
-    "name": "全指电信"
+    "name": "全指电信",
+    "exchange": "深圳"
   },
   {
     "index_code": "000995",
-    "name": "全指公用"
+    "name": "全指公用",
+    "exchange": "深圳"
   },
   {
     "index_code": "000996",
-    "name": "领先行业"
+    "name": "领先行业",
+    "exchange": "深圳"
   },
   {
     "index_code": "000997",
-    "name": "大消费"
+    "name": "大消费",
+    "exchange": "深圳"
   },
   {
     "index_code": "000998",
-    "name": "中证TMT"
+    "name": "中证TMT",
+    "exchange": "深圳"
   },
   {
     "index_code": "000999",
-    "name": "中证两岸三地500指数"
+    "name": "中证两岸三地500指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399001",
-    "name": "深证成指"
+    "name": "深证成指",
+    "exchange": "深圳"
   },
   {
     "index_code": "399002",
-    "name": "深成指R"
+    "name": "深成指R",
+    "exchange": "深圳"
   },
   {
     "index_code": "399003",
-    "name": "成份B指"
+    "name": "成份B指",
+    "exchange": "深圳"
   },
   {
     "index_code": "399004",
-    "name": "深证100R"
+    "name": "深证100R",
+    "exchange": "深圳"
   },
   {
     "index_code": "399005",
-    "name": "中小100"
+    "name": "中小100",
+    "exchange": "深圳"
   },
   {
     "index_code": "399006",
-    "name": "创业板指"
+    "name": "创业板指",
+    "exchange": "深圳"
   },
   {
     "index_code": "399007",
-    "name": "深证300"
+    "name": "深证300",
+    "exchange": "深圳"
   },
   {
     "index_code": "399008",
-    "name": "中小300"
+    "name": "中小300",
+    "exchange": "深圳"
   },
   {
     "index_code": "399009",
-    "name": "深证200"
+    "name": "深证200",
+    "exchange": "深圳"
   },
   {
     "index_code": "399010",
-    "name": "深证700"
+    "name": "深证700",
+    "exchange": "深圳"
   },
   {
     "index_code": "399011",
-    "name": "深证1000"
+    "name": "深证1000",
+    "exchange": "深圳"
   },
   {
     "index_code": "399012",
-    "name": "创业300"
+    "name": "创业300",
+    "exchange": "深圳"
   },
   {
     "index_code": "399013",
-    "name": "深市精选"
+    "name": "深市精选",
+    "exchange": "深圳"
   },
   {
     "index_code": "399015",
-    "name": "深证中小创新指数"
+    "name": "深证中小创新指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399016",
-    "name": "深证创新指数"
+    "name": "深证创新指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399017",
-    "name": "SME创新"
+    "name": "SME创新",
+    "exchange": "深圳"
   },
   {
     "index_code": "399018",
-    "name": "创业板创新指数"
+    "name": "创业板创新指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399019",
-    "name": "创业200"
+    "name": "创业200",
+    "exchange": "深圳"
   },
   {
     "index_code": "399020",
-    "name": "创业小盘"
+    "name": "创业小盘",
+    "exchange": "深圳"
   },
   {
     "index_code": "399030",
-    "name": "碳科技30"
+    "name": "碳科技30",
+    "exchange": "深圳"
   },
   {
     "index_code": "399050",
-    "name": "创新引擎"
+    "name": "创新引擎",
+    "exchange": "深圳"
   },
   {
     "index_code": "399060",
-    "name": "碳科技60"
+    "name": "碳科技60",
+    "exchange": "深圳"
   },
   {
     "index_code": "399088",
-    "name": "深创100"
+    "name": "深创100",
+    "exchange": "深圳"
   },
   {
     "index_code": "399100",
-    "name": "新指数"
+    "name": "新指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399101",
-    "name": "中小综指"
+    "name": "中小综指",
+    "exchange": "深圳"
   },
   {
     "index_code": "399102",
-    "name": "创业板综合指数"
+    "name": "创业板综合指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399103",
-    "name": "乐富指数"
+    "name": "乐富指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399106",
-    "name": "深证综指"
+    "name": "深证综指",
+    "exchange": "深圳"
   },
   {
     "index_code": "399107",
-    "name": "深证A指"
+    "name": "深证A指",
+    "exchange": "深圳"
   },
   {
     "index_code": "399108",
-    "name": "深证B指"
+    "name": "深证B指",
+    "exchange": "深圳"
   },
   {
     "index_code": "399231",
-    "name": "农林指数"
+    "name": "农林指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399232",
-    "name": "采矿指数"
+    "name": "采矿指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399233",
-    "name": "制造指数"
+    "name": "制造指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399234",
-    "name": "水电指数"
+    "name": "水电指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399235",
-    "name": "建筑指数"
+    "name": "建筑指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399236",
-    "name": "批零指数"
+    "name": "批零指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399237",
-    "name": "运输指数"
+    "name": "运输指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399238",
-    "name": "餐饮指数"
+    "name": "餐饮指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399239",
-    "name": "IT指数"
+    "name": "IT指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399240",
-    "name": "金融指数"
+    "name": "金融指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399241",
-    "name": "地产指数"
+    "name": "地产指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399242",
-    "name": "商务指数"
+    "name": "商务指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399243",
-    "name": "科研指数"
+    "name": "科研指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399244",
-    "name": "公共指数"
+    "name": "公共指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399248",
-    "name": "文化指数"
+    "name": "文化指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399249",
-    "name": "综企指数"
+    "name": "综企指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399258",
-    "name": "绿色低碳"
+    "name": "绿色低碳",
+    "exchange": "深圳"
   },
   {
     "index_code": "399259",
-    "name": "创业低碳"
+    "name": "创业低碳",
+    "exchange": "深圳"
   },
   {
     "index_code": "399260",
-    "name": "先进制造"
+    "name": "先进制造",
+    "exchange": "深圳"
   },
   {
     "index_code": "399261",
-    "name": "创业制造"
+    "name": "创业制造",
+    "exchange": "深圳"
   },
   {
     "index_code": "399268",
-    "name": "深小巨人"
+    "name": "深小巨人",
+    "exchange": "深圳"
   },
   {
     "index_code": "399269",
-    "name": "创质量"
+    "name": "创质量",
+    "exchange": "深圳"
   },
   {
     "index_code": "399274",
-    "name": "深新基建"
+    "name": "深新基建",
+    "exchange": "深圳"
   },
   {
     "index_code": "399275",
-    "name": "创医药"
+    "name": "创医药",
+    "exchange": "深圳"
   },
   {
     "index_code": "399276",
-    "name": "创科技"
+    "name": "创科技",
+    "exchange": "深圳"
   },
   {
     "index_code": "399277",
-    "name": "公共健康"
+    "name": "公共健康",
+    "exchange": "深圳"
   },
   {
     "index_code": "399278",
-    "name": "长江100"
+    "name": "长江100",
+    "exchange": "深圳"
   },
   {
     "index_code": "399279",
-    "name": "云科技50"
+    "name": "云科技50",
+    "exchange": "深圳"
   },
   {
     "index_code": "399280",
-    "name": "生物50"
+    "name": "生物50",
+    "exchange": "深圳"
   },
   {
     "index_code": "399281",
-    "name": "电子50"
+    "name": "电子50",
+    "exchange": "深圳"
   },
   {
     "index_code": "399282",
-    "name": "大数据50"
+    "name": "大数据50",
+    "exchange": "深圳"
   },
   {
     "index_code": "399283",
-    "name": "机器人50"
+    "name": "机器人50",
+    "exchange": "深圳"
   },
   {
     "index_code": "399284",
-    "name": "AI 50"
+    "name": "AI 50",
+    "exchange": "深圳"
   },
   {
     "index_code": "399285",
-    "name": "物联网50"
+    "name": "物联网50",
+    "exchange": "深圳"
   },
   {
     "index_code": "399286",
-    "name": "区块链50"
+    "name": "区块链50",
+    "exchange": "深圳"
   },
   {
     "index_code": "399289",
-    "name": "碳中和债"
+    "name": "碳中和债",
+    "exchange": "深圳"
   },
   {
     "index_code": "399290",
-    "name": "深转交债"
+    "name": "深转交债",
+    "exchange": "深圳"
   },
   {
     "index_code": "399291",
-    "name": "创精选88"
+    "name": "创精选88",
+    "exchange": "深圳"
   },
   {
     "index_code": "399292",
-    "name": "民企发展"
+    "name": "民企发展",
+    "exchange": "深圳"
   },
   {
     "index_code": "399293",
-    "name": "创业大盘"
+    "name": "创业大盘",
+    "exchange": "深圳"
   },
   {
     "index_code": "399294",
-    "name": "中小创Q"
+    "name": "中小创Q",
+    "exchange": "深圳"
   },
   {
     "index_code": "399295",
-    "name": "创业蓝筹"
+    "name": "创业蓝筹",
+    "exchange": "深圳"
   },
   {
     "index_code": "399296",
-    "name": "创成长"
+    "name": "创成长",
+    "exchange": "深圳"
   },
   {
     "index_code": "399298",
-    "name": "深证中高等级信用债指数"
+    "name": "深证中高等级信用债指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399299",
-    "name": "深证中低等级信用债指数"
+    "name": "深证中低等级信用债指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399300",
-    "name": "沪深300"
+    "name": "沪深300",
+    "exchange": "深圳"
   },
   {
     "index_code": "399301",
-    "name": "深信用债"
+    "name": "深信用债",
+    "exchange": "深圳"
   },
   {
     "index_code": "399302",
-    "name": "深公司债"
+    "name": "深公司债",
+    "exchange": "深圳"
   },
   {
     "index_code": "399303",
-    "name": "国证2000"
+    "name": "国证2000",
+    "exchange": "深圳"
   },
   {
     "index_code": "399305",
-    "name": "基金指数"
+    "name": "基金指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399306",
-    "name": "深证ETF"
+    "name": "深证ETF",
+    "exchange": "深圳"
   },
   {
     "index_code": "399307",
-    "name": "深证转债"
+    "name": "深证转债",
+    "exchange": "深圳"
   },
   {
     "index_code": "399310",
-    "name": "国证50"
+    "name": "国证50",
+    "exchange": "深圳"
   },
   {
     "index_code": "399311",
-    "name": "国证1000"
+    "name": "国证1000",
+    "exchange": "深圳"
   },
   {
     "index_code": "399312",
-    "name": "国证300"
+    "name": "国证300",
+    "exchange": "深圳"
   },
   {
     "index_code": "399313",
-    "name": "巨潮100"
+    "name": "巨潮100",
+    "exchange": "深圳"
   },
   {
     "index_code": "399314",
-    "name": "巨潮大盘"
+    "name": "巨潮大盘",
+    "exchange": "深圳"
   },
   {
     "index_code": "399315",
-    "name": "巨潮中盘"
+    "name": "巨潮中盘",
+    "exchange": "深圳"
   },
   {
     "index_code": "399316",
-    "name": "巨潮小盘"
+    "name": "巨潮小盘",
+    "exchange": "深圳"
   },
   {
     "index_code": "399317",
-    "name": "国证A指"
+    "name": "国证A指",
+    "exchange": "深圳"
   },
   {
     "index_code": "399318",
-    "name": "巨潮B股指数"
+    "name": "巨潮B股指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399319",
-    "name": "资源优势"
+    "name": "资源优势",
+    "exchange": "深圳"
   },
   {
     "index_code": "399320",
-    "name": "国证服务"
+    "name": "国证服务",
+    "exchange": "深圳"
   },
   {
     "index_code": "399321",
-    "name": "国证红利"
+    "name": "国证红利",
+    "exchange": "深圳"
   },
   {
     "index_code": "399322",
-    "name": "国证治理"
+    "name": "国证治理",
+    "exchange": "深圳"
   },
   {
     "index_code": "399324",
-    "name": "深证红利"
+    "name": "深证红利",
+    "exchange": "深圳"
   },
   {
     "index_code": "399326",
-    "name": "成长40"
+    "name": "成长40",
+    "exchange": "深圳"
   },
   {
     "index_code": "399328",
-    "name": "深证治理"
+    "name": "深证治理",
+    "exchange": "深圳"
   },
   {
     "index_code": "399330",
-    "name": "深证100"
+    "name": "深证100",
+    "exchange": "深圳"
   },
   {
     "index_code": "399332",
-    "name": "深证创新(旧)"
+    "name": "深证创新(旧)",
+    "exchange": "深圳"
   },
   {
     "index_code": "399333",
-    "name": "中小100R"
+    "name": "中小100R",
+    "exchange": "深圳"
   },
   {
     "index_code": "399335",
-    "name": "深证央企"
+    "name": "深证央企",
+    "exchange": "深圳"
   },
   {
     "index_code": "399337",
-    "name": "深证民营"
+    "name": "深证民营",
+    "exchange": "深圳"
   },
   {
     "index_code": "399339",
-    "name": "深证科技"
+    "name": "深证科技",
+    "exchange": "深圳"
   },
   {
     "index_code": "399341",
-    "name": "深证责任"
+    "name": "深证责任",
+    "exchange": "深圳"
   },
   {
     "index_code": "399344",
-    "name": "深证300R"
+    "name": "深证300R",
+    "exchange": "深圳"
   },
   {
     "index_code": "399346",
-    "name": "深证成长"
+    "name": "深证成长",
+    "exchange": "深圳"
   },
   {
     "index_code": "399348",
-    "name": "深证价值"
+    "name": "深证价值",
+    "exchange": "深圳"
   },
   {
     "index_code": "399350",
-    "name": "皖江30"
+    "name": "皖江30",
+    "exchange": "深圳"
   },
   {
     "index_code": "399351",
-    "name": "深报指数"
+    "name": "深报指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399352",
-    "name": "深报综指"
+    "name": "深报综指",
+    "exchange": "深圳"
   },
   {
     "index_code": "399353",
-    "name": "国证物流"
+    "name": "国证物流",
+    "exchange": "深圳"
   },
   {
     "index_code": "399354",
-    "name": "分析师指数"
+    "name": "分析师指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399355",
-    "name": "长三角"
+    "name": "长三角",
+    "exchange": "深圳"
   },
   {
     "index_code": "399356",
-    "name": "珠三角"
+    "name": "珠三角",
+    "exchange": "深圳"
   },
   {
     "index_code": "399357",
-    "name": "环渤海"
+    "name": "环渤海",
+    "exchange": "深圳"
   },
   {
     "index_code": "399358",
-    "name": "泰达指数"
+    "name": "泰达指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399359",
-    "name": "国证基建"
+    "name": "国证基建",
+    "exchange": "深圳"
   },
   {
     "index_code": "399360",
-    "name": "国证装备"
+    "name": "国证装备",
+    "exchange": "深圳"
   },
   {
     "index_code": "399361",
-    "name": "国证商业"
+    "name": "国证商业",
+    "exchange": "深圳"
   },
   {
     "index_code": "399362",
-    "name": "国证民营"
+    "name": "国证民营",
+    "exchange": "深圳"
   },
   {
     "index_code": "399363",
-    "name": "计算机指"
+    "name": "计算机指",
+    "exchange": "深圳"
   },
   {
     "index_code": "399364",
-    "name": "中金消费"
+    "name": "中金消费",
+    "exchange": "深圳"
   },
   {
     "index_code": "399365",
-    "name": "国证农业"
+    "name": "国证农业",
+    "exchange": "深圳"
   },
   {
     "index_code": "399366",
-    "name": "国证大宗"
+    "name": "国证大宗",
+    "exchange": "深圳"
   },
   {
     "index_code": "399367",
-    "name": "巨潮地产"
+    "name": "巨潮地产",
+    "exchange": "深圳"
   },
   {
     "index_code": "399368",
-    "name": "国证军工"
+    "name": "国证军工",
+    "exchange": "深圳"
   },
   {
     "index_code": "399369",
-    "name": "CBN-兴全"
+    "name": "CBN-兴全",
+    "exchange": "深圳"
   },
   {
     "index_code": "399370",
-    "name": "国证成长"
+    "name": "国证成长",
+    "exchange": "深圳"
   },
   {
     "index_code": "399371",
-    "name": "国证价值"
+    "name": "国证价值",
+    "exchange": "深圳"
   },
   {
     "index_code": "399372",
-    "name": "大盘成长"
+    "name": "大盘成长",
+    "exchange": "深圳"
   },
   {
     "index_code": "399373",
-    "name": "大盘价值"
+    "name": "大盘价值",
+    "exchange": "深圳"
   },
   {
     "index_code": "399374",
-    "name": "中盘成长"
+    "name": "中盘成长",
+    "exchange": "深圳"
   },
   {
     "index_code": "399375",
-    "name": "中盘价值"
+    "name": "中盘价值",
+    "exchange": "深圳"
   },
   {
     "index_code": "399376",
-    "name": "小盘成长"
+    "name": "小盘成长",
+    "exchange": "深圳"
   },
   {
     "index_code": "399377",
-    "name": "小盘价值"
+    "name": "小盘价值",
+    "exchange": "深圳"
   },
   {
     "index_code": "399378",
-    "name": "南方低碳"
+    "name": "南方低碳",
+    "exchange": "深圳"
   },
   {
     "index_code": "399379",
-    "name": "国证基金"
+    "name": "国证基金",
+    "exchange": "深圳"
   },
   {
     "index_code": "399380",
-    "name": "国证ETF"
+    "name": "国证ETF",
+    "exchange": "深圳"
   },
   {
     "index_code": "399381",
-    "name": "1000能源"
+    "name": "1000能源",
+    "exchange": "深圳"
   },
   {
     "index_code": "399382",
-    "name": "1000材料"
+    "name": "1000材料",
+    "exchange": "深圳"
   },
   {
     "index_code": "399383",
-    "name": "1000工业"
+    "name": "1000工业",
+    "exchange": "深圳"
   },
   {
     "index_code": "399384",
-    "name": "1000可选"
+    "name": "1000可选",
+    "exchange": "深圳"
   },
   {
     "index_code": "399385",
-    "name": "1000消费"
+    "name": "1000消费",
+    "exchange": "深圳"
   },
   {
     "index_code": "399386",
-    "name": "1000医药"
+    "name": "1000医药",
+    "exchange": "深圳"
   },
   {
     "index_code": "399387",
-    "name": "1000金融"
+    "name": "1000金融",
+    "exchange": "深圳"
   },
   {
     "index_code": "399388",
-    "name": "1000信息"
+    "name": "1000信息",
+    "exchange": "深圳"
   },
   {
     "index_code": "399389",
-    "name": "国证通信"
+    "name": "国证通信",
+    "exchange": "深圳"
   },
   {
     "index_code": "399390",
-    "name": "1000公用"
+    "name": "1000公用",
+    "exchange": "深圳"
   },
   {
     "index_code": "399391",
-    "name": "投资时钟"
+    "name": "投资时钟",
+    "exchange": "深圳"
   },
   {
     "index_code": "399392",
-    "name": "国证新兴"
+    "name": "国证新兴",
+    "exchange": "深圳"
   },
   {
     "index_code": "399393",
-    "name": "国证地产"
+    "name": "国证地产",
+    "exchange": "深圳"
   },
   {
     "index_code": "399394",
-    "name": "国证医药"
+    "name": "国证医药",
+    "exchange": "深圳"
   },
   {
     "index_code": "399395",
-    "name": "国证有色"
+    "name": "国证有色",
+    "exchange": "深圳"
   },
   {
     "index_code": "399396",
-    "name": "国证食品"
+    "name": "国证食品",
+    "exchange": "深圳"
   },
   {
     "index_code": "399397",
-    "name": "OCT文化"
+    "name": "OCT文化",
+    "exchange": "深圳"
   },
   {
     "index_code": "399398",
-    "name": "绩效指数"
+    "name": "绩效指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399399",
-    "name": "中经GDP"
+    "name": "中经GDP",
+    "exchange": "深圳"
   },
   {
     "index_code": "399400",
-    "name": "大中盘"
+    "name": "大中盘",
+    "exchange": "深圳"
   },
   {
     "index_code": "399401",
-    "name": "中小盘"
+    "name": "中小盘",
+    "exchange": "深圳"
   },
   {
     "index_code": "399402",
-    "name": "周期100"
+    "name": "周期100",
+    "exchange": "深圳"
   },
   {
     "index_code": "399403",
-    "name": "防御100"
+    "name": "防御100",
+    "exchange": "深圳"
   },
   {
     "index_code": "399404",
-    "name": "大盘低波"
+    "name": "大盘低波",
+    "exchange": "深圳"
   },
   {
     "index_code": "399405",
-    "name": "大盘高贝"
+    "name": "大盘高贝",
+    "exchange": "深圳"
   },
   {
     "index_code": "399406",
-    "name": "中盘低波"
+    "name": "中盘低波",
+    "exchange": "深圳"
   },
   {
     "index_code": "399407",
-    "name": "中盘高贝"
+    "name": "中盘高贝",
+    "exchange": "深圳"
   },
   {
     "index_code": "399408",
-    "name": "小盘低波"
+    "name": "小盘低波",
+    "exchange": "深圳"
   },
   {
     "index_code": "399409",
-    "name": "小盘高贝"
+    "name": "小盘高贝",
+    "exchange": "深圳"
   },
   {
     "index_code": "399410",
-    "name": "苏州率先"
+    "name": "苏州率先",
+    "exchange": "深圳"
   },
   {
     "index_code": "399411",
-    "name": "红利100"
+    "name": "红利100",
+    "exchange": "深圳"
   },
   {
     "index_code": "399412",
-    "name": "国证新能"
+    "name": "国证新能",
+    "exchange": "深圳"
   },
   {
     "index_code": "399413",
-    "name": "国证转债"
+    "name": "国证转债",
+    "exchange": "深圳"
   },
   {
     "index_code": "399415",
-    "name": "I100"
+    "name": "I100",
+    "exchange": "深圳"
   },
   {
     "index_code": "399416",
-    "name": "I300"
+    "name": "I300",
+    "exchange": "深圳"
   },
   {
     "index_code": "399417",
-    "name": "国证新能源汽车指数"
+    "name": "国证新能源汽车指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399418",
-    "name": "国证国家安全指数"
+    "name": "国证国家安全指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399419",
-    "name": "国证高铁指数"
+    "name": "国证高铁指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399420",
-    "name": "国证保险证券指数"
+    "name": "国证保险证券指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399423",
-    "name": "中关村50指数"
+    "name": "中关村50指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399427",
-    "name": "国证德高行专利领先指数"
+    "name": "国证德高行专利领先指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399428",
-    "name": "国证定向增发指数"
+    "name": "国证定向增发指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399429",
-    "name": "新丝路指数"
+    "name": "新丝路指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399431",
-    "name": "国证银行行业指数"
+    "name": "国证银行行业指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399432",
-    "name": "国证汽车与汽车零配件行业指数"
+    "name": "国证汽车与汽车零配件行业指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399433",
-    "name": "国证交通运输行业指数"
+    "name": "国证交通运输行业指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399434",
-    "name": "国证传媒行业指数"
+    "name": "国证传媒行业指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399435",
-    "name": "国证农牧渔产品行业指数"
+    "name": "国证农牧渔产品行业指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399436",
-    "name": "国证煤炭行业指数"
+    "name": "国证煤炭行业指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399437",
-    "name": "国证证券行业指数"
+    "name": "国证证券行业指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399438",
-    "name": "国证电力公用事业行业指数"
+    "name": "国证电力公用事业行业指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399439",
-    "name": "国证石油天然气行业指数"
+    "name": "国证石油天然气行业指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399440",
-    "name": "国证黑色金属行业指数"
+    "name": "国证黑色金属行业指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399441",
-    "name": "国证生物医药指数"
+    "name": "国证生物医药指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399481",
-    "name": "企债指数"
+    "name": "企债指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399550",
-    "name": "央视50"
+    "name": "央视50",
+    "exchange": "深圳"
   },
   {
     "index_code": "399551",
-    "name": "央视创新"
+    "name": "央视创新",
+    "exchange": "深圳"
   },
   {
     "index_code": "399552",
-    "name": "央视成长"
+    "name": "央视成长",
+    "exchange": "深圳"
   },
   {
     "index_code": "399553",
-    "name": "央视回报"
+    "name": "央视回报",
+    "exchange": "深圳"
   },
   {
     "index_code": "399554",
-    "name": "央视治理"
+    "name": "央视治理",
+    "exchange": "深圳"
   },
   {
     "index_code": "399555",
-    "name": "央视责任"
+    "name": "央视责任",
+    "exchange": "深圳"
   },
   {
     "index_code": "399556",
-    "name": "央视生态"
+    "name": "央视生态",
+    "exchange": "深圳"
   },
   {
     "index_code": "399557",
-    "name": "央视文化"
+    "name": "央视文化",
+    "exchange": "深圳"
   },
   {
     "index_code": "399602",
-    "name": "中小成长"
+    "name": "中小成长",
+    "exchange": "深圳"
   },
   {
     "index_code": "399604",
-    "name": "中小价值"
+    "name": "中小价值",
+    "exchange": "深圳"
   },
   {
     "index_code": "399606",
-    "name": "创业板R"
+    "name": "创业板R",
+    "exchange": "深圳"
   },
   {
     "index_code": "399608",
-    "name": "科技100"
+    "name": "科技100",
+    "exchange": "深圳"
   },
   {
     "index_code": "399610",
-    "name": "TMT50"
+    "name": "TMT50",
+    "exchange": "深圳"
   },
   {
     "index_code": "399611",
-    "name": "中创100R"
+    "name": "中创100R",
+    "exchange": "深圳"
   },
   {
     "index_code": "399612",
-    "name": "中创100"
+    "name": "中创100",
+    "exchange": "深圳"
   },
   {
     "index_code": "399613",
-    "name": "深证能源"
+    "name": "深证能源",
+    "exchange": "深圳"
   },
   {
     "index_code": "399614",
-    "name": "深证材料"
+    "name": "深证材料",
+    "exchange": "深圳"
   },
   {
     "index_code": "399615",
-    "name": "深证工业"
+    "name": "深证工业",
+    "exchange": "深圳"
   },
   {
     "index_code": "399616",
-    "name": "深证可选"
+    "name": "深证可选",
+    "exchange": "深圳"
   },
   {
     "index_code": "399617",
-    "name": "深证消费"
+    "name": "深证消费",
+    "exchange": "深圳"
   },
   {
     "index_code": "399618",
-    "name": "深证医药"
+    "name": "深证医药",
+    "exchange": "深圳"
   },
   {
     "index_code": "399619",
-    "name": "深证金融"
+    "name": "深证金融",
+    "exchange": "深圳"
   },
   {
     "index_code": "399620",
-    "name": "深证信息"
+    "name": "深证信息",
+    "exchange": "深圳"
   },
   {
     "index_code": "399621",
-    "name": "深证电信"
+    "name": "深证电信",
+    "exchange": "深圳"
   },
   {
     "index_code": "399622",
-    "name": "深证公用"
+    "name": "深证公用",
+    "exchange": "深圳"
   },
   {
     "index_code": "399623",
-    "name": "中小基础"
+    "name": "中小基础",
+    "exchange": "深圳"
   },
   {
     "index_code": "399624",
-    "name": "中创400"
+    "name": "中创400",
+    "exchange": "深圳"
   },
   {
     "index_code": "399625",
-    "name": "中创500"
+    "name": "中创500",
+    "exchange": "深圳"
   },
   {
     "index_code": "399626",
-    "name": "中创成长"
+    "name": "中创成长",
+    "exchange": "深圳"
   },
   {
     "index_code": "399627",
-    "name": "中创价值"
+    "name": "中创价值",
+    "exchange": "深圳"
   },
   {
     "index_code": "399628",
-    "name": "700成长"
+    "name": "700成长",
+    "exchange": "深圳"
   },
   {
     "index_code": "399629",
-    "name": "700价值"
+    "name": "700价值",
+    "exchange": "深圳"
   },
   {
     "index_code": "399630",
-    "name": "1000成长"
+    "name": "1000成长",
+    "exchange": "深圳"
   },
   {
     "index_code": "399631",
-    "name": "1000价值"
+    "name": "1000价值",
+    "exchange": "深圳"
   },
   {
     "index_code": "399632",
-    "name": "深100EW"
+    "name": "深100EW",
+    "exchange": "深圳"
   },
   {
     "index_code": "399633",
-    "name": "深300EW"
+    "name": "深300EW",
+    "exchange": "深圳"
   },
   {
     "index_code": "399634",
-    "name": "中小等权"
+    "name": "中小等权",
+    "exchange": "深圳"
   },
   {
     "index_code": "399635",
-    "name": "创业板EW"
+    "name": "创业板EW",
+    "exchange": "深圳"
   },
   {
     "index_code": "399636",
-    "name": "深证装备"
+    "name": "深证装备",
+    "exchange": "深圳"
   },
   {
     "index_code": "399637",
-    "name": "深证地产"
+    "name": "深证地产",
+    "exchange": "深圳"
   },
   {
     "index_code": "399638",
-    "name": "深证环保"
+    "name": "深证环保",
+    "exchange": "深圳"
   },
   {
     "index_code": "399639",
-    "name": "深证大宗"
+    "name": "深证大宗",
+    "exchange": "深圳"
   },
   {
     "index_code": "399640",
-    "name": "创业基础"
+    "name": "创业基础",
+    "exchange": "深圳"
   },
   {
     "index_code": "399641",
-    "name": "深证新兴"
+    "name": "深证新兴",
+    "exchange": "深圳"
   },
   {
     "index_code": "399642",
-    "name": "中小新兴"
+    "name": "中小新兴",
+    "exchange": "深圳"
   },
   {
     "index_code": "399643",
-    "name": "创业新兴"
+    "name": "创业新兴",
+    "exchange": "深圳"
   },
   {
     "index_code": "399644",
-    "name": "深证时钟"
+    "name": "深证时钟",
+    "exchange": "深圳"
   },
   {
     "index_code": "399645",
-    "name": "100低波"
+    "name": "100低波",
+    "exchange": "深圳"
   },
   {
     "index_code": "399646",
-    "name": "深消费50"
+    "name": "深消费50",
+    "exchange": "深圳"
   },
   {
     "index_code": "399647",
-    "name": "深医药50"
+    "name": "深医药50",
+    "exchange": "深圳"
   },
   {
     "index_code": "399648",
-    "name": "深证GDP"
+    "name": "深证GDP",
+    "exchange": "深圳"
   },
   {
     "index_code": "399649",
-    "name": "中小红利"
+    "name": "中小红利",
+    "exchange": "深圳"
   },
   {
     "index_code": "399650",
-    "name": "中小治理"
+    "name": "中小治理",
+    "exchange": "深圳"
   },
   {
     "index_code": "399651",
-    "name": "中小责任"
+    "name": "中小责任",
+    "exchange": "深圳"
   },
   {
     "index_code": "399652",
-    "name": "中创高新"
+    "name": "中创高新",
+    "exchange": "深圳"
   },
   {
     "index_code": "399653",
-    "name": "深证龙头"
+    "name": "深证龙头",
+    "exchange": "深圳"
   },
   {
     "index_code": "399654",
-    "name": "深证文化"
+    "name": "深证文化",
+    "exchange": "深圳"
   },
   {
     "index_code": "399655",
-    "name": "深证绩效"
+    "name": "深证绩效",
+    "exchange": "深圳"
   },
   {
     "index_code": "399656",
-    "name": "100绩效"
+    "name": "100绩效",
+    "exchange": "深圳"
   },
   {
     "index_code": "399657",
-    "name": "300绩效"
+    "name": "300绩效",
+    "exchange": "深圳"
   },
   {
     "index_code": "399658",
-    "name": "中小绩效"
+    "name": "中小绩效",
+    "exchange": "深圳"
   },
   {
     "index_code": "399659",
-    "name": "深成指EW"
+    "name": "深成指EW",
+    "exchange": "深圳"
   },
   {
     "index_code": "399660",
-    "name": "中创EW"
+    "name": "中创EW",
+    "exchange": "深圳"
   },
   {
     "index_code": "399661",
-    "name": "深证低波"
+    "name": "深证低波",
+    "exchange": "深圳"
   },
   {
     "index_code": "399662",
-    "name": "深证高贝"
+    "name": "深证高贝",
+    "exchange": "深圳"
   },
   {
     "index_code": "399663",
-    "name": "中小低波"
+    "name": "中小低波",
+    "exchange": "深圳"
   },
   {
     "index_code": "399664",
-    "name": "中小高贝"
+    "name": "中小高贝",
+    "exchange": "深圳"
   },
   {
     "index_code": "399665",
-    "name": "中创低波"
+    "name": "中创低波",
+    "exchange": "深圳"
   },
   {
     "index_code": "399666",
-    "name": "中创高贝"
+    "name": "中创高贝",
+    "exchange": "深圳"
   },
   {
     "index_code": "399667",
-    "name": "创业板G"
+    "name": "创业板G",
+    "exchange": "深圳"
   },
   {
     "index_code": "399668",
-    "name": "创业板V"
+    "name": "创业板V",
+    "exchange": "深圳"
   },
   {
     "index_code": "399669",
-    "name": "深证农业"
+    "name": "深证农业",
+    "exchange": "深圳"
   },
   {
     "index_code": "399670",
-    "name": "深周期50"
+    "name": "深周期50",
+    "exchange": "深圳"
   },
   {
     "index_code": "399671",
-    "name": "深防御50"
+    "name": "深防御50",
+    "exchange": "深圳"
   },
   {
     "index_code": "399672",
-    "name": "深红利50"
+    "name": "深红利50",
+    "exchange": "深圳"
   },
   {
     "index_code": "399673",
-    "name": "创业板50"
+    "name": "创业板50",
+    "exchange": "深圳"
   },
   {
     "index_code": "399674",
-    "name": "深A医药卫生指数"
+    "name": "深A医药卫生指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399675",
-    "name": "深A软件与互联网指数"
+    "name": "深A软件与互联网指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399676",
-    "name": "深A医药卫生等权指数"
+    "name": "深A医药卫生等权指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399677",
-    "name": "深A软件与互联网等权指数"
+    "name": "深A软件与互联网等权指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399678",
-    "name": "深证次新股指数"
+    "name": "深证次新股指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399679",
-    "name": "深证200指数"
+    "name": "深证200指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399680",
-    "name": "深成能源行业指数"
+    "name": "深成能源行业指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399681",
-    "name": "深成原材料行业指数"
+    "name": "深成原材料行业指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399682",
-    "name": "深成工业行业指数"
+    "name": "深成工业行业指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399683",
-    "name": "深成可选消费行业指数"
+    "name": "深成可选消费行业指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399684",
-    "name": "深成主要消费行业指数"
+    "name": "深成主要消费行业指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399685",
-    "name": "深成医药卫生行业指数"
+    "name": "深成医药卫生行业指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399686",
-    "name": "深成金融地产行业指数"
+    "name": "深成金融地产行业指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399687",
-    "name": "深成信息技术行业指数"
+    "name": "深成信息技术行业指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399688",
-    "name": "深成电信业务行业指数"
+    "name": "深成电信业务行业指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399689",
-    "name": "深成公用事业行业指数"
+    "name": "深成公用事业行业指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399690",
-    "name": "中小专利"
+    "name": "中小专利",
+    "exchange": "深圳"
   },
   {
     "index_code": "399691",
-    "name": "深证创业板专利领先指数"
+    "name": "深证创业板专利领先指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399692",
-    "name": "创业300低波动率指数"
+    "name": "创业300低波动率指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399693",
-    "name": "安防产业"
+    "name": "安防产业",
+    "exchange": "深圳"
   },
   {
     "index_code": "399694",
-    "name": "创业高贝"
+    "name": "创业高贝",
+    "exchange": "深圳"
   },
   {
     "index_code": "399695",
-    "name": "深证节能环保指数"
+    "name": "深证节能环保指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399696",
-    "name": "深证创投"
+    "name": "深证创投",
+    "exchange": "深圳"
   },
   {
     "index_code": "399697",
-    "name": "中关村60"
+    "name": "中关村60",
+    "exchange": "深圳"
   },
   {
     "index_code": "399698",
-    "name": "深证优势成长"
+    "name": "深证优势成长",
+    "exchange": "深圳"
   },
   {
     "index_code": "399699",
-    "name": "金融科技"
+    "name": "金融科技",
+    "exchange": "深圳"
   },
   {
     "index_code": "399701",
-    "name": "深证F60"
+    "name": "深证F60",
+    "exchange": "深圳"
   },
   {
     "index_code": "399702",
-    "name": "深证F120"
+    "name": "深证F120",
+    "exchange": "深圳"
   },
   {
     "index_code": "399703",
-    "name": "深证F200"
+    "name": "深证F200",
+    "exchange": "深圳"
   },
   {
     "index_code": "399704",
-    "name": "深证上游"
+    "name": "深证上游",
+    "exchange": "深圳"
   },
   {
     "index_code": "399705",
-    "name": "深证中游"
+    "name": "深证中游",
+    "exchange": "深圳"
   },
   {
     "index_code": "399706",
-    "name": "深证下游"
+    "name": "深证下游",
+    "exchange": "深圳"
   },
   {
     "index_code": "399707",
-    "name": "中证申万证券行业指数"
+    "name": "中证申万证券行业指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399750",
-    "name": "深主板50"
+    "name": "深主板50",
+    "exchange": "深圳"
   },
   {
     "index_code": "399802",
-    "name": "500深市"
+    "name": "500深市",
+    "exchange": "深圳"
   },
   {
     "index_code": "399803",
-    "name": "中证工业4.0指数"
+    "name": "中证工业4.0指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399804",
-    "name": "中证体育产业指数"
+    "name": "中证体育产业指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399805",
-    "name": "中证互联网金融指数"
+    "name": "中证互联网金融指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399806",
-    "name": "中证环境治理指数"
+    "name": "中证环境治理指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399807",
-    "name": "中证高铁产业指数"
+    "name": "中证高铁产业指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399808",
-    "name": "中证新能源指数"
+    "name": "中证新能源指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399809",
-    "name": "中证方正富邦保险主题指数"
+    "name": "中证方正富邦保险主题指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399810",
-    "name": "中证申万传媒行业投资指数"
+    "name": "中证申万传媒行业投资指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399811",
-    "name": "中证申万电子行业投资指数"
+    "name": "中证申万电子行业投资指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399812",
-    "name": "中证养老产业指数"
+    "name": "中证养老产业指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399813",
-    "name": "中证国防安全指数"
+    "name": "中证国防安全指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399814",
-    "name": "中证大农业指数"
+    "name": "中证大农业指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399817",
-    "name": "中证阿拉善生态主题100指数"
+    "name": "中证阿拉善生态主题100指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399850",
-    "name": "深证50"
+    "name": "深证50",
+    "exchange": "深圳"
   },
   {
     "index_code": "399852",
-    "name": "中证1000"
+    "name": "中证1000",
+    "exchange": "深圳"
   },
   {
     "index_code": "399901",
-    "name": "中证南方小康产业指数"
+    "name": "中证南方小康产业指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399902",
-    "name": "中证流通指数"
+    "name": "中证流通指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399903",
-    "name": "中证100指数"
+    "name": "中证100指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399904",
-    "name": "中证中盘200指数"
+    "name": "中证中盘200指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399905",
-    "name": "中证500"
+    "name": "中证500",
+    "exchange": "深圳"
   },
   {
     "index_code": "399906",
-    "name": "中证800指数"
+    "name": "中证800指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399907",
-    "name": "中证中小盘700指数"
+    "name": "中证中小盘700指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399908",
-    "name": "沪深300能源指数"
+    "name": "沪深300能源指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399909",
-    "name": "沪深300原材料指数"
+    "name": "沪深300原材料指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399910",
-    "name": "沪深300工业指数"
+    "name": "沪深300工业指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399911",
-    "name": "沪深300可选消费指数"
+    "name": "沪深300可选消费指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399912",
-    "name": "沪深300主要消费指数"
+    "name": "沪深300主要消费指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399913",
-    "name": "沪深300医药卫生指数"
+    "name": "沪深300医药卫生指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399914",
-    "name": "沪深300金融地产指数"
+    "name": "沪深300金融地产指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399915",
-    "name": "沪深300信息技术指数"
+    "name": "沪深300信息技术指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399916",
-    "name": "沪深300电信业务指数"
+    "name": "沪深300电信业务指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399917",
-    "name": "沪深300公用事业指数"
+    "name": "沪深300公用事业指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399918",
-    "name": "沪深300成长指数"
+    "name": "沪深300成长指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399919",
-    "name": "沪深300价值指数"
+    "name": "沪深300价值指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399920",
-    "name": "沪深300相对成长指数"
+    "name": "沪深300相对成长指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399922",
-    "name": "中证红利指数"
+    "name": "中证红利指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399923",
-    "name": "公司债"
+    "name": "公司债",
+    "exchange": "深圳"
   },
   {
     "index_code": "399925",
-    "name": "中证锐联基本面50指数"
+    "name": "中证锐联基本面50指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399926",
-    "name": "中证中央企业综合指数"
+    "name": "中证中央企业综合指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399927",
-    "name": "中证中央企业100指数"
+    "name": "中证中央企业100指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399928",
-    "name": "中证能源指数"
+    "name": "中证能源指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399929",
-    "name": "中证原材料指数"
+    "name": "中证原材料指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399930",
-    "name": "中证工业指数"
+    "name": "中证工业指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399931",
-    "name": "中证可选消费指数"
+    "name": "中证可选消费指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399932",
-    "name": "中证主要消费指数"
+    "name": "中证主要消费指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399933",
-    "name": "中证医药卫生指数"
+    "name": "中证医药卫生指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399934",
-    "name": "中证金融地产指数"
+    "name": "中证金融地产指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399935",
-    "name": "中证信息技术指数"
+    "name": "中证信息技术指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399936",
-    "name": "中证电信业务指数"
+    "name": "中证电信业务指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399937",
-    "name": "中证公用事业指数"
+    "name": "中证公用事业指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399938",
-    "name": "中证民营企业综合指数"
+    "name": "中证民营企业综合指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399939",
-    "name": "中证民营企业200指数"
+    "name": "中证民营企业200指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399941",
-    "name": "中证内地新能源主题指数"
+    "name": "中证内地新能源主题指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399942",
-    "name": "中证内地消费主题指数"
+    "name": "中证内地消费主题指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399943",
-    "name": "中证内地基建主题指数"
+    "name": "中证内地基建主题指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399944",
-    "name": "中证内地资源主题指数"
+    "name": "中证内地资源主题指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399945",
-    "name": "中证内地运输主题指数"
+    "name": "中证内地运输主题指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399946",
-    "name": "中证内地金融主题指数"
+    "name": "中证内地金融主题指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399947",
-    "name": "中证内地银行主题指数"
+    "name": "中证内地银行主题指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399948",
-    "name": "中证内地地产主题指数"
+    "name": "中证内地地产主题指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399949",
-    "name": "中证内地农业主题指数"
+    "name": "中证内地农业主题指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399950",
-    "name": "沪深300基建主题指数"
+    "name": "沪深300基建主题指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399951",
-    "name": "沪深300银行指数"
+    "name": "沪深300银行指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399952",
-    "name": "沪深300地产指数"
+    "name": "沪深300地产指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399953",
-    "name": "中证地方国有企业综合指数"
+    "name": "中证地方国有企业综合指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399954",
-    "name": "中证地方国有企业100指数"
+    "name": "中证地方国有企业100指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399955",
-    "name": "中证国有企业综合指数"
+    "name": "中证国有企业综合指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399956",
-    "name": "中证国有企业200指数"
+    "name": "中证国有企业200指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399957",
-    "name": "沪深300运输指数"
+    "name": "沪深300运输指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399958",
-    "name": "中证创业成长指数"
+    "name": "中证创业成长指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399959",
-    "name": "军工指数"
+    "name": "军工指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399960",
-    "name": "中证龙头企业指数"
+    "name": "中证龙头企业指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399961",
-    "name": "中证上游资源产业指数"
+    "name": "中证上游资源产业指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399962",
-    "name": "中证中游制造产业指数"
+    "name": "中证中游制造产业指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399963",
-    "name": "中证下游消费与服务产业指数"
+    "name": "中证下游消费与服务产业指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399964",
-    "name": "中证新兴产业指数"
+    "name": "中证新兴产业指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399965",
-    "name": "800地产"
+    "name": "800地产",
+    "exchange": "深圳"
   },
   {
     "index_code": "399966",
-    "name": "800非银"
+    "name": "800非银",
+    "exchange": "深圳"
   },
   {
     "index_code": "399967",
-    "name": "中证军工"
+    "name": "中证军工",
+    "exchange": "深圳"
   },
   {
     "index_code": "399968",
-    "name": "沪深300周期行业指数"
+    "name": "沪深300周期行业指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399969",
-    "name": "沪深300非周期行业指数"
+    "name": "沪深300非周期行业指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399970",
-    "name": "中证移动互联网指数"
+    "name": "中证移动互联网指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399971",
-    "name": "中证传媒指数"
+    "name": "中证传媒指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399972",
-    "name": "300深市"
+    "name": "300深市",
+    "exchange": "深圳"
   },
   {
     "index_code": "399973",
-    "name": "中证国防指数"
+    "name": "中证国防指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399974",
-    "name": "中证国有企业改革指数"
+    "name": "中证国有企业改革指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399975",
-    "name": "中证全指证券公司指数(四级行业)"
+    "name": "中证全指证券公司指数(四级行业)",
+    "exchange": "深圳"
   },
   {
     "index_code": "399976",
-    "name": "中证新能源汽车指数"
+    "name": "中证新能源汽车指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399977",
-    "name": "中证内地低碳经济主题指数"
+    "name": "中证内地低碳经济主题指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399978",
-    "name": "中证医药100指数"
+    "name": "中证医药100指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399979",
-    "name": "中证大宗商品股票指数"
+    "name": "中证大宗商品股票指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399980",
-    "name": "中证超级大盘指数"
+    "name": "中证超级大盘指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399981",
-    "name": "沪深300行业分层等权重指数"
+    "name": "沪深300行业分层等权重指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399982",
-    "name": "中证500等权重指数"
+    "name": "中证500等权重指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399983",
-    "name": "沪深300地产等权重指数"
+    "name": "沪深300地产等权重指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399985",
-    "name": "中证全指指数"
+    "name": "中证全指指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399986",
-    "name": "中证银行指数"
+    "name": "中证银行指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399987",
-    "name": "中证酒指数"
+    "name": "中证酒指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399989",
-    "name": "中证医疗指数"
+    "name": "中证医疗指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399990",
-    "name": "中证煤炭等权指数"
+    "name": "中证煤炭等权指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399991",
-    "name": "中证一带一路主题指数"
+    "name": "中证一带一路主题指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399992",
-    "name": "中证万得并购重组指数"
+    "name": "中证万得并购重组指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399993",
-    "name": "中证万得生物科技指数"
+    "name": "中证万得生物科技指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399994",
-    "name": "中证信息安全主题指数"
+    "name": "中证信息安全主题指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399995",
-    "name": "中证基建工程指数"
+    "name": "中证基建工程指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399996",
-    "name": "中证智能家居指数"
+    "name": "中证智能家居指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399997",
-    "name": "中证白酒指数"
+    "name": "中证白酒指数",
+    "exchange": "深圳"
   },
   {
     "index_code": "399998",
-    "name": "中证煤炭指数"
+    "name": "中证煤炭指数",
+    "exchange": "深圳"
   }
 ]

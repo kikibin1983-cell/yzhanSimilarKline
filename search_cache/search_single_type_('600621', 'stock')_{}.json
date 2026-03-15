@@ -3,6 +3,7 @@
     "code": "600621",
     "name": "华鑫股份",
     "type": "stock",
-    "exchange": ""
+    "exchange": "上海",
+    "source_file": "D:\\new_tdx\\vipdoc\\sh\\lday\\sh600621.day"
   }
 ]

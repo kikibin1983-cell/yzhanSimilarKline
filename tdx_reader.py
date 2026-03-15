@@ -34,21 +34,30 @@ class TDXDataReader:
             if not os.listdir(full_path):
                 raise ValueError(f"通达信数据目录为空: {full_path}")
                 
-    def _get_tdx_file_path(self, code: str) -> Optional[str]:
+    def _get_tdx_file_path(self, code: str, security_type: str = 'stock') -> Optional[str]:
         """
         根据股票代码获取对应的TDX文件路径
         
         Args:
             code: 股票代码 (如: '000001', '600000')
+            security_type: 证券类型 ('stock', 'index', 'etf')
             
         Returns:
             文件路径或None
         """
+        # 处理指数代码映射
+        actual_code = code
+        if security_type == 'index':
+            # 上证指数：代码000001需要映射为999999
+            if code == '000001':
+                actual_code = '999999'
+            # 深证成指：399001保持不变
+        
         # 判断交易所
-        if code.startswith('6'):
+        if actual_code.startswith('6') or actual_code.startswith('5') or actual_code.startswith('9'):
             # 上海交易所
             exchange = 'sh'
-        elif code.startswith('0') or code.startswith('3'):
+        elif actual_code.startswith('0') or actual_code.startswith('3') or actual_code.startswith('1') or actual_code.startswith('2'):
             # 深圳交易所
             exchange = 'sz'
         else:
@@ -56,7 +65,7 @@ class TDXDataReader:
             return None
             
         # 构建文件路径
-        file_name = f"{exchange}{code}.day"
+        file_name = f"{exchange}{actual_code}.day"
         file_path = os.path.join(self.tdx_data_dir, exchange, 'lday', file_name)
         
         return file_path if os.path.exists(file_path) else None
@@ -161,7 +170,7 @@ class TDXDataReader:
         Returns:
             DataFrame with historical data
         """
-        file_path = self._get_tdx_file_path(code)
+        file_path = self._get_tdx_file_path(code, security_type='stock')
         if not file_path:
             return pd.DataFrame()
             
@@ -173,9 +182,13 @@ class TDXDataReader:
         获取指数历史数据
         
         Note: 通达信中指数数据可能存储在不同的目录中
-        这里先尝试与股票相同的方式读取
+        上证指数代码000001需要映射为999999
         """
-        return self.get_stock_data(code, start_date, end_date)
+        file_path = self._get_tdx_file_path(code, security_type='index')
+        if not file_path:
+            return pd.DataFrame()
+            
+        return self.read_day_file(file_path, start_date, end_date)
         
     def get_etf_data(self, code: str, start_date: Optional[str] = None,
                      end_date: Optional[str] = None) -> pd.DataFrame:
@@ -185,7 +198,11 @@ class TDXDataReader:
         Note: 通达信中ETF数据可能存储在不同的目录中
         这里先尝试与股票相同的方式读取
         """
-        return self.get_stock_data(code, start_date, end_date)
+        file_path = self._get_tdx_file_path(code, security_type='etf')
+        if not file_path:
+            return pd.DataFrame()
+            
+        return self.read_day_file(file_path, start_date, end_date)
         
     def get_available_codes(self) -> Dict[str, List[str]]:
         """
@@ -225,18 +242,44 @@ class TDXDataReader:
 
 # 全局TDX读取器实例
 _tdx_reader = None
+_tdx_reader_path = None  # 记录当前reader使用的路径
+_tdx_data_dir_override = None  # 全局路径override，可以通过set_tdx_data_dir设置
 
-def get_tdx_reader() -> TDXDataReader:
-    """获取全局TDX读取器实例"""
+
+def set_tdx_data_dir(tdx_data_dir: str):
+    """设置全局TDX数据目录路径"""
+    global _tdx_data_dir_override
+    _tdx_data_dir_override = tdx_data_dir
+    # 立即重新初始化reader
     global _tdx_reader
-    if _tdx_reader is None:
+    _tdx_reader = TDXDataReader(tdx_data_dir)
+    _tdx_reader_path = tdx_data_dir
+
+def get_tdx_reader(tdx_data_dir: Optional[str] = None) -> TDXDataReader:
+    """获取全局TDX读取器实例
+    
+    Args:
+        tdx_data_dir: 可选的TDX数据目录路径，如果不传则使用全局设置的路径
+    """
+    global _tdx_reader, _tdx_reader_path
+    
+    # 如果传入了新路径，或者路径变了，则重新创建reader
+    if tdx_data_dir is not None:
+        if _tdx_reader is None or _tdx_reader_path != tdx_data_dir:
+            _tdx_reader = TDXDataReader(tdx_data_dir)
+            _tdx_reader_path = tdx_data_dir
+    elif _tdx_reader is None:
+        # 默认路径
         _tdx_reader = TDXDataReader()
+        _tdx_reader_path = r"D:\new_tdx\vipdoc"
+    
     return _tdx_reader
 
 
 def read_tdx_data(code: str, security_type: str = 'stock', 
                   start_date: Optional[str] = None,
-                  end_date: Optional[str] = None) -> pd.DataFrame:
+                  end_date: Optional[str] = None,
+                  tdx_data_dir: Optional[str] = None) -> pd.DataFrame:
     """
     读取TDX数据的便捷函数
     
@@ -245,11 +288,13 @@ def read_tdx_data(code: str, security_type: str = 'stock',
         security_type: 证券类型 ('stock', 'index', 'etf')
         start_date: 开始日期 (YYYYMMDD格式)
         end_date: 结束日期 (YYYYMMDD格式)
+        tdx_data_dir: 可选的TDX数据目录路径
         
     Returns:
         DataFrame with historical data
     """
-    reader = get_tdx_reader()
+    effective_path = tdx_data_dir if tdx_data_dir is not None else (_tdx_data_dir_override if '_tdx_data_dir_override' in globals() else None)
+    reader = get_tdx_reader(effective_path)
     
     if security_type == 'stock':
         return reader.get_stock_data(code, start_date, end_date)

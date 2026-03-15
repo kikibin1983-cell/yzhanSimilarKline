@@ -1,0 +1,107 @@
+[
+  {
+    "code": "000043",
+    "name": "超大盘",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz000043.day"
+  },
+  {
+    "code": "000843",
+    "name": "300动态",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz000843.day"
+  },
+  {
+    "code": "000943",
+    "name": "内地基建",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz000943.day"
+  },
+  {
+    "code": "399243",
+    "name": "科研指数",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz399243.day"
+  },
+  {
+    "code": "399431",
+    "name": "国证银行行业指数",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz399431.day"
+  },
+  {
+    "code": "399432",
+    "name": "国证汽车与汽车零配件行业指数",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz399432.day"
+  },
+  {
+    "code": "399433",
+    "name": "国证交通运输行业指数",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz399433.day"
+  },
+  {
+    "code": "399434",
+    "name": "国证传媒行业指数",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz399434.day"
+  },
+  {
+    "code": "399435",
+    "name": "国证农牧渔产品行业指数",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz399435.day"
+  },
+  {
+    "code": "399436",
+    "name": "国证煤炭行业指数",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz399436.day"
+  },
+  {
+    "code": "399437",
+    "name": "国证证券行业指数",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz399437.day"
+  },
+  {
+    "code": "399438",
+    "name": "国证电力公用事业行业指数",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz399438.day"
+  },
+  {
+    "code": "399439",
+    "name": "国证石油天然气行业指数",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz399439.day"
+  },
+  {
+    "code": "399643",
+    "name": "创业新兴",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz399643.day"
+  },
+  {
+    "code": "399943",
+    "name": "中证内地基建主题指数",
+    "type": "index",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz399943.day"
+  }
+]

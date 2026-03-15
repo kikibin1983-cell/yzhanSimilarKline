@@ -3,6 +3,7 @@
     "code": "399006",
     "name": "创业板指",
     "type": "index",
-    "exchange": ""
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz399006.day"
   }
 ]

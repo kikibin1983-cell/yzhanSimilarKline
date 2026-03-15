@@ -1,0 +1,6764 @@
+[
+  {
+    "code": "001300",
+    "name": "三柏硕",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz001300.day"
+  },
+  {
+    "code": "002300",
+    "name": "太阳电缆",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz002300.day"
+  },
+  {
+    "code": "003000",
+    "name": "劲仔食品",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz003000.day"
+  },
+  {
+    "code": "003001",
+    "name": "中岩大地",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz003001.day"
+  },
+  {
+    "code": "003002",
+    "name": "壶化股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz003002.day"
+  },
+  {
+    "code": "003003",
+    "name": "天元股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz003003.day"
+  },
+  {
+    "code": "003004",
+    "name": "*ST声迅",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz003004.day"
+  },
+  {
+    "code": "003005",
+    "name": "竞业达",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz003005.day"
+  },
+  {
+    "code": "003006",
+    "name": "百亚股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz003006.day"
+  },
+  {
+    "code": "003007",
+    "name": "直真科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz003007.day"
+  },
+  {
+    "code": "003008",
+    "name": "开普检测",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz003008.day"
+  },
+  {
+    "code": "003009",
+    "name": "中天火箭",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz003009.day"
+  },
+  {
+    "code": "300001",
+    "name": "特锐德",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300001.day"
+  },
+  {
+    "code": "300002",
+    "name": "神州泰岳",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300002.day"
+  },
+  {
+    "code": "300003",
+    "name": "乐普医疗",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300003.day"
+  },
+  {
+    "code": "300004",
+    "name": "南风股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300004.day"
+  },
+  {
+    "code": "300005",
+    "name": "探路者",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300005.day"
+  },
+  {
+    "code": "300006",
+    "name": "莱美药业",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300006.day"
+  },
+  {
+    "code": "300007",
+    "name": "汉威科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300007.day"
+  },
+  {
+    "code": "300008",
+    "name": "天海防务",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300008.day"
+  },
+  {
+    "code": "300009",
+    "name": "安科生物",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300009.day"
+  },
+  {
+    "code": "300010",
+    "name": "豆神教育",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300010.day"
+  },
+  {
+    "code": "300011",
+    "name": "鼎汉技术",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300011.day"
+  },
+  {
+    "code": "300012",
+    "name": "华测检测",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300012.day"
+  },
+  {
+    "code": "300013",
+    "name": "新宁物流",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300013.day"
+  },
+  {
+    "code": "300014",
+    "name": "亿纬锂能",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300014.day"
+  },
+  {
+    "code": "300015",
+    "name": "爱尔眼科",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300015.day"
+  },
+  {
+    "code": "300016",
+    "name": "北陆药业",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300016.day"
+  },
+  {
+    "code": "300017",
+    "name": "网宿科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300017.day"
+  },
+  {
+    "code": "300018",
+    "name": "中元股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300018.day"
+  },
+  {
+    "code": "300019",
+    "name": "硅宝科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300019.day"
+  },
+  {
+    "code": "300020",
+    "name": "ST银江",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300020.day"
+  },
+  {
+    "code": "300021",
+    "name": "大禹节水",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300021.day"
+  },
+  {
+    "code": "300022",
+    "name": "吉峰科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300022.day"
+  },
+  {
+    "code": "300024",
+    "name": "机器人",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300024.day"
+  },
+  {
+    "code": "300025",
+    "name": "华星创业",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300025.day"
+  },
+  {
+    "code": "300026",
+    "name": "红日药业",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300026.day"
+  },
+  {
+    "code": "300027",
+    "name": "华谊兄弟",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300027.day"
+  },
+  {
+    "code": "300029",
+    "name": "*ST天龙",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300029.day"
+  },
+  {
+    "code": "300030",
+    "name": "阳普医疗",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300030.day"
+  },
+  {
+    "code": "300031",
+    "name": "宝通科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300031.day"
+  },
+  {
+    "code": "300032",
+    "name": "金龙机电",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300032.day"
+  },
+  {
+    "code": "300033",
+    "name": "同花顺",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300033.day"
+  },
+  {
+    "code": "300034",
+    "name": "钢研高纳",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300034.day"
+  },
+  {
+    "code": "300035",
+    "name": "中科电气",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300035.day"
+  },
+  {
+    "code": "300036",
+    "name": "超图软件",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300036.day"
+  },
+  {
+    "code": "300037",
+    "name": "新宙邦",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300037.day"
+  },
+  {
+    "code": "300039",
+    "name": "上海凯宝",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300039.day"
+  },
+  {
+    "code": "300040",
+    "name": "九洲集团",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300040.day"
+  },
+  {
+    "code": "300041",
+    "name": "回天新材",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300041.day"
+  },
+  {
+    "code": "300042",
+    "name": "朗科科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300042.day"
+  },
+  {
+    "code": "300043",
+    "name": "星辉娱乐",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300043.day"
+  },
+  {
+    "code": "300044",
+    "name": "ST赛为",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300044.day"
+  },
+  {
+    "code": "300045",
+    "name": "华力创通",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300045.day"
+  },
+  {
+    "code": "300046",
+    "name": "台基股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300046.day"
+  },
+  {
+    "code": "300047",
+    "name": "天源迪科",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300047.day"
+  },
+  {
+    "code": "300048",
+    "name": "合康新能",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300048.day"
+  },
+  {
+    "code": "300049",
+    "name": "福瑞医科",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300049.day"
+  },
+  {
+    "code": "300050",
+    "name": "世纪鼎利",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300050.day"
+  },
+  {
+    "code": "300051",
+    "name": "琏升科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300051.day"
+  },
+  {
+    "code": "300052",
+    "name": "ST中青宝",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300052.day"
+  },
+  {
+    "code": "300053",
+    "name": "航宇微",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300053.day"
+  },
+  {
+    "code": "300054",
+    "name": "鼎龙股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300054.day"
+  },
+  {
+    "code": "300055",
+    "name": "万邦达",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300055.day"
+  },
+  {
+    "code": "300056",
+    "name": "中创环保",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300056.day"
+  },
+  {
+    "code": "300057",
+    "name": "万顺新材",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300057.day"
+  },
+  {
+    "code": "300058",
+    "name": "蓝色光标",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300058.day"
+  },
+  {
+    "code": "300059",
+    "name": "东方财富",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300059.day"
+  },
+  {
+    "code": "300061",
+    "name": "旗天科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300061.day"
+  },
+  {
+    "code": "300062",
+    "name": "中能电气",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300062.day"
+  },
+  {
+    "code": "300063",
+    "name": "天龙集团",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300063.day"
+  },
+  {
+    "code": "300065",
+    "name": "海兰信",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300065.day"
+  },
+  {
+    "code": "300066",
+    "name": "三川智慧",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300066.day"
+  },
+  {
+    "code": "300067",
+    "name": "安诺其",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300067.day"
+  },
+  {
+    "code": "300068",
+    "name": "南都电源",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300068.day"
+  },
+  {
+    "code": "300069",
+    "name": "金利华电",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300069.day"
+  },
+  {
+    "code": "300070",
+    "name": "碧水源",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300070.day"
+  },
+  {
+    "code": "300071",
+    "name": "福石控股",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300071.day"
+  },
+  {
+    "code": "300072",
+    "name": "海新能科",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300072.day"
+  },
+  {
+    "code": "300073",
+    "name": "当升科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300073.day"
+  },
+  {
+    "code": "300074",
+    "name": "华平股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300074.day"
+  },
+  {
+    "code": "300075",
+    "name": "数字政通",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300075.day"
+  },
+  {
+    "code": "300076",
+    "name": "GQY视讯",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300076.day"
+  },
+  {
+    "code": "300077",
+    "name": "国民技术",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300077.day"
+  },
+  {
+    "code": "300078",
+    "name": "思创智联",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300078.day"
+  },
+  {
+    "code": "300079",
+    "name": "数码视讯",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300079.day"
+  },
+  {
+    "code": "300080",
+    "name": "易成新能",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300080.day"
+  },
+  {
+    "code": "300081",
+    "name": "恒信东方",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300081.day"
+  },
+  {
+    "code": "300082",
+    "name": "奥克股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300082.day"
+  },
+  {
+    "code": "300083",
+    "name": "创世纪",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300083.day"
+  },
+  {
+    "code": "300084",
+    "name": "海默科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300084.day"
+  },
+  {
+    "code": "300085",
+    "name": "银之杰",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300085.day"
+  },
+  {
+    "code": "300086",
+    "name": "康芝药业",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300086.day"
+  },
+  {
+    "code": "300087",
+    "name": "荃银高科",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300087.day"
+  },
+  {
+    "code": "300088",
+    "name": "长信科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300088.day"
+  },
+  {
+    "code": "300091",
+    "name": "*ST金灵",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300091.day"
+  },
+  {
+    "code": "300092",
+    "name": "科新机电",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300092.day"
+  },
+  {
+    "code": "300093",
+    "name": "*ST金刚",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300093.day"
+  },
+  {
+    "code": "300094",
+    "name": "国联水产",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300094.day"
+  },
+  {
+    "code": "300095",
+    "name": "华伍股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300095.day"
+  },
+  {
+    "code": "300096",
+    "name": "ST易联众",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300096.day"
+  },
+  {
+    "code": "300097",
+    "name": "ST智云",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300097.day"
+  },
+  {
+    "code": "300098",
+    "name": "高新兴",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300098.day"
+  },
+  {
+    "code": "300099",
+    "name": "尤洛卡",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300099.day"
+  },
+  {
+    "code": "300100",
+    "name": "双林股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300100.day"
+  },
+  {
+    "code": "300101",
+    "name": "振芯科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300101.day"
+  },
+  {
+    "code": "300102",
+    "name": "乾照光电",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300102.day"
+  },
+  {
+    "code": "300103",
+    "name": "达刚控股",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300103.day"
+  },
+  {
+    "code": "300105",
+    "name": "龙源技术",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300105.day"
+  },
+  {
+    "code": "300106",
+    "name": "西部牧业",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300106.day"
+  },
+  {
+    "code": "300107",
+    "name": "建新股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300107.day"
+  },
+  {
+    "code": "300109",
+    "name": "新开源",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300109.day"
+  },
+  {
+    "code": "300110",
+    "name": "华仁药业",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300110.day"
+  },
+  {
+    "code": "300111",
+    "name": "向日葵",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300111.day"
+  },
+  {
+    "code": "300112",
+    "name": "万讯自控",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300112.day"
+  },
+  {
+    "code": "300113",
+    "name": "顺网科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300113.day"
+  },
+  {
+    "code": "300115",
+    "name": "长盈精密",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300115.day"
+  },
+  {
+    "code": "300118",
+    "name": "东方日升",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300118.day"
+  },
+  {
+    "code": "300119",
+    "name": "瑞普生物",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300119.day"
+  },
+  {
+    "code": "300120",
+    "name": "经纬辉开",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300120.day"
+  },
+  {
+    "code": "300121",
+    "name": "阳谷华泰",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300121.day"
+  },
+  {
+    "code": "300122",
+    "name": "智飞生物",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300122.day"
+  },
+  {
+    "code": "300123",
+    "name": "亚光科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300123.day"
+  },
+  {
+    "code": "300124",
+    "name": "汇川技术",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300124.day"
+  },
+  {
+    "code": "300125",
+    "name": "*ST聆达",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300125.day"
+  },
+  {
+    "code": "300126",
+    "name": "锐奇股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300126.day"
+  },
+  {
+    "code": "300127",
+    "name": "银河磁体",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300127.day"
+  },
+  {
+    "code": "300128",
+    "name": "锦富技术",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300128.day"
+  },
+  {
+    "code": "300129",
+    "name": "泰胜风能",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300129.day"
+  },
+  {
+    "code": "300130",
+    "name": "新国都",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300130.day"
+  },
+  {
+    "code": "300131",
+    "name": "英唐智控",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300131.day"
+  },
+  {
+    "code": "300132",
+    "name": "青松股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300132.day"
+  },
+  {
+    "code": "300133",
+    "name": "华策影视",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300133.day"
+  },
+  {
+    "code": "300134",
+    "name": "大富科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300134.day"
+  },
+  {
+    "code": "300135",
+    "name": "宝利国际",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300135.day"
+  },
+  {
+    "code": "300136",
+    "name": "信维通信",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300136.day"
+  },
+  {
+    "code": "300137",
+    "name": "先河环保",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300137.day"
+  },
+  {
+    "code": "300138",
+    "name": "晨光生物",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300138.day"
+  },
+  {
+    "code": "300139",
+    "name": "晓程科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300139.day"
+  },
+  {
+    "code": "300140",
+    "name": "节能环境",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300140.day"
+  },
+  {
+    "code": "300141",
+    "name": "和顺电气",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300141.day"
+  },
+  {
+    "code": "300142",
+    "name": "沃森生物",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300142.day"
+  },
+  {
+    "code": "300143",
+    "name": "盈康生命",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300143.day"
+  },
+  {
+    "code": "300144",
+    "name": "宋城演艺",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300144.day"
+  },
+  {
+    "code": "300145",
+    "name": "南方泵业",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300145.day"
+  },
+  {
+    "code": "300146",
+    "name": "汤臣倍健",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300146.day"
+  },
+  {
+    "code": "300147",
+    "name": "ST香雪",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300147.day"
+  },
+  {
+    "code": "300148",
+    "name": "天舟文化",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300148.day"
+  },
+  {
+    "code": "300149",
+    "name": "睿智医药",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300149.day"
+  },
+  {
+    "code": "300150",
+    "name": "世纪瑞尔",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300150.day"
+  },
+  {
+    "code": "300151",
+    "name": "昌红科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300151.day"
+  },
+  {
+    "code": "300152",
+    "name": "ST新动力",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300152.day"
+  },
+  {
+    "code": "300153",
+    "name": "科泰电源",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300153.day"
+  },
+  {
+    "code": "300154",
+    "name": "瑞凌股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300154.day"
+  },
+  {
+    "code": "300155",
+    "name": "安居宝",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300155.day"
+  },
+  {
+    "code": "300157",
+    "name": "新锦动力",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300157.day"
+  },
+  {
+    "code": "300158",
+    "name": "振东制药",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300158.day"
+  },
+  {
+    "code": "300159",
+    "name": "*ST新研",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300159.day"
+  },
+  {
+    "code": "300160",
+    "name": "秀强股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300160.day"
+  },
+  {
+    "code": "300161",
+    "name": "华中数控",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300161.day"
+  },
+  {
+    "code": "300162",
+    "name": "雷曼光电",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300162.day"
+  },
+  {
+    "code": "300163",
+    "name": "先锋新材",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300163.day"
+  },
+  {
+    "code": "300164",
+    "name": "通源石油",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300164.day"
+  },
+  {
+    "code": "300165",
+    "name": "ST天瑞",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300165.day"
+  },
+  {
+    "code": "300166",
+    "name": "东方国信",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300166.day"
+  },
+  {
+    "code": "300167",
+    "name": "ST迪威迅",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300167.day"
+  },
+  {
+    "code": "300168",
+    "name": "万达信息",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300168.day"
+  },
+  {
+    "code": "300169",
+    "name": "天晟新材",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300169.day"
+  },
+  {
+    "code": "300170",
+    "name": "汉得信息",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300170.day"
+  },
+  {
+    "code": "300171",
+    "name": "东富龙",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300171.day"
+  },
+  {
+    "code": "300172",
+    "name": "中电环保",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300172.day"
+  },
+  {
+    "code": "300173",
+    "name": "ST福能",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300173.day"
+  },
+  {
+    "code": "300174",
+    "name": "元力股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300174.day"
+  },
+  {
+    "code": "300175",
+    "name": "ST朗源",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300175.day"
+  },
+  {
+    "code": "300176",
+    "name": "鸿特科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300176.day"
+  },
+  {
+    "code": "300177",
+    "name": "中海达",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300177.day"
+  },
+  {
+    "code": "300179",
+    "name": "四方达",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300179.day"
+  },
+  {
+    "code": "300180",
+    "name": "华峰超纤",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300180.day"
+  },
+  {
+    "code": "300181",
+    "name": "佐力药业",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300181.day"
+  },
+  {
+    "code": "300182",
+    "name": "捷成股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300182.day"
+  },
+  {
+    "code": "300183",
+    "name": "东软载波",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300183.day"
+  },
+  {
+    "code": "300184",
+    "name": "力源信息",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300184.day"
+  },
+  {
+    "code": "300185",
+    "name": "通裕重工",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300185.day"
+  },
+  {
+    "code": "300187",
+    "name": "永清环保",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300187.day"
+  },
+  {
+    "code": "300188",
+    "name": "国投智能",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300188.day"
+  },
+  {
+    "code": "300189",
+    "name": "神农种业",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300189.day"
+  },
+  {
+    "code": "300190",
+    "name": "维尔利",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300190.day"
+  },
+  {
+    "code": "300191",
+    "name": "潜能恒信",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300191.day"
+  },
+  {
+    "code": "300192",
+    "name": "科德教育",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300192.day"
+  },
+  {
+    "code": "300193",
+    "name": "佳士科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300193.day"
+  },
+  {
+    "code": "300194",
+    "name": "福安药业",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300194.day"
+  },
+  {
+    "code": "300195",
+    "name": "长荣股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300195.day"
+  },
+  {
+    "code": "300196",
+    "name": "长海股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300196.day"
+  },
+  {
+    "code": "300197",
+    "name": "节能铁汉",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300197.day"
+  },
+  {
+    "code": "300198",
+    "name": "ST纳川",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300198.day"
+  },
+  {
+    "code": "300199",
+    "name": "翰宇药业",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300199.day"
+  },
+  {
+    "code": "300200",
+    "name": "高盟新材",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300200.day"
+  },
+  {
+    "code": "300201",
+    "name": "海伦哲",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300201.day"
+  },
+  {
+    "code": "300203",
+    "name": "聚光科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300203.day"
+  },
+  {
+    "code": "300204",
+    "name": "舒泰神",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300204.day"
+  },
+  {
+    "code": "300205",
+    "name": "*ST天喻",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300205.day"
+  },
+  {
+    "code": "300206",
+    "name": "理邦仪器",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300206.day"
+  },
+  {
+    "code": "300207",
+    "name": "欣旺达",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300207.day"
+  },
+  {
+    "code": "300209",
+    "name": "行云科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300209.day"
+  },
+  {
+    "code": "300210",
+    "name": "森远股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300210.day"
+  },
+  {
+    "code": "300211",
+    "name": "*ST亿通",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300211.day"
+  },
+  {
+    "code": "300212",
+    "name": "易华录",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300212.day"
+  },
+  {
+    "code": "300213",
+    "name": "佳讯飞鸿",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300213.day"
+  },
+  {
+    "code": "300214",
+    "name": "日科化学",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300214.day"
+  },
+  {
+    "code": "300215",
+    "name": "电科院",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300215.day"
+  },
+  {
+    "code": "300217",
+    "name": "东方电热",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300217.day"
+  },
+  {
+    "code": "300218",
+    "name": "安利股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300218.day"
+  },
+  {
+    "code": "300219",
+    "name": "鸿利智汇",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300219.day"
+  },
+  {
+    "code": "300220",
+    "name": "金运激光",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300220.day"
+  },
+  {
+    "code": "300221",
+    "name": "银禧科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300221.day"
+  },
+  {
+    "code": "300222",
+    "name": "科大智能",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300222.day"
+  },
+  {
+    "code": "300223",
+    "name": "北京君正",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300223.day"
+  },
+  {
+    "code": "300224",
+    "name": "正海磁材",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300224.day"
+  },
+  {
+    "code": "300225",
+    "name": "*ST金泰",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300225.day"
+  },
+  {
+    "code": "300226",
+    "name": "上海钢联",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300226.day"
+  },
+  {
+    "code": "300227",
+    "name": "光韵达",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300227.day"
+  },
+  {
+    "code": "300228",
+    "name": "富瑞特装",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300228.day"
+  },
+  {
+    "code": "300229",
+    "name": "拓尔思",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300229.day"
+  },
+  {
+    "code": "300230",
+    "name": "永利股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300230.day"
+  },
+  {
+    "code": "300231",
+    "name": "银信科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300231.day"
+  },
+  {
+    "code": "300232",
+    "name": "洲明科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300232.day"
+  },
+  {
+    "code": "300233",
+    "name": "金城医药",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300233.day"
+  },
+  {
+    "code": "300234",
+    "name": "开尔新材",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300234.day"
+  },
+  {
+    "code": "300235",
+    "name": "方直科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300235.day"
+  },
+  {
+    "code": "300236",
+    "name": "上海新阳",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300236.day"
+  },
+  {
+    "code": "300237",
+    "name": "ST美晨",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300237.day"
+  },
+  {
+    "code": "300238",
+    "name": "冠昊生物",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300238.day"
+  },
+  {
+    "code": "300239",
+    "name": "东宝生物",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300239.day"
+  },
+  {
+    "code": "300240",
+    "name": "飞力达",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300240.day"
+  },
+  {
+    "code": "300241",
+    "name": "瑞丰光电",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300241.day"
+  },
+  {
+    "code": "300242",
+    "name": "佳云科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300242.day"
+  },
+  {
+    "code": "300243",
+    "name": "瑞丰高材",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300243.day"
+  },
+  {
+    "code": "300244",
+    "name": "迪安诊断",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300244.day"
+  },
+  {
+    "code": "300245",
+    "name": "天玑科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300245.day"
+  },
+  {
+    "code": "300246",
+    "name": "宝莱特",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300246.day"
+  },
+  {
+    "code": "300247",
+    "name": "融捷健康",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300247.day"
+  },
+  {
+    "code": "300248",
+    "name": "新开普",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300248.day"
+  },
+  {
+    "code": "300249",
+    "name": "依米康",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300249.day"
+  },
+  {
+    "code": "300250",
+    "name": "初灵信息",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300250.day"
+  },
+  {
+    "code": "300251",
+    "name": "光线传媒",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300251.day"
+  },
+  {
+    "code": "300252",
+    "name": "金信诺",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300252.day"
+  },
+  {
+    "code": "300253",
+    "name": "卫宁健康",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300253.day"
+  },
+  {
+    "code": "300254",
+    "name": "仟源医药",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300254.day"
+  },
+  {
+    "code": "300255",
+    "name": "常山药业",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300255.day"
+  },
+  {
+    "code": "300256",
+    "name": "星星科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300256.day"
+  },
+  {
+    "code": "300257",
+    "name": "开山股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300257.day"
+  },
+  {
+    "code": "300258",
+    "name": "精锻科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300258.day"
+  },
+  {
+    "code": "300259",
+    "name": "新天科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300259.day"
+  },
+  {
+    "code": "300260",
+    "name": "新莱应材",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300260.day"
+  },
+  {
+    "code": "300261",
+    "name": "雅本化学",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300261.day"
+  },
+  {
+    "code": "300263",
+    "name": "隆华科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300263.day"
+  },
+  {
+    "code": "300264",
+    "name": "佳创视讯",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300264.day"
+  },
+  {
+    "code": "300265",
+    "name": "通光线缆",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300265.day"
+  },
+  {
+    "code": "300266",
+    "name": "兴源环境",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300266.day"
+  },
+  {
+    "code": "300267",
+    "name": "尔康制药",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300267.day"
+  },
+  {
+    "code": "300268",
+    "name": "*ST佳沃",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300268.day"
+  },
+  {
+    "code": "300269",
+    "name": "联建光电",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300269.day"
+  },
+  {
+    "code": "300270",
+    "name": "中威电子",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300270.day"
+  },
+  {
+    "code": "300271",
+    "name": "华宇软件",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300271.day"
+  },
+  {
+    "code": "300272",
+    "name": "开能健康",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300272.day"
+  },
+  {
+    "code": "300274",
+    "name": "阳光电源",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300274.day"
+  },
+  {
+    "code": "300275",
+    "name": "梅安森",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300275.day"
+  },
+  {
+    "code": "300276",
+    "name": "三丰智能",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300276.day"
+  },
+  {
+    "code": "300277",
+    "name": "海联讯",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300277.day"
+  },
+  {
+    "code": "300278",
+    "name": "华昌达",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300278.day"
+  },
+  {
+    "code": "300279",
+    "name": "和晶科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300279.day"
+  },
+  {
+    "code": "300281",
+    "name": "金明精机",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300281.day"
+  },
+  {
+    "code": "300283",
+    "name": "温州宏丰",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300283.day"
+  },
+  {
+    "code": "300284",
+    "name": "苏交科",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300284.day"
+  },
+  {
+    "code": "300285",
+    "name": "国瓷材料",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300285.day"
+  },
+  {
+    "code": "300286",
+    "name": "安科瑞",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300286.day"
+  },
+  {
+    "code": "300287",
+    "name": "飞利信",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300287.day"
+  },
+  {
+    "code": "300288",
+    "name": "朗玛信息",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300288.day"
+  },
+  {
+    "code": "300289",
+    "name": "利德曼",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300289.day"
+  },
+  {
+    "code": "300290",
+    "name": "荣科科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300290.day"
+  },
+  {
+    "code": "300291",
+    "name": "百纳千成",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300291.day"
+  },
+  {
+    "code": "300292",
+    "name": "吴通控股",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300292.day"
+  },
+  {
+    "code": "300293",
+    "name": "蓝英装备",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300293.day"
+  },
+  {
+    "code": "300294",
+    "name": "博雅生物",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300294.day"
+  },
+  {
+    "code": "300295",
+    "name": "三六五网",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300295.day"
+  },
+  {
+    "code": "300296",
+    "name": "利亚德",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300296.day"
+  },
+  {
+    "code": "300298",
+    "name": "三诺生物",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300298.day"
+  },
+  {
+    "code": "300299",
+    "name": "富春股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300299.day"
+  },
+  {
+    "code": "300300",
+    "name": "海峡创新",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300300.day"
+  },
+  {
+    "code": "300301",
+    "name": "ST长方",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300301.day"
+  },
+  {
+    "code": "300302",
+    "name": "同有科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300302.day"
+  },
+  {
+    "code": "300303",
+    "name": "聚飞光电",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300303.day"
+  },
+  {
+    "code": "300304",
+    "name": "云意电气",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300304.day"
+  },
+  {
+    "code": "300305",
+    "name": "裕兴股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300305.day"
+  },
+  {
+    "code": "300306",
+    "name": "远方信息",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300306.day"
+  },
+  {
+    "code": "300307",
+    "name": "慈星股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300307.day"
+  },
+  {
+    "code": "300308",
+    "name": "中际旭创",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300308.day"
+  },
+  {
+    "code": "300310",
+    "name": "宜通世纪",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300310.day"
+  },
+  {
+    "code": "300311",
+    "name": "ST任子行",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300311.day"
+  },
+  {
+    "code": "300313",
+    "name": "*ST天山",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300313.day"
+  },
+  {
+    "code": "300314",
+    "name": "戴维医疗",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300314.day"
+  },
+  {
+    "code": "300315",
+    "name": "掌趣科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300315.day"
+  },
+  {
+    "code": "300316",
+    "name": "晶盛机电",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300316.day"
+  },
+  {
+    "code": "300317",
+    "name": "珈伟新能",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300317.day"
+  },
+  {
+    "code": "300318",
+    "name": "博晖创新",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300318.day"
+  },
+  {
+    "code": "300319",
+    "name": "麦捷科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300319.day"
+  },
+  {
+    "code": "300320",
+    "name": "海达股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300320.day"
+  },
+  {
+    "code": "300321",
+    "name": "同大股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300321.day"
+  },
+  {
+    "code": "300322",
+    "name": "硕贝德",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300322.day"
+  },
+  {
+    "code": "300323",
+    "name": "华灿光电",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300323.day"
+  },
+  {
+    "code": "300324",
+    "name": "旋极信息",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300324.day"
+  },
+  {
+    "code": "300326",
+    "name": "ST凯利",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300326.day"
+  },
+  {
+    "code": "300327",
+    "name": "中颖电子",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300327.day"
+  },
+  {
+    "code": "300328",
+    "name": "宜安科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300328.day"
+  },
+  {
+    "code": "300329",
+    "name": "海伦钢琴",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300329.day"
+  },
+  {
+    "code": "300331",
+    "name": "苏大维格",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300331.day"
+  },
+  {
+    "code": "300332",
+    "name": "天壕能源",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300332.day"
+  },
+  {
+    "code": "300333",
+    "name": "兆日科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300333.day"
+  },
+  {
+    "code": "300334",
+    "name": "津膜科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300334.day"
+  },
+  {
+    "code": "300335",
+    "name": "迪森股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300335.day"
+  },
+  {
+    "code": "300337",
+    "name": "银邦股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300337.day"
+  },
+  {
+    "code": "300338",
+    "name": "ST开元",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300338.day"
+  },
+  {
+    "code": "300339",
+    "name": "润和软件",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300339.day"
+  },
+  {
+    "code": "300340",
+    "name": "科恒股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300340.day"
+  },
+  {
+    "code": "300341",
+    "name": "麦克奥迪",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300341.day"
+  },
+  {
+    "code": "300342",
+    "name": "天银机电",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300342.day"
+  },
+  {
+    "code": "300343",
+    "name": "ST联创",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300343.day"
+  },
+  {
+    "code": "300344",
+    "name": "*ST立方",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300344.day"
+  },
+  {
+    "code": "300345",
+    "name": "华民股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300345.day"
+  },
+  {
+    "code": "300346",
+    "name": "南大光电",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300346.day"
+  },
+  {
+    "code": "300347",
+    "name": "泰格医药",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300347.day"
+  },
+  {
+    "code": "300348",
+    "name": "长亮科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300348.day"
+  },
+  {
+    "code": "300349",
+    "name": "金卡智能",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300349.day"
+  },
+  {
+    "code": "300350",
+    "name": "华鹏飞",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300350.day"
+  },
+  {
+    "code": "300351",
+    "name": "永贵电器",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300351.day"
+  },
+  {
+    "code": "300352",
+    "name": "北信源",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300352.day"
+  },
+  {
+    "code": "300353",
+    "name": "东土科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300353.day"
+  },
+  {
+    "code": "300354",
+    "name": "东华测试",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300354.day"
+  },
+  {
+    "code": "300355",
+    "name": "蒙草生态",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300355.day"
+  },
+  {
+    "code": "300357",
+    "name": "我武生物",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300357.day"
+  },
+  {
+    "code": "300358",
+    "name": "楚天科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300358.day"
+  },
+  {
+    "code": "300359",
+    "name": "全通教育",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300359.day"
+  },
+  {
+    "code": "300360",
+    "name": "炬华科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300360.day"
+  },
+  {
+    "code": "300363",
+    "name": "博腾股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300363.day"
+  },
+  {
+    "code": "300364",
+    "name": "中文在线",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300364.day"
+  },
+  {
+    "code": "300365",
+    "name": "恒华科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300365.day"
+  },
+  {
+    "code": "300366",
+    "name": "ST创意",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300366.day"
+  },
+  {
+    "code": "300368",
+    "name": "汇金股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300368.day"
+  },
+  {
+    "code": "300369",
+    "name": "绿盟科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300369.day"
+  },
+  {
+    "code": "300370",
+    "name": "安控科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300370.day"
+  },
+  {
+    "code": "300371",
+    "name": "汇中股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300371.day"
+  },
+  {
+    "code": "300373",
+    "name": "扬杰科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300373.day"
+  },
+  {
+    "code": "300374",
+    "name": "中铁装配",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300374.day"
+  },
+  {
+    "code": "300375",
+    "name": "鹏翎股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300375.day"
+  },
+  {
+    "code": "300376",
+    "name": "易事特",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300376.day"
+  },
+  {
+    "code": "300377",
+    "name": "赢时胜",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300377.day"
+  },
+  {
+    "code": "300378",
+    "name": "鼎捷数智",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300378.day"
+  },
+  {
+    "code": "300380",
+    "name": "安硕信息",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300380.day"
+  },
+  {
+    "code": "300381",
+    "name": "溢多利",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300381.day"
+  },
+  {
+    "code": "300382",
+    "name": "斯莱克",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300382.day"
+  },
+  {
+    "code": "300383",
+    "name": "光环新网",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300383.day"
+  },
+  {
+    "code": "300384",
+    "name": "三联虹普",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300384.day"
+  },
+  {
+    "code": "300385",
+    "name": "雪浪环境",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300385.day"
+  },
+  {
+    "code": "300386",
+    "name": "飞天诚信",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300386.day"
+  },
+  {
+    "code": "300387",
+    "name": "富邦科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300387.day"
+  },
+  {
+    "code": "300388",
+    "name": "节能国祯",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300388.day"
+  },
+  {
+    "code": "300389",
+    "name": "艾比森",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300389.day"
+  },
+  {
+    "code": "300390",
+    "name": "天华新能",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300390.day"
+  },
+  {
+    "code": "300391",
+    "name": "*ST长药",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300391.day"
+  },
+  {
+    "code": "300393",
+    "name": "中来股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300393.day"
+  },
+  {
+    "code": "300394",
+    "name": "天孚通信",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300394.day"
+  },
+  {
+    "code": "300395",
+    "name": "菲利华",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300395.day"
+  },
+  {
+    "code": "300396",
+    "name": "迪瑞医疗",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300396.day"
+  },
+  {
+    "code": "300397",
+    "name": "天和防务",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300397.day"
+  },
+  {
+    "code": "300398",
+    "name": "飞凯材料",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300398.day"
+  },
+  {
+    "code": "300399",
+    "name": "天利科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300399.day"
+  },
+  {
+    "code": "300400",
+    "name": "劲拓股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300400.day"
+  },
+  {
+    "code": "300401",
+    "name": "花园生物",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300401.day"
+  },
+  {
+    "code": "300402",
+    "name": "宝色股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300402.day"
+  },
+  {
+    "code": "300403",
+    "name": "汉宇集团",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300403.day"
+  },
+  {
+    "code": "300404",
+    "name": "博济医药",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300404.day"
+  },
+  {
+    "code": "300405",
+    "name": "科隆股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300405.day"
+  },
+  {
+    "code": "300406",
+    "name": "九强生物",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300406.day"
+  },
+  {
+    "code": "300407",
+    "name": "凯发电气",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300407.day"
+  },
+  {
+    "code": "300408",
+    "name": "三环集团",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300408.day"
+  },
+  {
+    "code": "300409",
+    "name": "道氏技术",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300409.day"
+  },
+  {
+    "code": "300410",
+    "name": "正业科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300410.day"
+  },
+  {
+    "code": "300411",
+    "name": "金盾股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300411.day"
+  },
+  {
+    "code": "300412",
+    "name": "迦南科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300412.day"
+  },
+  {
+    "code": "300413",
+    "name": "芒果超媒",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300413.day"
+  },
+  {
+    "code": "300414",
+    "name": "中光防雷",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300414.day"
+  },
+  {
+    "code": "300415",
+    "name": "伊之密",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300415.day"
+  },
+  {
+    "code": "300416",
+    "name": "苏试试验",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300416.day"
+  },
+  {
+    "code": "300417",
+    "name": "南华仪器",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300417.day"
+  },
+  {
+    "code": "300418",
+    "name": "昆仑万维",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300418.day"
+  },
+  {
+    "code": "300419",
+    "name": "ST浩丰",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300419.day"
+  },
+  {
+    "code": "300420",
+    "name": "五洋自控",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300420.day"
+  },
+  {
+    "code": "300421",
+    "name": "力星股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300421.day"
+  },
+  {
+    "code": "300422",
+    "name": "博世科",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300422.day"
+  },
+  {
+    "code": "300423",
+    "name": "昇辉科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300423.day"
+  },
+  {
+    "code": "300424",
+    "name": "航新科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300424.day"
+  },
+  {
+    "code": "300425",
+    "name": "中建环能",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300425.day"
+  },
+  {
+    "code": "300426",
+    "name": "华智数媒",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300426.day"
+  },
+  {
+    "code": "300427",
+    "name": "红相股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300427.day"
+  },
+  {
+    "code": "300428",
+    "name": "立中集团",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300428.day"
+  },
+  {
+    "code": "300429",
+    "name": "强力新材",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300429.day"
+  },
+  {
+    "code": "300430",
+    "name": "诚益通",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300430.day"
+  },
+  {
+    "code": "300432",
+    "name": "富临精工",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300432.day"
+  },
+  {
+    "code": "300433",
+    "name": "蓝思科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300433.day"
+  },
+  {
+    "code": "300434",
+    "name": "金石亚药",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300434.day"
+  },
+  {
+    "code": "300435",
+    "name": "中泰股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300435.day"
+  },
+  {
+    "code": "300436",
+    "name": "广生堂",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300436.day"
+  },
+  {
+    "code": "300437",
+    "name": "清水源",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300437.day"
+  },
+  {
+    "code": "300438",
+    "name": "鹏辉能源",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300438.day"
+  },
+  {
+    "code": "300439",
+    "name": "美康生物",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300439.day"
+  },
+  {
+    "code": "300440",
+    "name": "运达科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300440.day"
+  },
+  {
+    "code": "300441",
+    "name": "鲍斯股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300441.day"
+  },
+  {
+    "code": "300442",
+    "name": "润泽科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300442.day"
+  },
+  {
+    "code": "300443",
+    "name": "金雷股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300443.day"
+  },
+  {
+    "code": "300444",
+    "name": "双杰电气",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300444.day"
+  },
+  {
+    "code": "300445",
+    "name": "康斯特",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300445.day"
+  },
+  {
+    "code": "300446",
+    "name": "航天智造",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300446.day"
+  },
+  {
+    "code": "300447",
+    "name": "全信股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300447.day"
+  },
+  {
+    "code": "300448",
+    "name": "浩云科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300448.day"
+  },
+  {
+    "code": "300449",
+    "name": "汉邦高科",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300449.day"
+  },
+  {
+    "code": "300450",
+    "name": "先导智能",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300450.day"
+  },
+  {
+    "code": "300451",
+    "name": "创业慧康",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300451.day"
+  },
+  {
+    "code": "300452",
+    "name": "山河药辅",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300452.day"
+  },
+  {
+    "code": "300453",
+    "name": "三鑫医疗",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300453.day"
+  },
+  {
+    "code": "300454",
+    "name": "深信服",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300454.day"
+  },
+  {
+    "code": "300455",
+    "name": "航天智装",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300455.day"
+  },
+  {
+    "code": "300456",
+    "name": "赛微电子",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300456.day"
+  },
+  {
+    "code": "300457",
+    "name": "赢合科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300457.day"
+  },
+  {
+    "code": "300458",
+    "name": "全志科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300458.day"
+  },
+  {
+    "code": "300459",
+    "name": "汤姆猫",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300459.day"
+  },
+  {
+    "code": "300460",
+    "name": "ST惠伦",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300460.day"
+  },
+  {
+    "code": "300461",
+    "name": "田中精机",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300461.day"
+  },
+  {
+    "code": "300462",
+    "name": "ST华铭",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300462.day"
+  },
+  {
+    "code": "300463",
+    "name": "迈克生物",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300463.day"
+  },
+  {
+    "code": "300464",
+    "name": "星徽股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300464.day"
+  },
+  {
+    "code": "300465",
+    "name": "高伟达",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300465.day"
+  },
+  {
+    "code": "300466",
+    "name": "赛摩智能",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300466.day"
+  },
+  {
+    "code": "300467",
+    "name": "迅游科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300467.day"
+  },
+  {
+    "code": "300468",
+    "name": "四方精创",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300468.day"
+  },
+  {
+    "code": "300469",
+    "name": "信息发展",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300469.day"
+  },
+  {
+    "code": "300470",
+    "name": "中密控股",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300470.day"
+  },
+  {
+    "code": "300471",
+    "name": "厚普股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300471.day"
+  },
+  {
+    "code": "300472",
+    "name": "*ST新元",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300472.day"
+  },
+  {
+    "code": "300473",
+    "name": "德尔股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300473.day"
+  },
+  {
+    "code": "300474",
+    "name": "景嘉微",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300474.day"
+  },
+  {
+    "code": "300475",
+    "name": "香农芯创",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300475.day"
+  },
+  {
+    "code": "300476",
+    "name": "胜宏科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300476.day"
+  },
+  {
+    "code": "300477",
+    "name": "ST合纵",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300477.day"
+  },
+  {
+    "code": "300478",
+    "name": "杭州高新",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300478.day"
+  },
+  {
+    "code": "300479",
+    "name": "神思电子",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300479.day"
+  },
+  {
+    "code": "300480",
+    "name": "光力科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300480.day"
+  },
+  {
+    "code": "300481",
+    "name": "濮阳惠成",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300481.day"
+  },
+  {
+    "code": "300482",
+    "name": "万孚生物",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300482.day"
+  },
+  {
+    "code": "300483",
+    "name": "首华燃气",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300483.day"
+  },
+  {
+    "code": "300484",
+    "name": "蓝海华腾",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300484.day"
+  },
+  {
+    "code": "300485",
+    "name": "赛升药业",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300485.day"
+  },
+  {
+    "code": "300486",
+    "name": "东杰智能",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300486.day"
+  },
+  {
+    "code": "300487",
+    "name": "蓝晓科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300487.day"
+  },
+  {
+    "code": "300488",
+    "name": "恒锋工具",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300488.day"
+  },
+  {
+    "code": "300489",
+    "name": "光智科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300489.day"
+  },
+  {
+    "code": "300490",
+    "name": "华自科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300490.day"
+  },
+  {
+    "code": "300491",
+    "name": "通合科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300491.day"
+  },
+  {
+    "code": "300492",
+    "name": "华图山鼎",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300492.day"
+  },
+  {
+    "code": "300493",
+    "name": "润欣科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300493.day"
+  },
+  {
+    "code": "300494",
+    "name": "盛天网络",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300494.day"
+  },
+  {
+    "code": "300496",
+    "name": "中科创达",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300496.day"
+  },
+  {
+    "code": "300497",
+    "name": "富祥药业",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300497.day"
+  },
+  {
+    "code": "300498",
+    "name": "温氏股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300498.day"
+  },
+  {
+    "code": "300499",
+    "name": "高澜股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300499.day"
+  },
+  {
+    "code": "300500",
+    "name": "启迪设计",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300500.day"
+  },
+  {
+    "code": "300501",
+    "name": "海顺新材",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300501.day"
+  },
+  {
+    "code": "300502",
+    "name": "新易盛",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300502.day"
+  },
+  {
+    "code": "300503",
+    "name": "昊志机电",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300503.day"
+  },
+  {
+    "code": "300504",
+    "name": "天邑股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300504.day"
+  },
+  {
+    "code": "300505",
+    "name": "川金诺",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300505.day"
+  },
+  {
+    "code": "300506",
+    "name": "ST名家汇",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300506.day"
+  },
+  {
+    "code": "300507",
+    "name": "苏奥传感",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300507.day"
+  },
+  {
+    "code": "300508",
+    "name": "维宏股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300508.day"
+  },
+  {
+    "code": "300509",
+    "name": "新美星",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300509.day"
+  },
+  {
+    "code": "300510",
+    "name": "金冠股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300510.day"
+  },
+  {
+    "code": "300511",
+    "name": "雪榕生物",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300511.day"
+  },
+  {
+    "code": "300512",
+    "name": "中亚股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300512.day"
+  },
+  {
+    "code": "300513",
+    "name": "恒实科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300513.day"
+  },
+  {
+    "code": "300514",
+    "name": "友讯达",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300514.day"
+  },
+  {
+    "code": "300515",
+    "name": "三德科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300515.day"
+  },
+  {
+    "code": "300516",
+    "name": "久之洋",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300516.day"
+  },
+  {
+    "code": "300517",
+    "name": "海波重科",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300517.day"
+  },
+  {
+    "code": "300518",
+    "name": "新迅达",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300518.day"
+  },
+  {
+    "code": "300519",
+    "name": "新光药业",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300519.day"
+  },
+  {
+    "code": "300520",
+    "name": "科大国创",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300520.day"
+  },
+  {
+    "code": "300521",
+    "name": "爱司凯",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300521.day"
+  },
+  {
+    "code": "300522",
+    "name": "世名科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300522.day"
+  },
+  {
+    "code": "300523",
+    "name": "辰安科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300523.day"
+  },
+  {
+    "code": "300525",
+    "name": "博思软件",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300525.day"
+  },
+  {
+    "code": "300527",
+    "name": "ST应急",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300527.day"
+  },
+  {
+    "code": "300528",
+    "name": "幸福蓝海",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300528.day"
+  },
+  {
+    "code": "300529",
+    "name": "健帆生物",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300529.day"
+  },
+  {
+    "code": "300530",
+    "name": "领湃科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300530.day"
+  },
+  {
+    "code": "300531",
+    "name": "优博讯",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300531.day"
+  },
+  {
+    "code": "300532",
+    "name": "今天国际",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300532.day"
+  },
+  {
+    "code": "300533",
+    "name": "冰川网络",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300533.day"
+  },
+  {
+    "code": "300534",
+    "name": "陇神戎发",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300534.day"
+  },
+  {
+    "code": "300535",
+    "name": "达威股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300535.day"
+  },
+  {
+    "code": "300536",
+    "name": "农尚环境",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300536.day"
+  },
+  {
+    "code": "300537",
+    "name": "广信材料",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300537.day"
+  },
+  {
+    "code": "300538",
+    "name": "同益股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300538.day"
+  },
+  {
+    "code": "300539",
+    "name": "横河精密",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300539.day"
+  },
+  {
+    "code": "300540",
+    "name": "蜀道装备",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300540.day"
+  },
+  {
+    "code": "300541",
+    "name": "先进数通",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300541.day"
+  },
+  {
+    "code": "300542",
+    "name": "新晨科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300542.day"
+  },
+  {
+    "code": "300543",
+    "name": "朗科智能",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300543.day"
+  },
+  {
+    "code": "300545",
+    "name": "联得装备",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300545.day"
+  },
+  {
+    "code": "300546",
+    "name": "雄帝科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300546.day"
+  },
+  {
+    "code": "300547",
+    "name": "川环科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300547.day"
+  },
+  {
+    "code": "300548",
+    "name": "长芯博创",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300548.day"
+  },
+  {
+    "code": "300549",
+    "name": "优德精密",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300549.day"
+  },
+  {
+    "code": "300550",
+    "name": "和仁科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300550.day"
+  },
+  {
+    "code": "300551",
+    "name": "古鳌科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300551.day"
+  },
+  {
+    "code": "300552",
+    "name": "万集科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300552.day"
+  },
+  {
+    "code": "300553",
+    "name": "集智股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300553.day"
+  },
+  {
+    "code": "300554",
+    "name": "三超新材",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300554.day"
+  },
+  {
+    "code": "300555",
+    "name": "ST路通",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300555.day"
+  },
+  {
+    "code": "300556",
+    "name": "丝路视觉",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300556.day"
+  },
+  {
+    "code": "300557",
+    "name": "理工光科",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300557.day"
+  },
+  {
+    "code": "300558",
+    "name": "贝达药业",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300558.day"
+  },
+  {
+    "code": "300559",
+    "name": "佳发教育",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300559.day"
+  },
+  {
+    "code": "300560",
+    "name": "中富通",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300560.day"
+  },
+  {
+    "code": "300561",
+    "name": "*ST汇科",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300561.day"
+  },
+  {
+    "code": "300562",
+    "name": "乐心医疗",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300562.day"
+  },
+  {
+    "code": "300563",
+    "name": "神宇股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300563.day"
+  },
+  {
+    "code": "300564",
+    "name": "筑博设计",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300564.day"
+  },
+  {
+    "code": "300565",
+    "name": "科信技术",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300565.day"
+  },
+  {
+    "code": "300566",
+    "name": "激智科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300566.day"
+  },
+  {
+    "code": "300567",
+    "name": "精测电子",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300567.day"
+  },
+  {
+    "code": "300568",
+    "name": "星源材质",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300568.day"
+  },
+  {
+    "code": "300569",
+    "name": "天能重工",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300569.day"
+  },
+  {
+    "code": "300570",
+    "name": "太辰光",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300570.day"
+  },
+  {
+    "code": "300571",
+    "name": "平治信息",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300571.day"
+  },
+  {
+    "code": "300572",
+    "name": "安车检测",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300572.day"
+  },
+  {
+    "code": "300573",
+    "name": "兴齐眼药",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300573.day"
+  },
+  {
+    "code": "300575",
+    "name": "中旗股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300575.day"
+  },
+  {
+    "code": "300576",
+    "name": "容大感光",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300576.day"
+  },
+  {
+    "code": "300577",
+    "name": "开润股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300577.day"
+  },
+  {
+    "code": "300578",
+    "name": "会畅科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300578.day"
+  },
+  {
+    "code": "300579",
+    "name": "数字认证",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300579.day"
+  },
+  {
+    "code": "300580",
+    "name": "贝斯特",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300580.day"
+  },
+  {
+    "code": "300581",
+    "name": "晨曦航空",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300581.day"
+  },
+  {
+    "code": "300582",
+    "name": "英飞特",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300582.day"
+  },
+  {
+    "code": "300583",
+    "name": "赛托生物",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300583.day"
+  },
+  {
+    "code": "300584",
+    "name": "海辰药业",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300584.day"
+  },
+  {
+    "code": "300585",
+    "name": "奥联电子",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300585.day"
+  },
+  {
+    "code": "300586",
+    "name": "美联新材",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300586.day"
+  },
+  {
+    "code": "300587",
+    "name": "天铁科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300587.day"
+  },
+  {
+    "code": "300588",
+    "name": "熙菱信息",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300588.day"
+  },
+  {
+    "code": "300589",
+    "name": "江龙船艇",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300589.day"
+  },
+  {
+    "code": "300590",
+    "name": "移为通信",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300590.day"
+  },
+  {
+    "code": "300591",
+    "name": "万里马",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300591.day"
+  },
+  {
+    "code": "300592",
+    "name": "华凯易佰",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300592.day"
+  },
+  {
+    "code": "300593",
+    "name": "新雷能",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300593.day"
+  },
+  {
+    "code": "300594",
+    "name": "朗进科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300594.day"
+  },
+  {
+    "code": "300595",
+    "name": "欧普康视",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300595.day"
+  },
+  {
+    "code": "300596",
+    "name": "利安隆",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300596.day"
+  },
+  {
+    "code": "300597",
+    "name": "吉大通信",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300597.day"
+  },
+  {
+    "code": "300598",
+    "name": "诚迈科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300598.day"
+  },
+  {
+    "code": "300599",
+    "name": "雄塑科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300599.day"
+  },
+  {
+    "code": "300600",
+    "name": "国瑞科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300600.day"
+  },
+  {
+    "code": "300601",
+    "name": "康泰生物",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300601.day"
+  },
+  {
+    "code": "300602",
+    "name": "飞荣达",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300602.day"
+  },
+  {
+    "code": "300603",
+    "name": "立昂技术",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300603.day"
+  },
+  {
+    "code": "300604",
+    "name": "长川科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300604.day"
+  },
+  {
+    "code": "300605",
+    "name": "恒锋信息",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300605.day"
+  },
+  {
+    "code": "300606",
+    "name": "金太阳",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300606.day"
+  },
+  {
+    "code": "300607",
+    "name": "拓斯达",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300607.day"
+  },
+  {
+    "code": "300608",
+    "name": "思特奇",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300608.day"
+  },
+  {
+    "code": "300609",
+    "name": "汇纳科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300609.day"
+  },
+  {
+    "code": "300610",
+    "name": "晨化股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300610.day"
+  },
+  {
+    "code": "300611",
+    "name": "美力科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300611.day"
+  },
+  {
+    "code": "300612",
+    "name": "宣亚国际",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300612.day"
+  },
+  {
+    "code": "300613",
+    "name": "富瀚微",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300613.day"
+  },
+  {
+    "code": "300614",
+    "name": "百川畅银",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300614.day"
+  },
+  {
+    "code": "300615",
+    "name": "欣天科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300615.day"
+  },
+  {
+    "code": "300616",
+    "name": "尚品宅配",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300616.day"
+  },
+  {
+    "code": "300617",
+    "name": "安靠智电",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300617.day"
+  },
+  {
+    "code": "300618",
+    "name": "寒锐钴业",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300618.day"
+  },
+  {
+    "code": "300619",
+    "name": "金银河",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300619.day"
+  },
+  {
+    "code": "300620",
+    "name": "光库科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300620.day"
+  },
+  {
+    "code": "300621",
+    "name": "维业股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300621.day"
+  },
+  {
+    "code": "300622",
+    "name": "博士眼镜",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300622.day"
+  },
+  {
+    "code": "300623",
+    "name": "捷捷微电",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300623.day"
+  },
+  {
+    "code": "300624",
+    "name": "万兴科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300624.day"
+  },
+  {
+    "code": "300625",
+    "name": "三雄极光",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300625.day"
+  },
+  {
+    "code": "300626",
+    "name": "华瑞股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300626.day"
+  },
+  {
+    "code": "300627",
+    "name": "华测导航",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300627.day"
+  },
+  {
+    "code": "300628",
+    "name": "亿联网络",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300628.day"
+  },
+  {
+    "code": "300629",
+    "name": "新劲刚",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300629.day"
+  },
+  {
+    "code": "300631",
+    "name": "久吾高科",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300631.day"
+  },
+  {
+    "code": "300632",
+    "name": "光莆股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300632.day"
+  },
+  {
+    "code": "300633",
+    "name": "开立医疗",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300633.day"
+  },
+  {
+    "code": "300634",
+    "name": "彩讯股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300634.day"
+  },
+  {
+    "code": "300635",
+    "name": "中达安",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300635.day"
+  },
+  {
+    "code": "300636",
+    "name": "同和药业",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300636.day"
+  },
+  {
+    "code": "300637",
+    "name": "扬帆新材",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300637.day"
+  },
+  {
+    "code": "300638",
+    "name": "广和通",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300638.day"
+  },
+  {
+    "code": "300639",
+    "name": "凯普生物",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300639.day"
+  },
+  {
+    "code": "300640",
+    "name": "德艺文创",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300640.day"
+  },
+  {
+    "code": "300641",
+    "name": "正丹股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300641.day"
+  },
+  {
+    "code": "300642",
+    "name": "透景生命",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300642.day"
+  },
+  {
+    "code": "300643",
+    "name": "万通智控",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300643.day"
+  },
+  {
+    "code": "300644",
+    "name": "南京聚隆",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300644.day"
+  },
+  {
+    "code": "300645",
+    "name": "正元智慧",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300645.day"
+  },
+  {
+    "code": "300647",
+    "name": "超频三",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300647.day"
+  },
+  {
+    "code": "300648",
+    "name": "星云股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300648.day"
+  },
+  {
+    "code": "300649",
+    "name": "杭州园林",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300649.day"
+  },
+  {
+    "code": "300650",
+    "name": "太龙股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300650.day"
+  },
+  {
+    "code": "300651",
+    "name": "金陵体育",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300651.day"
+  },
+  {
+    "code": "300652",
+    "name": "雷迪克",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300652.day"
+  },
+  {
+    "code": "300653",
+    "name": "正海生物",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300653.day"
+  },
+  {
+    "code": "300654",
+    "name": "世纪天鸿",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300654.day"
+  },
+  {
+    "code": "300655",
+    "name": "晶瑞电材",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300655.day"
+  },
+  {
+    "code": "300656",
+    "name": "民德电子",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300656.day"
+  },
+  {
+    "code": "300657",
+    "name": "弘信电子",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300657.day"
+  },
+  {
+    "code": "300658",
+    "name": "延江股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300658.day"
+  },
+  {
+    "code": "300659",
+    "name": "中孚信息",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300659.day"
+  },
+  {
+    "code": "300660",
+    "name": "江苏雷利",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300660.day"
+  },
+  {
+    "code": "300661",
+    "name": "圣邦股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300661.day"
+  },
+  {
+    "code": "300662",
+    "name": "科锐国际",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300662.day"
+  },
+  {
+    "code": "300663",
+    "name": "科蓝软件",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300663.day"
+  },
+  {
+    "code": "300664",
+    "name": "鹏鹞环保",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300664.day"
+  },
+  {
+    "code": "300665",
+    "name": "飞鹿股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300665.day"
+  },
+  {
+    "code": "300666",
+    "name": "江丰电子",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300666.day"
+  },
+  {
+    "code": "300667",
+    "name": "必创科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300667.day"
+  },
+  {
+    "code": "300668",
+    "name": "杰恩设计",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300668.day"
+  },
+  {
+    "code": "300669",
+    "name": "沪宁股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300669.day"
+  },
+  {
+    "code": "300670",
+    "name": "大烨智能",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300670.day"
+  },
+  {
+    "code": "300671",
+    "name": "富满微",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300671.day"
+  },
+  {
+    "code": "300672",
+    "name": "国科微",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300672.day"
+  },
+  {
+    "code": "300673",
+    "name": "佩蒂股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300673.day"
+  },
+  {
+    "code": "300674",
+    "name": "宇信科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300674.day"
+  },
+  {
+    "code": "300675",
+    "name": "建科院",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300675.day"
+  },
+  {
+    "code": "300676",
+    "name": "华大基因",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300676.day"
+  },
+  {
+    "code": "300677",
+    "name": "英科医疗",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300677.day"
+  },
+  {
+    "code": "300678",
+    "name": "中科信息",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300678.day"
+  },
+  {
+    "code": "300679",
+    "name": "电连技术",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300679.day"
+  },
+  {
+    "code": "300680",
+    "name": "隆盛科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300680.day"
+  },
+  {
+    "code": "300681",
+    "name": "英搏尔",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300681.day"
+  },
+  {
+    "code": "300682",
+    "name": "朗新科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300682.day"
+  },
+  {
+    "code": "300683",
+    "name": "海特生物",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300683.day"
+  },
+  {
+    "code": "300684",
+    "name": "中石科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300684.day"
+  },
+  {
+    "code": "300685",
+    "name": "艾德生物",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300685.day"
+  },
+  {
+    "code": "300686",
+    "name": "智动力",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300686.day"
+  },
+  {
+    "code": "300687",
+    "name": "赛意信息",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300687.day"
+  },
+  {
+    "code": "300688",
+    "name": "创业黑马",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300688.day"
+  },
+  {
+    "code": "300689",
+    "name": "澄天伟业",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300689.day"
+  },
+  {
+    "code": "300690",
+    "name": "双一科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300690.day"
+  },
+  {
+    "code": "300691",
+    "name": "联合光电",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300691.day"
+  },
+  {
+    "code": "300692",
+    "name": "中赋科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300692.day"
+  },
+  {
+    "code": "300693",
+    "name": "盛弘股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300693.day"
+  },
+  {
+    "code": "300694",
+    "name": "蠡湖股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300694.day"
+  },
+  {
+    "code": "300695",
+    "name": "兆丰股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300695.day"
+  },
+  {
+    "code": "300696",
+    "name": "爱乐达",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300696.day"
+  },
+  {
+    "code": "300697",
+    "name": "电工合金",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300697.day"
+  },
+  {
+    "code": "300698",
+    "name": "万马科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300698.day"
+  },
+  {
+    "code": "300699",
+    "name": "光威复材",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300699.day"
+  },
+  {
+    "code": "300700",
+    "name": "岱勒新材",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300700.day"
+  },
+  {
+    "code": "300701",
+    "name": "森霸传感",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300701.day"
+  },
+  {
+    "code": "300702",
+    "name": "天宇股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300702.day"
+  },
+  {
+    "code": "300703",
+    "name": "创源股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300703.day"
+  },
+  {
+    "code": "300705",
+    "name": "九典制药",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300705.day"
+  },
+  {
+    "code": "300706",
+    "name": "阿石创",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300706.day"
+  },
+  {
+    "code": "300707",
+    "name": "威唐工业",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300707.day"
+  },
+  {
+    "code": "300708",
+    "name": "聚灿光电",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300708.day"
+  },
+  {
+    "code": "300709",
+    "name": "精研科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300709.day"
+  },
+  {
+    "code": "300710",
+    "name": "万隆光电",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300710.day"
+  },
+  {
+    "code": "300711",
+    "name": "广哈通信",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300711.day"
+  },
+  {
+    "code": "300712",
+    "name": "永福股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300712.day"
+  },
+  {
+    "code": "300713",
+    "name": "英可瑞",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300713.day"
+  },
+  {
+    "code": "300715",
+    "name": "凯伦股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300715.day"
+  },
+  {
+    "code": "300716",
+    "name": "ST泉为",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300716.day"
+  },
+  {
+    "code": "300717",
+    "name": "华信新材",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300717.day"
+  },
+  {
+    "code": "300718",
+    "name": "长盛轴承",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300718.day"
+  },
+  {
+    "code": "300719",
+    "name": "安达维尔",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300719.day"
+  },
+  {
+    "code": "300720",
+    "name": "海川智能",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300720.day"
+  },
+  {
+    "code": "300721",
+    "name": "怡达股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300721.day"
+  },
+  {
+    "code": "300722",
+    "name": "新余国科",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300722.day"
+  },
+  {
+    "code": "300723",
+    "name": "一品红",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300723.day"
+  },
+  {
+    "code": "300724",
+    "name": "捷佳伟创",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300724.day"
+  },
+  {
+    "code": "300725",
+    "name": "药石科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300725.day"
+  },
+  {
+    "code": "300726",
+    "name": "宏达电子",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300726.day"
+  },
+  {
+    "code": "300727",
+    "name": "润禾材料",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300727.day"
+  },
+  {
+    "code": "300729",
+    "name": "乐歌股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300729.day"
+  },
+  {
+    "code": "300730",
+    "name": "科创信息",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300730.day"
+  },
+  {
+    "code": "300731",
+    "name": "科创新源",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300731.day"
+  },
+  {
+    "code": "300732",
+    "name": "设研院",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300732.day"
+  },
+  {
+    "code": "300733",
+    "name": "西菱动力",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300733.day"
+  },
+  {
+    "code": "300735",
+    "name": "光弘科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300735.day"
+  },
+  {
+    "code": "300736",
+    "name": "百邦科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300736.day"
+  },
+  {
+    "code": "300737",
+    "name": "科顺股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300737.day"
+  },
+  {
+    "code": "300738",
+    "name": "奥飞数据",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300738.day"
+  },
+  {
+    "code": "300739",
+    "name": "明阳电路",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300739.day"
+  },
+  {
+    "code": "300740",
+    "name": "水羊股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300740.day"
+  },
+  {
+    "code": "300741",
+    "name": "华宝股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300741.day"
+  },
+  {
+    "code": "300743",
+    "name": "天地数码",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300743.day"
+  },
+  {
+    "code": "300745",
+    "name": "欣锐科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300745.day"
+  },
+  {
+    "code": "300746",
+    "name": "汉嘉数智",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300746.day"
+  },
+  {
+    "code": "300747",
+    "name": "锐科激光",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300747.day"
+  },
+  {
+    "code": "300748",
+    "name": "金力永磁",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300748.day"
+  },
+  {
+    "code": "300749",
+    "name": "顶固集创",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300749.day"
+  },
+  {
+    "code": "300750",
+    "name": "宁德时代",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300750.day"
+  },
+  {
+    "code": "300751",
+    "name": "迈为股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300751.day"
+  },
+  {
+    "code": "300752",
+    "name": "隆利科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300752.day"
+  },
+  {
+    "code": "300753",
+    "name": "爱朋医疗",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300753.day"
+  },
+  {
+    "code": "300755",
+    "name": "华致酒行",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300755.day"
+  },
+  {
+    "code": "300756",
+    "name": "金马游乐",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300756.day"
+  },
+  {
+    "code": "300757",
+    "name": "罗博特科",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300757.day"
+  },
+  {
+    "code": "300758",
+    "name": "七彩化学",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300758.day"
+  },
+  {
+    "code": "300759",
+    "name": "康龙化成",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300759.day"
+  },
+  {
+    "code": "300760",
+    "name": "迈瑞医疗",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300760.day"
+  },
+  {
+    "code": "300761",
+    "name": "立华股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300761.day"
+  },
+  {
+    "code": "300762",
+    "name": "上海瀚讯",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300762.day"
+  },
+  {
+    "code": "300763",
+    "name": "锦浪科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300763.day"
+  },
+  {
+    "code": "300765",
+    "name": "新诺威",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300765.day"
+  },
+  {
+    "code": "300766",
+    "name": "每日互动",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300766.day"
+  },
+  {
+    "code": "300767",
+    "name": "震安科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300767.day"
+  },
+  {
+    "code": "300768",
+    "name": "迪普科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300768.day"
+  },
+  {
+    "code": "300769",
+    "name": "德方纳米",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300769.day"
+  },
+  {
+    "code": "300770",
+    "name": "新媒股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300770.day"
+  },
+  {
+    "code": "300771",
+    "name": "智莱科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300771.day"
+  },
+  {
+    "code": "300772",
+    "name": "运达股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300772.day"
+  },
+  {
+    "code": "300773",
+    "name": "拉卡拉",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300773.day"
+  },
+  {
+    "code": "300774",
+    "name": "倍杰特",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300774.day"
+  },
+  {
+    "code": "300775",
+    "name": "三角防务",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300775.day"
+  },
+  {
+    "code": "300776",
+    "name": "帝尔激光",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300776.day"
+  },
+  {
+    "code": "300777",
+    "name": "中简科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300777.day"
+  },
+  {
+    "code": "300778",
+    "name": "新城市",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300778.day"
+  },
+  {
+    "code": "300779",
+    "name": "惠城环保",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300779.day"
+  },
+  {
+    "code": "300780",
+    "name": "德恩精工",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300780.day"
+  },
+  {
+    "code": "300781",
+    "name": "因赛集团",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300781.day"
+  },
+  {
+    "code": "300782",
+    "name": "卓胜微",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300782.day"
+  },
+  {
+    "code": "300783",
+    "name": "三只松鼠",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300783.day"
+  },
+  {
+    "code": "300784",
+    "name": "利安科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300784.day"
+  },
+  {
+    "code": "300785",
+    "name": "值得买",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300785.day"
+  },
+  {
+    "code": "300786",
+    "name": "国林科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300786.day"
+  },
+  {
+    "code": "300787",
+    "name": "海能实业",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300787.day"
+  },
+  {
+    "code": "300788",
+    "name": "中信出版",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300788.day"
+  },
+  {
+    "code": "300789",
+    "name": "唐源电气",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300789.day"
+  },
+  {
+    "code": "300790",
+    "name": "宇瞳光学",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300790.day"
+  },
+  {
+    "code": "300791",
+    "name": "仙乐健康",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300791.day"
+  },
+  {
+    "code": "300792",
+    "name": "壹网壹创",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300792.day"
+  },
+  {
+    "code": "300793",
+    "name": "佳禾智能",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300793.day"
+  },
+  {
+    "code": "300795",
+    "name": "米奥会展",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300795.day"
+  },
+  {
+    "code": "300796",
+    "name": "贝斯美",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300796.day"
+  },
+  {
+    "code": "300797",
+    "name": "钢研纳克",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300797.day"
+  },
+  {
+    "code": "300798",
+    "name": "锦鸡股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300798.day"
+  },
+  {
+    "code": "300800",
+    "name": "力合科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300800.day"
+  },
+  {
+    "code": "300801",
+    "name": "泰和科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300801.day"
+  },
+  {
+    "code": "300802",
+    "name": "矩子科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300802.day"
+  },
+  {
+    "code": "300803",
+    "name": "指南针",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300803.day"
+  },
+  {
+    "code": "300804",
+    "name": "广康生化",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300804.day"
+  },
+  {
+    "code": "300805",
+    "name": "电声股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300805.day"
+  },
+  {
+    "code": "300806",
+    "name": "斯迪克",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300806.day"
+  },
+  {
+    "code": "300807",
+    "name": "天迈科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300807.day"
+  },
+  {
+    "code": "300808",
+    "name": "久量股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300808.day"
+  },
+  {
+    "code": "300809",
+    "name": "华辰装备",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300809.day"
+  },
+  {
+    "code": "300810",
+    "name": "中科海讯",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300810.day"
+  },
+  {
+    "code": "300811",
+    "name": "铂科新材",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300811.day"
+  },
+  {
+    "code": "300812",
+    "name": "易天股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300812.day"
+  },
+  {
+    "code": "300813",
+    "name": "泰林生物",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300813.day"
+  },
+  {
+    "code": "300814",
+    "name": "中富电路",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300814.day"
+  },
+  {
+    "code": "300815",
+    "name": "玉禾田",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300815.day"
+  },
+  {
+    "code": "300816",
+    "name": "艾可蓝",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300816.day"
+  },
+  {
+    "code": "300817",
+    "name": "双飞集团",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300817.day"
+  },
+  {
+    "code": "300818",
+    "name": "耐普矿机",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300818.day"
+  },
+  {
+    "code": "300819",
+    "name": "聚杰微纤",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300819.day"
+  },
+  {
+    "code": "300820",
+    "name": "英杰电气",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300820.day"
+  },
+  {
+    "code": "300821",
+    "name": "东岳硅材",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300821.day"
+  },
+  {
+    "code": "300822",
+    "name": "贝仕达克",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300822.day"
+  },
+  {
+    "code": "300823",
+    "name": "建科智能",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300823.day"
+  },
+  {
+    "code": "300824",
+    "name": "北鼎股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300824.day"
+  },
+  {
+    "code": "300825",
+    "name": "阿尔特",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300825.day"
+  },
+  {
+    "code": "300826",
+    "name": "测绘股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300826.day"
+  },
+  {
+    "code": "300827",
+    "name": "上能电气",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300827.day"
+  },
+  {
+    "code": "300828",
+    "name": "锐新科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300828.day"
+  },
+  {
+    "code": "300829",
+    "name": "金丹科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300829.day"
+  },
+  {
+    "code": "300830",
+    "name": "金现代",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300830.day"
+  },
+  {
+    "code": "300831",
+    "name": "派瑞股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300831.day"
+  },
+  {
+    "code": "300832",
+    "name": "新产业",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300832.day"
+  },
+  {
+    "code": "300833",
+    "name": "浩洋股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300833.day"
+  },
+  {
+    "code": "300834",
+    "name": "星辉环材",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300834.day"
+  },
+  {
+    "code": "300835",
+    "name": "龙磁科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300835.day"
+  },
+  {
+    "code": "300836",
+    "name": "佰奥智能",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300836.day"
+  },
+  {
+    "code": "300837",
+    "name": "浙矿股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300837.day"
+  },
+  {
+    "code": "300838",
+    "name": "浙江力诺",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300838.day"
+  },
+  {
+    "code": "300839",
+    "name": "博汇股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300839.day"
+  },
+  {
+    "code": "300840",
+    "name": "酷特智能",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300840.day"
+  },
+  {
+    "code": "300841",
+    "name": "康华生物",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300841.day"
+  },
+  {
+    "code": "300842",
+    "name": "帝科股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300842.day"
+  },
+  {
+    "code": "300843",
+    "name": "胜蓝股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300843.day"
+  },
+  {
+    "code": "300844",
+    "name": "山水比德",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300844.day"
+  },
+  {
+    "code": "300845",
+    "name": "捷安高科",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300845.day"
+  },
+  {
+    "code": "300846",
+    "name": "首都在线",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300846.day"
+  },
+  {
+    "code": "300847",
+    "name": "中船汉光",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300847.day"
+  },
+  {
+    "code": "300848",
+    "name": "美瑞新材",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300848.day"
+  },
+  {
+    "code": "300849",
+    "name": "锦盛新材",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300849.day"
+  },
+  {
+    "code": "300850",
+    "name": "新强联",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300850.day"
+  },
+  {
+    "code": "300851",
+    "name": "交大思诺",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300851.day"
+  },
+  {
+    "code": "300852",
+    "name": "四会富仕",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300852.day"
+  },
+  {
+    "code": "300853",
+    "name": "申昊科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300853.day"
+  },
+  {
+    "code": "300854",
+    "name": "中兰环保",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300854.day"
+  },
+  {
+    "code": "300855",
+    "name": "图南股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300855.day"
+  },
+  {
+    "code": "300856",
+    "name": "科思股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300856.day"
+  },
+  {
+    "code": "300857",
+    "name": "协创数据",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300857.day"
+  },
+  {
+    "code": "300858",
+    "name": "科拓生物",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300858.day"
+  },
+  {
+    "code": "300859",
+    "name": "西域旅游",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300859.day"
+  },
+  {
+    "code": "300860",
+    "name": "锋尚文化",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300860.day"
+  },
+  {
+    "code": "300861",
+    "name": "美畅股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300861.day"
+  },
+  {
+    "code": "300862",
+    "name": "蓝盾光电",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300862.day"
+  },
+  {
+    "code": "300863",
+    "name": "卡倍亿",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300863.day"
+  },
+  {
+    "code": "300864",
+    "name": "南大环境",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300864.day"
+  },
+  {
+    "code": "300865",
+    "name": "大宏立",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300865.day"
+  },
+  {
+    "code": "300866",
+    "name": "安克创新",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300866.day"
+  },
+  {
+    "code": "300867",
+    "name": "圣元环保",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300867.day"
+  },
+  {
+    "code": "300868",
+    "name": "杰美特",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300868.day"
+  },
+  {
+    "code": "300869",
+    "name": "康泰医学",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300869.day"
+  },
+  {
+    "code": "300870",
+    "name": "欧陆通",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300870.day"
+  },
+  {
+    "code": "300871",
+    "name": "回盛生物",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300871.day"
+  },
+  {
+    "code": "300872",
+    "name": "天阳科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300872.day"
+  },
+  {
+    "code": "300873",
+    "name": "海晨股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300873.day"
+  },
+  {
+    "code": "300875",
+    "name": "捷强装备",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300875.day"
+  },
+  {
+    "code": "300876",
+    "name": "蒙泰高新",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300876.day"
+  },
+  {
+    "code": "300877",
+    "name": "金春股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300877.day"
+  },
+  {
+    "code": "300878",
+    "name": "维康药业",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300878.day"
+  },
+  {
+    "code": "300879",
+    "name": "大叶股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300879.day"
+  },
+  {
+    "code": "300880",
+    "name": "迦南智能",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300880.day"
+  },
+  {
+    "code": "300881",
+    "name": "盛德鑫泰",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300881.day"
+  },
+  {
+    "code": "300882",
+    "name": "万胜智能",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300882.day"
+  },
+  {
+    "code": "300883",
+    "name": "龙利得",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300883.day"
+  },
+  {
+    "code": "300884",
+    "name": "狄耐克",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300884.day"
+  },
+  {
+    "code": "300885",
+    "name": "海昌新材",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300885.day"
+  },
+  {
+    "code": "300886",
+    "name": "华业香料",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300886.day"
+  },
+  {
+    "code": "300887",
+    "name": "谱尼测试",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300887.day"
+  },
+  {
+    "code": "300888",
+    "name": "稳健医疗",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300888.day"
+  },
+  {
+    "code": "300889",
+    "name": "爱克股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300889.day"
+  },
+  {
+    "code": "300890",
+    "name": "翔丰华",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300890.day"
+  },
+  {
+    "code": "300891",
+    "name": "惠云钛业",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300891.day"
+  },
+  {
+    "code": "300892",
+    "name": "品渥食品",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300892.day"
+  },
+  {
+    "code": "300893",
+    "name": "松原安全",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300893.day"
+  },
+  {
+    "code": "300894",
+    "name": "火星人",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300894.day"
+  },
+  {
+    "code": "300895",
+    "name": "铜牛信息",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300895.day"
+  },
+  {
+    "code": "300896",
+    "name": "爱美客",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300896.day"
+  },
+  {
+    "code": "300897",
+    "name": "山科智能",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300897.day"
+  },
+  {
+    "code": "300898",
+    "name": "熊猫乳品",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300898.day"
+  },
+  {
+    "code": "300899",
+    "name": "*ST凯鑫",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300899.day"
+  },
+  {
+    "code": "300900",
+    "name": "广联航空",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300900.day"
+  },
+  {
+    "code": "300901",
+    "name": "中胤时尚",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300901.day"
+  },
+  {
+    "code": "300902",
+    "name": "国安达",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300902.day"
+  },
+  {
+    "code": "300903",
+    "name": "科翔股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300903.day"
+  },
+  {
+    "code": "300904",
+    "name": "威力传动",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300904.day"
+  },
+  {
+    "code": "300905",
+    "name": "宝丽迪",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300905.day"
+  },
+  {
+    "code": "300906",
+    "name": "日月明",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300906.day"
+  },
+  {
+    "code": "300907",
+    "name": "康平科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300907.day"
+  },
+  {
+    "code": "300908",
+    "name": "仲景食品",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300908.day"
+  },
+  {
+    "code": "300909",
+    "name": "汇创达",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300909.day"
+  },
+  {
+    "code": "300910",
+    "name": "瑞丰新材",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300910.day"
+  },
+  {
+    "code": "300911",
+    "name": "亿田智能",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300911.day"
+  },
+  {
+    "code": "300912",
+    "name": "凯龙高科",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300912.day"
+  },
+  {
+    "code": "300913",
+    "name": "兆龙互连",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300913.day"
+  },
+  {
+    "code": "300915",
+    "name": "海融科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300915.day"
+  },
+  {
+    "code": "300916",
+    "name": "朗特智能",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300916.day"
+  },
+  {
+    "code": "300917",
+    "name": "特发服务",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300917.day"
+  },
+  {
+    "code": "300918",
+    "name": "南山智尚",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300918.day"
+  },
+  {
+    "code": "300919",
+    "name": "中伟新材",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300919.day"
+  },
+  {
+    "code": "300920",
+    "name": "润阳科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300920.day"
+  },
+  {
+    "code": "300921",
+    "name": "南凌科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300921.day"
+  },
+  {
+    "code": "300922",
+    "name": "天秦装备",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300922.day"
+  },
+  {
+    "code": "300923",
+    "name": "研奥股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300923.day"
+  },
+  {
+    "code": "300925",
+    "name": "法本信息",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300925.day"
+  },
+  {
+    "code": "300926",
+    "name": "博俊科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300926.day"
+  },
+  {
+    "code": "300927",
+    "name": "江天化学",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300927.day"
+  },
+  {
+    "code": "300928",
+    "name": "华安鑫创",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300928.day"
+  },
+  {
+    "code": "300929",
+    "name": "华骐环保",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300929.day"
+  },
+  {
+    "code": "300930",
+    "name": "屹通新材",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300930.day"
+  },
+  {
+    "code": "300931",
+    "name": "通用电梯",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300931.day"
+  },
+  {
+    "code": "300932",
+    "name": "三友联众",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300932.day"
+  },
+  {
+    "code": "300933",
+    "name": "中辰股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300933.day"
+  },
+  {
+    "code": "300935",
+    "name": "盈建科",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300935.day"
+  },
+  {
+    "code": "300936",
+    "name": "中英科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300936.day"
+  },
+  {
+    "code": "300937",
+    "name": "药易购",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300937.day"
+  },
+  {
+    "code": "300938",
+    "name": "信测标准",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300938.day"
+  },
+  {
+    "code": "300939",
+    "name": "秋田微",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300939.day"
+  },
+  {
+    "code": "300940",
+    "name": "南极光",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300940.day"
+  },
+  {
+    "code": "300941",
+    "name": "创识科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300941.day"
+  },
+  {
+    "code": "300942",
+    "name": "易瑞生物",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300942.day"
+  },
+  {
+    "code": "300943",
+    "name": "春晖智控",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300943.day"
+  },
+  {
+    "code": "300945",
+    "name": "曼卡龙",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300945.day"
+  },
+  {
+    "code": "300946",
+    "name": "恒而达",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300946.day"
+  },
+  {
+    "code": "300947",
+    "name": "德必集团",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300947.day"
+  },
+  {
+    "code": "300948",
+    "name": "冠中生态",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300948.day"
+  },
+  {
+    "code": "300949",
+    "name": "奥雅股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300949.day"
+  },
+  {
+    "code": "300950",
+    "name": "德固特",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300950.day"
+  },
+  {
+    "code": "300951",
+    "name": "博硕科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300951.day"
+  },
+  {
+    "code": "300952",
+    "name": "恒辉安防",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300952.day"
+  },
+  {
+    "code": "300953",
+    "name": "震裕科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300953.day"
+  },
+  {
+    "code": "300955",
+    "name": "嘉亨家化",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300955.day"
+  },
+  {
+    "code": "300956",
+    "name": "英力股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300956.day"
+  },
+  {
+    "code": "300957",
+    "name": "贝泰妮",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300957.day"
+  },
+  {
+    "code": "300958",
+    "name": "建工修复",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300958.day"
+  },
+  {
+    "code": "300959",
+    "name": "线上线下",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300959.day"
+  },
+  {
+    "code": "300960",
+    "name": "通业科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300960.day"
+  },
+  {
+    "code": "300961",
+    "name": "深水海纳",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300961.day"
+  },
+  {
+    "code": "300962",
+    "name": "中金辐照",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300962.day"
+  },
+  {
+    "code": "300963",
+    "name": "中洲特材",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300963.day"
+  },
+  {
+    "code": "300964",
+    "name": "本川智能",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300964.day"
+  },
+  {
+    "code": "300965",
+    "name": "恒宇信通",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300965.day"
+  },
+  {
+    "code": "300966",
+    "name": "共同药业",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300966.day"
+  },
+  {
+    "code": "300967",
+    "name": "晓鸣股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300967.day"
+  },
+  {
+    "code": "300968",
+    "name": "格林精密",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300968.day"
+  },
+  {
+    "code": "300969",
+    "name": "恒帅股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300969.day"
+  },
+  {
+    "code": "300970",
+    "name": "华绿生物",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300970.day"
+  },
+  {
+    "code": "300971",
+    "name": "博亚精工",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300971.day"
+  },
+  {
+    "code": "300972",
+    "name": "万辰集团",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300972.day"
+  },
+  {
+    "code": "300973",
+    "name": "立高食品",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300973.day"
+  },
+  {
+    "code": "300975",
+    "name": "商络电子",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300975.day"
+  },
+  {
+    "code": "300976",
+    "name": "达瑞电子",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300976.day"
+  },
+  {
+    "code": "300977",
+    "name": "深圳瑞捷",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300977.day"
+  },
+  {
+    "code": "300978",
+    "name": "东箭科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300978.day"
+  },
+  {
+    "code": "300979",
+    "name": "华利集团",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300979.day"
+  },
+  {
+    "code": "300980",
+    "name": "祥源新材",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300980.day"
+  },
+  {
+    "code": "300981",
+    "name": "中红医疗",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300981.day"
+  },
+  {
+    "code": "300982",
+    "name": "苏文电能",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300982.day"
+  },
+  {
+    "code": "300983",
+    "name": "尤安设计",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300983.day"
+  },
+  {
+    "code": "300984",
+    "name": "金沃股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300984.day"
+  },
+  {
+    "code": "300985",
+    "name": "致远新能",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300985.day"
+  },
+  {
+    "code": "300986",
+    "name": "志特新材",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300986.day"
+  },
+  {
+    "code": "300987",
+    "name": "川网传媒",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300987.day"
+  },
+  {
+    "code": "300988",
+    "name": "津荣天宇",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300988.day"
+  },
+  {
+    "code": "300989",
+    "name": "蕾奥规划",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300989.day"
+  },
+  {
+    "code": "300990",
+    "name": "同飞股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300990.day"
+  },
+  {
+    "code": "300991",
+    "name": "创益通",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300991.day"
+  },
+  {
+    "code": "300992",
+    "name": "泰福泵业",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300992.day"
+  },
+  {
+    "code": "300993",
+    "name": "玉马科技",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300993.day"
+  },
+  {
+    "code": "300994",
+    "name": "久祺股份",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300994.day"
+  },
+  {
+    "code": "300995",
+    "name": "奇德新材",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300995.day"
+  },
+  {
+    "code": "300996",
+    "name": "普联软件",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300996.day"
+  },
+  {
+    "code": "300997",
+    "name": "欢乐家",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300997.day"
+  },
+  {
+    "code": "300998",
+    "name": "宁波方正",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300998.day"
+  },
+  {
+    "code": "300999",
+    "name": "金龙鱼",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz300999.day"
+  },
+  {
+    "code": "301300",
+    "name": "远翔新材",
+    "type": "stock",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz301300.day"
+  },
+  {
+    "code": "600300",
+    "name": "维维股份",
+    "type": "stock",
+    "exchange": "上海",
+    "source_file": "D:\\new_tdx\\vipdoc\\sh\\lday\\sh600300.day"
+  },
+  {
+    "code": "603000",
+    "name": "人民网",
+    "type": "stock",
+    "exchange": "上海",
+    "source_file": "D:\\new_tdx\\vipdoc\\sh\\lday\\sh603000.day"
+  },
+  {
+    "code": "603001",
+    "name": "奥康国际",
+    "type": "stock",
+    "exchange": "上海",
+    "source_file": "D:\\new_tdx\\vipdoc\\sh\\lday\\sh603001.day"
+  },
+  {
+    "code": "603002",
+    "name": "宏昌电子",
+    "type": "stock",
+    "exchange": "上海",
+    "source_file": "D:\\new_tdx\\vipdoc\\sh\\lday\\sh603002.day"
+  },
+  {
+    "code": "603004",
+    "name": "鼎龙科技",
+    "type": "stock",
+    "exchange": "上海",
+    "source_file": "D:\\new_tdx\\vipdoc\\sh\\lday\\sh603004.day"
+  },
+  {
+    "code": "603005",
+    "name": "晶方科技",
+    "type": "stock",
+    "exchange": "上海",
+    "source_file": "D:\\new_tdx\\vipdoc\\sh\\lday\\sh603005.day"
+  },
+  {
+    "code": "603006",
+    "name": "联明股份",
+    "type": "stock",
+    "exchange": "上海",
+    "source_file": "D:\\new_tdx\\vipdoc\\sh\\lday\\sh603006.day"
+  },
+  {
+    "code": "603007",
+    "name": "*ST花王",
+    "type": "stock",
+    "exchange": "上海",
+    "source_file": "D:\\new_tdx\\vipdoc\\sh\\lday\\sh603007.day"
+  },
+  {
+    "code": "603008",
+    "name": "喜临门",
+    "type": "stock",
+    "exchange": "上海",
+    "source_file": "D:\\new_tdx\\vipdoc\\sh\\lday\\sh603008.day"
+  },
+  {
+    "code": "603009",
+    "name": "北特科技",
+    "type": "stock",
+    "exchange": "上海",
+    "source_file": "D:\\new_tdx\\vipdoc\\sh\\lday\\sh603009.day"
+  },
+  {
+    "code": "603300",
+    "name": "海南华铁",
+    "type": "stock",
+    "exchange": "上海",
+    "source_file": "D:\\new_tdx\\vipdoc\\sh\\lday\\sh603300.day"
+  },
+  {
+    "code": "605300",
+    "name": "佳禾食品",
+    "type": "stock",
+    "exchange": "上海",
+    "source_file": "D:\\new_tdx\\vipdoc\\sh\\lday\\sh605300.day"
+  },
+  {
+    "code": "688300",
+    "name": "联瑞新材",
+    "type": "stock",
+    "exchange": "上海",
+    "source_file": "D:\\new_tdx\\vipdoc\\sh\\lday\\sh688300.day"
+  },
+  {
+    "code": "920300",
+    "name": "辰光医疗",
+    "type": "stock",
+    "exchange": "上海",
+    "source_file": "D:\\new_tdx\\vipdoc\\sh\\lday\\sh920300.day"
+  }
+]

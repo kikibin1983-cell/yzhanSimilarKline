@@ -1,15 +1,18 @@
 @echo off
-title A股K线智能分析系统
-cd /d "%~dp0"
-echo 启动A股K线智能分析系统...
+chcp 65001 >nul
+echo ========================================
+echo    A股K线智能分析系统
+echo ========================================
 echo.
-echo 注意：首次启动需要下载数据，可能需要等待30秒
+echo 正在启动应用...
+echo 请稍候...
 echo.
-echo 访问地址: http://localhost:8502
+echo 应用将在浏览器中打开
+echo 如果未自动打开，请手动访问: http://localhost:8501
 echo.
-echo 按 Ctrl+C 可停止服务
+echo 按 Ctrl+C 停止应用
+echo ========================================
 echo.
-echo 启动中...
-call venv\Scripts\activate.bat
-python -m streamlit run streamlit_app.py --server.headless=true --server.port=8502
+
+venv\Scripts\python.exe -m streamlit run streamlit_app.py --server.port 8501 --server.address localhost --browser.gatherUsageStats false
 pause

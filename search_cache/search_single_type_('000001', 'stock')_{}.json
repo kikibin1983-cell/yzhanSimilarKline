@@ -3,6 +3,7 @@
     "code": "000001",
     "name": "平安银行",
     "type": "stock",
-    "exchange": ""
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz000001.day"
   }
 ]

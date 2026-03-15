@@ -3,6 +3,7 @@
     "code": "000001",
     "name": "上证指数",
     "type": "index",
-    "exchange": ""
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sh\\lday\\sh999999.day"
   }
 ]

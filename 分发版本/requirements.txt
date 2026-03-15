@@ -1,0 +1,40 @@
+# A股K线智能分析系统 - 依赖包列表
+
+# Web应用框架
+streamlit==1.54.0
+
+# 数据处理与分析
+pandas==2.2.3
+numpy==1.26.4
+scipy==1.13.1
+
+# 数据可视化
+plotly==5.24.1
+
+# 机器学习
+scikit-learn==1.5.2
+
+# 自然语言处理
+jieba==0.42.1
+
+# 金融数据API
+akshare==1.13.42
+
+# 网络请求
+requests==2.32.3
+
+# 配置管理
+python-dotenv==1.0.1
+
+# 图像处理
+Pillow==10.4.0
+
+# 其他工具
+altair==5.4.1
+pyarrow==17.0.0
+toml==0.10.2
+watchdog==4.0.1
+pygments==2.18.0
+click==8.1.7
+rich==13.9.4
+packaging==24.1

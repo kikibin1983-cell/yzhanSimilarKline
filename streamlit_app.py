@@ -26,7 +26,304 @@ import glob
 # 使用akshare获取数据
 import akshare as ak
 
-st.set_page_config(page_title="A股K线智能分析系统", layout="wide")
+# ============ 万向金枢 - 用户管理模块 ============
+DEFAULT_ADMIN = {"username": "admin", "password_hash": hashlib.sha256("admin123".encode()).hexdigest(), "role": "admin"}
+
+def init_user_system():
+    if 'users' not in st.session_state:
+        st.session_state.users = {"admin": DEFAULT_ADMIN}
+    if 'logged_in' not in st.session_state:
+        st.session_state.logged_in = False
+    if 'current_user' not in st.session_state:
+        st.session_state.current_user = None
+
+def verify_password(username, password):
+    if username in st.session_state.users:
+        return st.session_state.users[username]["password_hash"] == hashlib.sha256(password.encode()).hexdigest()
+    return False
+
+def login_user(username):
+    st.session_state.logged_in = True
+    st.session_state.current_user = username
+
+def logout_user():
+    st.session_state.logged_in = False
+    st.session_state.current_user = None
+
+def show_login_page():
+    st.set_page_config(page_title="万向金枢 | Universal Golden Hub", page_icon="🧭", layout="centered", initial_sidebar_state="collapsed")
+    st.markdown("""
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&display=swap');
+    .stApp { background: linear-gradient(135deg, #0a0a0f 0%, #1a1a2e 50%, #16213e 100%); }
+    .login-container { max-width: 420px; margin: 60px auto; padding: 50px 40px; background: rgba(20, 20, 35, 0.7); backdrop-filter: blur(20px); border-radius: 24px; border: 1px solid rgba(212, 175, 55, 0.3); box-shadow: 0 25px 50px rgba(0,0,0,0.5), 0 0 100px rgba(212,175,55,0.1), inset 0 1px 0 rgba(255,255,255,0.1); text-align: center; position: relative; overflow: hidden; }
+    .login-container::before { content: ''; position: absolute; top: 0; left: -100%; width: 200%; height: 3px; background: linear-gradient(90deg, transparent, #D4AF37, #FFD700, #D4AF37, transparent); animation: shimmer 3s infinite; }
+    @keyframes shimmer { 0% { transform: translateX(-100%); } 100% { transform: translateX(50%); } }
+    .compass-icon { font-size: 72px; margin-bottom: 15px; filter: drop-shadow(0 0 30px rgba(212, 175, 55, 0.6)); }
+    .brand-title { font-family: 'Noto Serif SC', serif; font-size: 38px; font-weight: 700; background: linear-gradient(135deg, #D4AF37 0%, #FFD700 30%, #FFF8DC 50%, #FFD700 70%, #D4AF37 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; margin-bottom: 5px; letter-spacing: 10px; }
+    .brand-subtitle { font-size: 11px; letter-spacing: 5px; color: rgba(212, 175, 55, 0.8); text-transform: uppercase; margin-bottom: 5px; }
+    .brand-tagline { font-size: 10px; letter-spacing: 3px; color: rgba(255,255,255,0.4); text-transform: uppercase; margin-bottom: 30px; }
+    .divider { width: 60px; height: 2px; background: linear-gradient(90deg, transparent, #D4AF37, transparent); margin: 25px auto; }
+    .login-title { font-size: 16px; color: rgba(255,255,255,0.9); margin-bottom: 25px; font-weight: 300; letter-spacing: 3px; }
+    div[data-testid="stTextInput"] > div > div > input { background: rgba(10, 10, 15, 0.8) !important; border: 1px solid rgba(212, 175, 55, 0.3) !important; border-radius: 12px !important; color: #FFD700 !important; padding: 14px 18px !important; font-size: 15px !important; }
+    div[data-testid="stTextInput"] > div > div > input:focus { border-color: #D4AF37 !important; box-shadow: 0 0 20px rgba(212, 175, 55, 0.3) !important; }
+    div[data-testid="stTextInput"] label { color: rgba(255,255,255,0.6) !important; font-size: 12px !important; letter-spacing: 1px !important; }
+    .stButton > button { width: 100%; padding: 16px !important; background: linear-gradient(135deg, #D4AF37 0%, #B8941F 100%) !important; color: #0a0a0f !important; border: none !important; border-radius: 12px !important; font-size: 15px !important; font-weight: 600 !important; letter-spacing: 4px !important; cursor: pointer !important; transition: all 0.3s ease !important; text-transform: uppercase !important; margin-top: 15px !important; }
+    .stButton > button:hover { transform: translateY(-2px) !important; box-shadow: 0 10px 30px rgba(212, 175, 55, 0.4) !important; background: linear-gradient(135deg, #FFD700 0%, #D4AF37 100%) !important; }
+    .footer-text { margin-top: 35px; font-size: 10px; color: rgba(255,255,255,0.25); letter-spacing: 1px; }
+    #MainMenu, footer, header { visibility: hidden !important; }
+    </style>
+    <div class="login-container">
+        <div style="font-size: 72px; margin-bottom: 10px;">🧭</div>
+        <div class="brand-subtitle">Universal Golden Hub</div>
+        <div class="brand-title">万向金枢</div>
+        <div class="brand-tagline">Stock Backtesting System</div>
+        <div class="divider"></div>
+        <div class="login-title">系统登录</div>
+    </div>
+    """, unsafe_allow_html=True)
+    with st.form("login_form"):
+        username = st.text_input("用户名", placeholder="请输入用户名")
+        password = st.text_input("密码", type="password", placeholder="请输入密码")
+        if st.form_submit_button("登 录"):
+            if verify_password(username, password):
+                login_user(username)
+                st.success("登录成功！")
+                time.sleep(0.5)
+                st.rerun()
+            else:
+                st.error("用户名或密码错误")
+    st.markdown('<div class="footer-text">默认管理员账户: admin / admin123</div>', unsafe_allow_html=True)
+    st.stop()
+
+init_user_system()
+if not st.session_state.logged_in:
+    show_login_page()
+
+# ============ 主应用开始 ============
+
+@st.cache_data(ttl=3600)
+def get_securities_name_map():
+    """获取证券代码到名称的映射"""
+    try:
+        from tdx_reader import get_tdx_reader
+        reader = get_tdx_reader()
+        available = reader.get_available_codes()
+        
+        name_map = {}
+        # 合并上海和深圳的代码
+        for code in available.get('sh', []):
+            if isinstance(code, dict):
+                name_map[code.get('code', '')] = code.get('name', '')
+            else:
+                name_map[str(code)] = str(code)
+        
+        for code in available.get('sz', []):
+            if isinstance(code, dict):
+                name_map[code.get('code', '')] = code.get('name', '')
+            else:
+                name_map[str(code)] = str(code)
+        
+        return name_map
+    except Exception as e:
+        # 返回空映射
+        return {}
+
+def get_exchange_from_code(code: str) -> str:
+    """根据代码识别交易所"""
+    if not code:
+        return '未知'
+    code = str(code)
+    if code.startswith('6') or code.startswith('5') or code.startswith('9'):
+        return '上海'
+    elif code.startswith('0') or code.startswith('3') or code.startswith('1') or code.startswith('2'):
+        return '深圳'
+    elif code.startswith('sh'):
+        return '上海'
+    elif code.startswith('sz'):
+        return '深圳'
+    else:
+        return '未知'
+
+def get_detailed_type(code: str, security_type: str = 'stock') -> str:
+    """
+    根据代码识别详细的证券类型
+    
+    分类规则：
+    - 指数：000001, 399001, 000300, 000016, 000905, 000688 等
+    - 上海主板：600, 601, 603, 605 开头
+    - 上海科创板：688 开头
+    - 上海B股：900 开头
+    - 上海基金：50, 51 开头
+    - 深圳主板：000 开头
+    - 深圳中小板：002 开头
+    - 深圳创业板：300 开头
+    - 深圳B股：200 开头
+    - 深圳基金：15, 16, 18 开头
+    - 北京交易所：43, 83, 87 开头
+    - 可转债：11, 12 开头
+    """
+    if not code:
+        return '未知'
+    
+    code = str(code).strip()
+    
+    # 移除交易所前缀
+    if code.lower().startswith('sh'):
+        code = code[2:]
+    elif code.lower().startswith('sz'):
+        code = code[2:]
+    
+    # 指数判断
+    if security_type == 'index':
+        return '指数'
+    
+    # ETF判断（5开头或15开头）
+    if code.startswith('5') or code.startswith('15'):
+        return 'ETF'
+    
+    # 上海市场
+    if code.startswith('6'):
+        if code.startswith('60'):
+            return '上证主板'
+        elif code.startswith('68'):
+            return '科创板'
+        elif code.startswith('69'):
+            return '科创板'
+    elif code.startswith('9'):
+        return '上海B股'
+    
+    # 深圳市场
+    elif code.startswith('0'):
+        if code.startswith('000'):
+            return '深证主板'
+        elif code.startswith('002'):
+            return '中小板'
+        elif code.startswith('003'):
+            return '中小板'
+    elif code.startswith('3'):
+        return '创业板'
+    elif code.startswith('2'):
+        return '深圳B股'
+    
+    # 北京交易所
+    elif code.startswith('4') or code.startswith('8'):
+        return '北交所'
+    
+    # 可转债
+    elif code.startswith('11') or code.startswith('12'):
+        return '可转债'
+    
+    # LOF基金
+    elif code.startswith('16') or code.startswith('18'):
+        return 'LOF基金'
+    
+    return '其他'
+
+# 自选股持久化存储
+WATCHLIST_FILE = "./watchlist.json"
+
+def load_watchlist():
+    """从磁盘加载自选股列表"""
+    try:
+        if os.path.exists(WATCHLIST_FILE):
+            with open(WATCHLIST_FILE, 'r', encoding='utf-8') as f:
+                return json.load(f)
+    except Exception as e:
+        print(f"加载自选股失败: {e}")
+    return []
+
+def save_watchlist(watchlist):
+    """保存自选股列表到磁盘"""
+    try:
+        with open(WATCHLIST_FILE, 'w', encoding='utf-8') as f:
+            json.dump(watchlist, f, ensure_ascii=False, indent=2)
+    except Exception as e:
+        print(f"保存自选股失败: {e}")
+
+def get_stock_latest_data(code, security_type='stock'):
+    """获取股票最新交易日数据"""
+    try:
+        df = get_market_data(code, security_type, days=30)
+        if df is not None and not df.empty:
+            latest = df.iloc[-1]
+            prev = df.iloc[-2] if len(df) > 1 else latest
+            
+            change_pct = (latest['close'] - prev['close']) / prev['close'] * 100
+            change_amount = latest['close'] - prev['close']
+            
+            return {
+                'code': code,
+                'price': latest['close'],
+                'change_pct': change_pct,
+                'change_amount': change_amount,
+                'volume': latest['volume'],
+                'trade_date': latest['trade_date'].strftime('%Y-%m-%d') if hasattr(latest['trade_date'], 'strftime') else str(latest['trade_date'])
+            }
+    except Exception as e:
+        print(f"获取{code}最新数据失败: {e}")
+    return None
+
+def get_tdx_file_path_for_code(code: str, security_type: str = 'stock') -> str:
+    """获取TDX源文件路径（显示理论路径，不检查文件是否存在）"""
+    try:
+        tdx_path = st.session_state.get('tdx_data_path', r"D:\new_tdx\vipdoc")
+        
+        # 处理指数代码映射
+        actual_code = code
+        if security_type == 'index':
+            # 上证指数映射
+            if code == '000001':
+                actual_code = '999999'
+            # 深证成指已经是399001
+        
+        # 获取文件路径
+        if actual_code.startswith('6') or actual_code.startswith('5') or actual_code.startswith('9'):
+            exchange = 'sh'
+        elif actual_code.startswith('0') or actual_code.startswith('3') or actual_code.startswith('1') or actual_code.startswith('2'):
+            exchange = 'sz'
+        else:
+            # 尝试其他规则
+            if actual_code.startswith('sh'):
+                exchange = 'sh'
+                actual_code = actual_code[2:]
+            elif actual_code.startswith('sz'):
+                exchange = 'sz'
+                actual_code = actual_code[2:]
+            else:
+                return ''
+        
+        file_name = f"{exchange}{actual_code}.day"
+        file_path = os.path.join(tdx_path, exchange, 'lday', file_name)
+        
+        return file_path
+    except Exception as e:
+        return ''
+
+def get_stock_name_by_code(code, name_map=None):
+    """根据股票代码获取股票名称"""
+    if name_map is None:
+        name_map = {}
+    
+    # 确保code是字符串
+    code_str = str(code) if code is not None else ''
+    
+    # 尝试直接查找
+    if code_str in name_map:
+        return name_map[code_str]
+    
+    # 尝试去掉前缀再次查找
+    for prefix in ['sh', 'sz', 'SH', 'SZ']:
+        if code_str.lower().startswith(prefix):
+            code_without_prefix = code_str[2:]
+            if code_without_prefix in name_map:
+                return name_map[code_without_prefix]
+    
+    # 未找到则返回代码本身
+    return code_str
+
+
+st.set_page_config(page_title="万向金枢 | Universal Golden Hub", page_icon="🧭", layout="wide")
 
 # 加载 .env 文件
 load_dotenv()
@@ -153,18 +450,23 @@ def load_security_data(security_type: str) -> pd.DataFrame:
             # 获取指数列表
             df = ak.index_stock_info()
             df = df[['index_code', 'display_name']].rename(columns={'index_code': 'index_code', 'display_name': 'name'})
+            # 添加交易所列
+            df['exchange'] = df['index_code'].apply(get_exchange_from_code)
             return df
         elif security_type == 'stock':
             # 获取A股股票列表
             df = ak.stock_info_a_code_name()
             df = df.rename(columns={'code': 'stock_code', 'name': 'short_name'})
+            # 添加交易所列
+            df['exchange'] = df['stock_code'].apply(get_exchange_from_code)
             return df
         elif security_type == 'etf':
             # 从TDX获取ETF列表
             try:
                 # 尝试从TDX读取ETF数据
                 from tdx_reader import get_tdx_reader
-                reader = get_tdx_reader()
+                tdx_path = st.session_state.get('tdx_data_path', r"D:\new_tdx\vipdoc")
+                reader = get_tdx_reader(tdx_path)
                 available_codes = reader.get_available_codes()
                 
                 # 创建ETF列表（简化版，实际需要更精确的ETF识别）
@@ -175,7 +477,8 @@ def load_security_data(security_type: str) -> pd.DataFrame:
                         if code.startswith('5') or code.startswith('15'):
                             etf_codes.append({
                                 'fund_code': code,
-                                'short_name': f'ETF-{code}'  # 占位名称
+                                'short_name': f'ETF-{code}',  # 占位名称
+                                'exchange': '上海' if exchange == 'sh' else '深圳'
                             })
                 
                 df = pd.DataFrame(etf_codes)
@@ -185,7 +488,7 @@ def load_security_data(security_type: str) -> pd.DataFrame:
             except Exception as e:
                 print(f"从TDX加载ETF数据时出错: {str(e)}")
                 # 返回空DataFrame作为降级方案
-                return pd.DataFrame(columns=['fund_code', 'short_name'])
+                return pd.DataFrame(columns=['fund_code', 'short_name', 'exchange'])
         else:
             return pd.DataFrame()
     except Exception as e:
@@ -270,11 +573,20 @@ def search_single_type(query: str, security_type: str) -> List[Dict]:
             if pd.isna(name_value):
                 name_value = ''
             
+            # 获取交易所
+            exchange_value = row.get('exchange', '')
+            if pd.isna(exchange_value) or not exchange_value:
+                exchange_value = get_exchange_from_code(str(code_value))
+            
+            # 获取源文件路径
+            source_file = get_tdx_file_path_for_code(str(code_value), security_type)
+            
             results.append({
                 'code': str(code_value) if code_value is not None else '',
                 'name': str(name_value) if name_value is not None else '',
                 'type': security_type,
-                'exchange': str(row.get('exchange', '')) if not pd.isna(row.get('exchange', '')) else ''
+                'exchange': str(exchange_value),
+                'source_file': source_file
             })
             
     except Exception as e:
@@ -372,10 +684,15 @@ def search_securities(query: str) -> List[Dict]:
     
     return all_results
 
-def get_market_data(code, security_type, days=365*3):
-    """获取市场数据 - 使用本地通达信数据"""
+def get_market_data(code, security_type, days=None):
+    """获取市场数据 - 使用本地通达信数据
+    
+    参数:
+        code: 证券代码
+        security_type: 证券类型
+        days: 获取多少天的数据，None表示获取所有可用数据
+    """
     end_date = datetime.now()
-    start_date = end_date - timedelta(days=days)
     
     # 导入TDX读取器
     try:
@@ -385,7 +702,12 @@ def get_market_data(code, security_type, days=365*3):
         return None
     
     # 转换日期格式为YYYYMMDD
-    start_date_str = start_date.strftime('%Y%m%d')
+    if days is not None:
+        start_date = end_date - timedelta(days=days)
+        start_date_str = start_date.strftime('%Y%m%d')
+    else:
+        start_date_str = None
+    
     end_date_str = end_date.strftime('%Y%m%d')
     
     try:
@@ -438,6 +760,93 @@ def get_market_data(code, security_type, days=365*3):
     except Exception as e:
         print(f"从TDX获取数据时出错: {str(e)}")
         return None
+
+def get_stock_category(code: str) -> str:
+    """
+    根据股票代码判断股票类型分类
+    
+    参数:
+        code: 股票代码
+    
+    返回:
+        股票类型: '上证主板', '科创板', '深证主板', '中小板', '创业板', '北交所', 'ETF基金', '可转债', '其他'
+    """
+    if not code or not isinstance(code, str):
+        return '其他'
+    
+    code = code.strip()
+    
+    # 上海证券交易所
+    if code.startswith('6'):
+        # 600/601/603/605: 上证主板
+        if code[:3] in ['600', '601', '603', '605']:
+            return '上证主板'
+        # 688: 科创板
+        elif code.startswith('688'):
+            return '科创板'
+        # 589/58x: ETF基金
+        elif code.startswith('5'):
+            return 'ETF基金'
+        else:
+            return '上证其他'
+    
+    # 深圳证券交易所
+    elif code.startswith('0'):
+        # 000/001: 深证主板
+        if code[:3] in ['000', '001']:
+            return '深证主板'
+        # 002/003: 中小板
+        elif code[:3] in ['002', '003']:
+            return '中小板'
+        else:
+            return '深证其他'
+    
+    elif code.startswith('3'):
+        # 300/301: 创业板
+        if code[:3] in ['300', '301']:
+            return '创业板'
+        else:
+            return '深证其他'
+    
+    # 北京证券交易所/新三板
+    elif code.startswith('4') or code.startswith('8'):
+        # 430/83x/87x: 北交所/新三板
+        if code.startswith('43') or code.startswith('83') or code.startswith('87'):
+            return '北交所'
+        else:
+            return '新三板'
+    
+    # ETF基金 (深交所)
+    elif code.startswith('15') or code.startswith('16') or code.startswith('17') or code.startswith('18') or code.startswith('19'):
+        return 'ETF基金'
+    
+    # 可转债
+    elif code.startswith('1'):
+        return '可转债'
+    
+    # 指数
+    elif code in ['000001', '999999', '399001', '399006', '000300']:
+        return '指数'
+    
+    return '其他'
+
+
+def count_stocks_by_category(codes: list) -> dict:
+    """
+    统计股票代码列表中各分类的数量
+    
+    参数:
+        codes: 股票代码列表
+    
+    返回:
+        各分类的数量字典
+    """
+    categories = {}
+    for code in codes:
+        category = get_stock_category(code)
+        categories[category] = categories.get(category, 0) + 1
+    return categories
+
 
 def normalize_window(window):
     """标准化价格序列"""
@@ -912,11 +1321,12 @@ def calculate_comprehensive_similarity(df1, df2, market_volatility=1.0, return_c
     返回：
     - 综合相似度（0-1之间）或包含详细组件的字典（return_components=True）
     """
-    # 基础权重：默认形态优先（趋势/量能/形态/MACD/KDJ/状态）
+    # 基础权重：默认形态优先（趋势/量能/形态/MA/MACD/KDJ/状态）
     weights = {
         'trend': 0.0,
         'volume': 0.0,
-        'pattern': 1.0,
+        'pattern': 0.0,
+        'ma': 0.0,
         'macd': 0.0,
         'kdj': 0.0,
         'regime': 0.0,
@@ -954,7 +1364,7 @@ def calculate_comprehensive_similarity(df1, df2, market_volatility=1.0, return_c
                 'regime': 0.0,
                 'return_rank_penalty': 1.0,
             },
-            'weights': {'trend': 0.0, 'volume': 0.0, 'pattern': 1.0, 'macd': 0.0, 'kdj': 0.0, 'regime': 0.0},
+            'weights': {'trend': 0.0, 'volume': 0.0, 'pattern': 1.0, 'ma': 0.0, 'macd': 0.0, 'kdj': 0.0, 'regime': 0.0},
             'meta': {'aligned_length': 0, 'market_volatility': market_volatility}
         }
         if return_components:
@@ -1001,11 +1411,15 @@ def calculate_comprehensive_similarity(df1, df2, market_volatility=1.0, return_c
     pattern_sim = calculate_pattern_similarity(aligned_df1, aligned_df2)
     regime_sim = calculate_regime_similarity(aligned_df1, aligned_df2)
     
+    # 计算MA相似度
+    ma_sim = calculate_ma_similarity(aligned_df1, aligned_df2)
+    
     # 计算加权综合相似度
     total_similarity = (
         trend_sim * weights['trend'] +
         volume_sim * weights['volume'] +
         pattern_sim * weights['pattern'] +
+        ma_sim * weights['ma'] +
         macd_sim * weights['macd'] +
         kdj_sim * weights['kdj'] +
         regime_sim * weights['regime']
@@ -1020,8 +1434,9 @@ def calculate_comprehensive_similarity(df1, df2, market_volatility=1.0, return_c
         'components': {
             'trend': trend_sim,
             'volume': volume_sim,
-            'technical': technical_sim_result,
             'pattern': pattern_sim,
+            'ma': ma_sim,
+            'technical': technical_sim_result,
             'regime': regime_sim,
             'return_rank_penalty': robustness_penalty,
         },
@@ -1093,6 +1508,151 @@ def calculate_return_rank_penalty(df1, df2):
         return 0.7 + 0.3 * norm_corr
     except Exception:
         return 1.0
+
+def calculate_ma_similarity(df1, df2, ma_windows=None):
+    """
+    计算均线相似度 - 多时间框架MA收敛评分
+    
+    算法逻辑:
+    1. 计算多周期MA (5, 10, 20, 30, 60)
+    2. 价格与MA的距离相似度 (30%)
+    3. MA排列形态相似度 (40%) - 多头排列/空头排列/纠缠
+    4. MA斜率相似度 (30%) - 趋势方向与强度
+    
+    参数:
+        df1, df2: 包含close价格的DataFrame
+        ma_windows: MA周期列表, 默认[5, 10, 20, 30, 60, 120]
+    
+    返回:
+        similarity: 0-1之间的相似度分数
+    """
+    try:
+        if ma_windows is None:
+            ma_windows = [5, 10, 20, 30, 60, 120]
+        
+        # 确保数据长度足够
+        min_len = min(len(df1), len(df2))
+        if min_len < max(ma_windows):
+            # 数据不足时使用较短的MA周期
+            ma_windows = [w for w in ma_windows if w <= min_len]
+            if not ma_windows:
+                return 0.5  # 默认中等相似度
+        
+        close1 = df1['close'].tail(min_len).values
+        close2 = df2['close'].tail(min_len).values
+        
+        # 计算各周期MA
+        ma_data1 = {}
+        ma_data2 = {}
+        for window in ma_windows:
+            ma_data1[window] = pd.Series(close1).rolling(window=window, min_periods=1).mean().values
+            ma_data2[window] = pd.Series(close2).rolling(window=window, min_periods=1).mean().values
+        
+        # 1. 价格与MA距离相似度 (30%)
+        # 计算最新价格相对于各MA的位置
+        def price_ma_distance(close, ma_dict):
+            """计算价格与MA的平均偏离度"""
+            distances = []
+            weights = []
+            for window, ma in ma_dict.items():
+                if len(ma) > 0 and ma[-1] != 0:
+                    dist = (close[-1] - ma[-1]) / ma[-1]
+                    distances.append(dist)
+                    # 短周期MA权重更高
+                    weights.append(1.0 / window)
+            if not distances:
+                return 0
+            # 加权平均
+            return np.average(distances, weights=weights)
+        
+        dist1 = price_ma_distance(close1, ma_data1)
+        dist2 = price_ma_distance(close2, ma_data2)
+        distance_sim = 1 / (1 + abs(dist1 - dist2) * 10)
+        
+        # 2. MA排列形态相似度 (40%)
+        # 判断多头排列(短>中>长)、空头排列、纠缠状态
+        def ma_alignment_pattern(ma_dict):
+            """
+            返回MA排列特征向量
+            [多头排列强度, 空头排列强度, 纠缠度]
+            """
+            if len(ma_dict) < 3:
+                return [0.33, 0.33, 0.34]
+            
+            # 获取最新MA值
+            latest_ma = {w: ma[-1] for w, ma in ma_dict.items() if len(ma) > 0}
+            if len(latest_ma) < 3:
+                return [0.33, 0.33, 0.34]
+            
+            sorted_windows = sorted(latest_ma.keys())
+            values = [latest_ma[w] for w in sorted_windows]
+            
+            # 计算相邻MA的相对位置
+            bullish_count = 0  # 短MA在长MA之上
+            bearish_count = 0  # 短MA在长MA之下
+            
+            for i in range(len(values) - 1):
+                if values[i] > values[i + 1]:  # 短周期MA > 长周期MA
+                    bullish_count += 1
+                elif values[i] < values[i + 1]:
+                    bearish_count += 1
+            
+            total_pairs = len(values) - 1
+            if total_pairs == 0:
+                return [0.33, 0.33, 0.34]
+            
+            # 计算纠缠度 (MA之间的离散程度)
+            ma_mean = np.mean(values)
+            ma_std = np.std(values)
+            dispersion = ma_std / ma_mean if ma_mean != 0 else 0
+            entanglement = max(0, 1 - dispersion * 20)  # 越纠缠值越大
+            
+            bullish_score = bullish_count / total_pairs
+            bearish_score = bearish_count / total_pairs
+            
+            # 归一化
+            total = bullish_score + bearish_score + entanglement
+            if total > 0:
+                return [
+                    bullish_score / total,
+                    bearish_score / total,
+                    entanglement / total
+                ]
+            return [0.33, 0.33, 0.34]
+        
+        pattern1 = ma_alignment_pattern(ma_data1)
+        pattern2 = ma_alignment_pattern(ma_data2)
+        
+        # 计算模式相似度 (余弦相似度)
+        dot_product = sum(p1 * p2 for p1, p2 in zip(pattern1, pattern2))
+        norm1 = np.sqrt(sum(p * p for p in pattern1))
+        norm2 = np.sqrt(sum(p * p for p in pattern2))
+        pattern_sim = dot_product / (norm1 * norm2) if norm1 > 0 and norm2 > 0 else 0.5
+        
+        # 3. MA斜率相似度 (30%)
+        # 计算各MA的近期斜率
+        def ma_slopes(ma_dict, periods=5):
+            """计算各MA的近期斜率"""
+            slopes = []
+            for window, ma in ma_dict.items():
+                if len(ma) >= periods:
+                    recent = ma[-periods:]
+                    slope = (recent[-1] - recent[0]) / recent[0] if recent[0] != 0 else 0
+                    slopes.append(slope)
+            return np.mean(slopes) if slopes else 0
+        
+        slope1 = ma_slopes(ma_data1)
+        slope2 = ma_slopes(ma_data2)
+        slope_sim = 1 / (1 + abs(slope1 - slope2) * 20)
+        
+        # 综合评分
+        total_sim = 0.3 * distance_sim + 0.4 * pattern_sim + 0.3 * slope_sim
+        
+        return max(0.0, min(1.0, total_sim))
+        
+    except Exception as e:
+        print(f"MA相似度计算出错: {e}")
+        return 0.5
 
 def kline_conversion_cache(cache_dir="./kline_cache", expire_days=7):
     """
@@ -1392,21 +1952,27 @@ def _get_period_cache_status(period_type: str, source_code: Optional[str]) -> di
             pass
     return status
 
-def _prepare_similarity_df(input_df, period_type='daily', window_size=30, force_update=False, source_code: Optional[str] = None):
+def _prepare_similarity_df(input_df, period_type='daily', window_size=30, force_update=False, source_code: Optional[str] = None, 
+                            start_date=None, end_date=None, custom_future_days=None, anchor_date=None):
     """返回按周期转换后的数据框、实际窗口和未来天数。
     
     参数：
     - input_df: 输入的日线数据
     - period_type: 周期类型 ('daily', 'weekly', 'monthly')
-    - window_size: 窗口大小
+    - window_size: 窗口大小（匹配周期数）
     - force_update: 是否强制更新缓存（忽略缓存，强制重新计算）
     - source_code: 标的代码（用于定位周/月缓存快照）
+    - start_date: 开始日期（可选，用于时间范围筛选）
+    - end_date: 结束日期（可选，用于时间范围筛选）
+    - custom_future_days: 自定义预测周期数（可选，None表示使用默认值）
+    - anchor_date: 锚点日期（可选，用于截取历史某段K线。指定后，将从该日期往前推window_size根K线作为匹配区间）
     """
     future_days = 20
     if period_type == 'weekly':
-        # 周线相似度比较窗口固定为20根K线
-        window_size = 20
-        future_days = 4
+        # 周线相似度比较默认窗口为20根K线
+        if window_size == 30:  # 如果未自定义，使用默认值
+            window_size = 20
+        future_days = 4 if custom_future_days is None else custom_future_days
         if force_update:
             # 强制更新时直接计算，不使用缓存
             transformed_df = _convert_to_weekly_nocache(input_df)
@@ -1420,9 +1986,10 @@ def _prepare_similarity_df(input_df, period_type='daily', window_size=30, force_
         if transformed_df is not None and 'is_valid_period' in transformed_df.columns:
             transformed_df = transformed_df[transformed_df['is_valid_period'] == True].copy()
     elif period_type == 'monthly':
-        # 月线相似度比较窗口固定为20根K线
-        window_size = 20
-        future_days = 1
+        # 月线相似度比较默认窗口为20根K线
+        if window_size == 30:  # 如果未自定义，使用默认值
+            window_size = 20
+        future_days = 1 if custom_future_days is None else custom_future_days
         if force_update:
             # 强制更新时直接计算，不使用缓存
             transformed_df = _convert_to_monthly_nocache(input_df)
@@ -1436,7 +2003,35 @@ def _prepare_similarity_df(input_df, period_type='daily', window_size=30, force_
         if transformed_df is not None and 'is_valid_period' in transformed_df.columns:
             transformed_df = transformed_df[transformed_df['is_valid_period'] == True].copy()
     else:
+        # 日线默认值
+        future_days = 20 if custom_future_days is None else custom_future_days
         transformed_df = input_df
+
+    # 时间范围筛选
+    if transformed_df is not None and not transformed_df.empty:
+        if 'trade_date' in transformed_df.columns:
+            # 确保trade_date是datetime类型
+            if not pd.api.types.is_datetime64_any_dtype(transformed_df['trade_date']):
+                transformed_df['trade_date'] = pd.to_datetime(transformed_df['trade_date'])
+            
+            # 传统模式：应用开始和结束日期筛选
+            # 注意：锚点日期模式不再这里过滤数据，而是在_find_patterns_in_single_series中处理
+            # 这样可以保留完整历史数据用于匹配
+            if start_date is not None:
+                start_date = pd.to_datetime(start_date)
+                transformed_df = transformed_df[transformed_df['trade_date'] >= start_date]
+            
+            # 应用结束日期筛选
+            if end_date is not None:
+                end_date = pd.to_datetime(end_date)
+                transformed_df = transformed_df[transformed_df['trade_date'] <= end_date]
+            
+            # 锚点日期模式：只应用结束日期筛选（anchor_date作为结束日期）
+            # 但保留锚点日期前的所有历史数据，用于相似度匹配
+            if anchor_date is not None:
+                anchor_datetime = pd.to_datetime(anchor_date)
+                # 筛选anchor_date之前的数据，保留所有历史数据
+                transformed_df = transformed_df[transformed_df['trade_date'] <= anchor_datetime].copy()
 
     return transformed_df, int(window_size), int(future_days)
 
@@ -1575,7 +2170,8 @@ def _find_patterns_in_single_series(
     source_code,
     source_type='history',
     current_df_for_period=None,
-    similarity_weights=None
+    similarity_weights=None,
+    anchor_date=None
 ):
     """在单个标的序列内寻找历史相似模式。"""
     if data_df is None or data_df.empty:
@@ -1592,14 +2188,43 @@ def _find_patterns_in_single_series(
     if current_df_for_period is None:
         current_df_for_period = df_work
 
-    recent_df = df_work.tail(window_size).copy()
-    if len(df_work) < window_size * 2 or len(recent_df) < window_size:
+    # 处理锚点日期模式：提取锚点日期前window_size根K线作为匹配模式
+    if anchor_date is not None:
+        anchor_datetime = pd.to_datetime(anchor_date)
+        # 找到锚点日期前的数据
+        df_before_anchor = df_work[df_work['trade_date'] <= anchor_datetime].copy()
+        if len(df_before_anchor) >= window_size:
+            # 取锚点日期前最后window_size根K线作为匹配模式
+            recent_df = df_before_anchor.tail(window_size).copy()
+        else:
+            # 数据不足，无法使用锚点日期
+            st.warning(f"⚠️ 锚点日期 {anchor_date.strftime('%Y-%m-%d')} 前只有 {len(df_before_anchor)} 根K线，少于设定的 {window_size} 根")
+            return []
+    else:
+        # 默认模式：取最后window_size根K线
+        recent_df = df_work.tail(window_size).copy()
+    
+    # 检查是否有足够的历史数据进行匹配
+    # 注意：当有锚点日期时，使用锚点日期前的所有历史数据，而不是只使用window_size根
+    if anchor_date is not None:
+        # 锚点日期模式：需要锚点日期前至少有 window_size * 2 根数据（用于匹配的模式 + 历史模式）
+        anchor_datetime = pd.to_datetime(anchor_date)
+        df_before_anchor = df_work[df_work['trade_date'] <= anchor_datetime].copy()
+        if len(df_before_anchor) < window_size * 2:
+            st.warning(f"⚠️ 锚点日期 {anchor_date.strftime('%Y-%m-%d')} 前数据不足（{len(df_before_anchor)} 根），需要至少 {window_size * 2} 根才能进行相似度匹配")
+            return []
+        # 历史数据搜索范围：锚点日期前的所有数据，排除最后window_size根（那是匹配模式本身）
+        max_i = len(df_before_anchor) - (window_size + future_days)
+    else:
+        # 默认模式：使用全部数据
+        if len(df_work) < window_size * 2 or len(recent_df) < window_size:
+            return []
+        max_i = len(df_work) - (window_size * 2 + future_days)
+    
+    if max_i <= 0:
         return []
 
     similar_patterns = []
-    max_i = len(df_work) - (window_size * 2 + future_days)
-    if max_i <= 0:
-        return []
 
     if use_optimized:
         def _is_pattern_only(weights):
@@ -1609,6 +2234,7 @@ def _find_patterns_in_single_series(
             others = (
                 float(weights.get('trend', 0.0)) +
                 float(weights.get('volume', 0.0)) +
+                float(weights.get('ma', 0.0)) +
                 float(weights.get('macd', 0.0)) +
                 float(weights.get('kdj', 0.0)) +
                 float(weights.get('regime', 0.0))
@@ -1671,9 +2297,35 @@ def _find_patterns_in_single_series(
 
                 corr_score = np.clip((body_corr * 0.5 + upper_corr * 0.25 + lower_corr * 0.25 + 1.0) / 2.0, 0.0, 1.0)
                 similarities = np.clip(corr_score * 0.7 + dist_score * 0.3, 0.0, 1.0)
-                top_indices = np.argsort(similarities)[-top_n:][::-1]
+                top_indices = np.argsort(similarities)[-top_n * 3:][::-1]  # 多取3倍候选，用于去重筛选
 
-                for i in top_indices:
+                # 时间间隔过滤：只要有任何时间重合就过滤
+                selected_indices = []
+                selected_ranges = []  # 存储已选中的日期范围 [(start_date, end_date), ...]
+                
+                for idx in top_indices:
+                    idx = int(idx)
+                    # 获取当前候选模式的日期范围
+                    candidate_start = df_work.iloc[idx]['trade_date']
+                    candidate_end = df_work.iloc[idx + window_size - 1]['trade_date']
+                    
+                    # 检查是否与已选中的模式有时间重合
+                    too_close = False
+                    for selected_start, selected_end in selected_ranges:
+                        # 检查是否有重合：两个区间有重叠当且仅当开始小于对方的结束且结束大于对方的开始
+                        if (candidate_start < selected_end and candidate_end > selected_start):
+                            print(f"[调试] 过滤掉位置 {idx}，日期范围 {candidate_start.strftime('%Y-%m-%d')} 至 {candidate_end.strftime('%Y-%m-%d')} 与已选范围 {selected_start.strftime('%Y-%m-%d')} 至 {selected_end.strftime('%Y-%m-%d')} 有重合")
+                            too_close = True
+                            break
+                    
+                    if not too_close:
+                        selected_indices.append(idx)
+                        selected_ranges.append((candidate_start, candidate_end))
+                        print(f"[调试] 选中位置 {idx}，日期范围 {candidate_start.strftime('%Y-%m-%d')} 至 {candidate_end.strftime('%Y-%m-%d')}，已选数量: {len(selected_indices)}/{top_n}")
+                        if len(selected_indices) >= top_n:
+                            break
+
+                for i in selected_indices:
                     i = int(i)
                     historical_df = df_work.iloc[i:i + window_size]
                     future_start = i + window_size
@@ -1753,7 +2405,7 @@ def _find_patterns_in_single_series(
             dist_sim * 0.25 +
             slope_sim * 0.12 +
             volume_sim * 0.08
-        )
+)
 
         # 日线优先速度：降低精排候选规模；周/月保持较高候选覆盖
         if period_type == 'daily':
@@ -1783,10 +2435,33 @@ def _find_patterns_in_single_series(
             return []
 
         refined.sort(key=lambda item: item[1], reverse=True)
-        top_refined = refined[:top_n]
+        
+        # 时间间隔过滤：只要有任何时间重合就过滤
+        selected_refined = []
+        selected_ranges = []  # 存储已选中的日期范围 [(start_date, end_date), ...]
+        
+        for i, similarity, historical_df in refined:
+            # 获取当前候选模式的日期范围
+            candidate_start = historical_df['trade_date'].iloc[0]
+            candidate_end = historical_df['trade_date'].iloc[-1]
+            
+            # 检查是否与已选中的模式有时间重合
+            too_close = False
+            for selected_start, selected_end in selected_ranges:
+                # 检查是否有重合：两个区间有重叠当且仅当开始小于对方的结束且结束大于对方的开始
+                if (candidate_start < selected_end and candidate_end > selected_start):
+                    print(f"[调试-精排路径] 过滤掉位置 {i}，日期范围 {candidate_start.strftime('%Y-%m-%d')} 至 {candidate_end.strftime('%Y-%m-%d')} 与已选范围 {selected_start.strftime('%Y-%m-%d')} 至 {selected_end.strftime('%Y-%m-%d')} 有重合")
+                    too_close = True
+                    break
+            
+            if not too_close:
+                selected_refined.append((i, similarity, historical_df))
+                selected_ranges.append((candidate_start, candidate_end))
+                print(f"[调试-精排路径] 选中位置 {i}，日期范围 {candidate_start.strftime('%Y-%m-%d')} 至 {candidate_end.strftime('%Y-%m-%d')}，已选数量: {len(selected_refined)}/{top_n}")
+                if len(selected_refined) >= top_n:
+                    break
 
-        for i, similarity, historical_df in top_refined:
-
+        for i, similarity, historical_df in selected_refined:
             future_start = i + window_size
             future_end = min(future_start + future_days, len(df_work))
 
@@ -1847,9 +2522,36 @@ def _find_patterns_in_single_series(
         normalized_distances = 1 / (1 + distances_array / max(1, window_size))
         similarities = correlations_array * 0.7 + normalized_distances * 0.3
 
-        top_indices = np.argsort(similarities)[-top_n:][::-1]
+        top_indices = np.argsort(similarities)[-top_n * 3:][::-1]  # 多取3倍候选，用于去重筛选
 
-        for i in top_indices:
+        # 时间间隔过滤：只要有任何时间重合就过滤
+        selected_indices = []
+        selected_ranges = []  # 存储已选中的日期范围 [(start_date, end_date), ...]
+        
+        for idx in top_indices:
+            idx = int(idx)
+            # 获取当前候选模式的日期范围
+            candidate_start = df_work.iloc[idx]['trade_date']
+            candidate_end = df_work.iloc[idx + window_size - 1]['trade_date']
+            
+            # 检查是否与已选中的模式有时间重合
+            too_close = False
+            for selected_start, selected_end in selected_ranges:
+                # 检查是否有重合：两个区间有重叠当且仅当开始小于对方的结束且结束大于对方的开始
+                if (candidate_start < selected_end and candidate_end > selected_start):
+                    print(f"[调试-标准路径] 过滤掉位置 {idx}，日期范围 {candidate_start.strftime('%Y-%m-%d')} 至 {candidate_end.strftime('%Y-%m-%d')} 与已选范围 {selected_start.strftime('%Y-%m-%d')} 至 {selected_end.strftime('%Y-%m-%d')} 有重合")
+                    too_close = True
+                    break
+            
+            if not too_close:
+                selected_indices.append(idx)
+                selected_ranges.append((candidate_start, candidate_end))
+                print(f"[调试-标准路径] 选中位置 {idx}，日期范围 {candidate_start.strftime('%Y-%m-%d')} 至 {candidate_end.strftime('%Y-%m-%d')}，已选数量: {len(selected_indices)}/{top_n}")
+                if len(selected_indices) >= top_n:
+                    break
+
+        for i in selected_indices:
+            i = int(i)
             future_start = i + window_size
             future_end = min(future_start + future_days, len(df_work))
 
@@ -1884,7 +2586,12 @@ def find_similar_patterns(
     current_code=None,
     security_type='stock',
     force_update=False,
-    similarity_weights=None
+    similarity_weights=None,
+    start_date=None,
+    end_date=None,
+    custom_future_days=None,
+    anchor_date=None,
+    stock_type_filter=None
 ):
     """
     查找最相似的历史模式
@@ -1901,6 +2608,11 @@ def find_similar_patterns(
     - current_code: 当前标的代码
     - security_type: 标的类型，影响跨标的候选池（默认 stock）
     - force_update: 是否强制更新周/月K线缓存（默认 False）
+    - start_date: 开始日期（可选，用于时间范围筛选）
+    - end_date: 结束日期（可选，用于时间范围筛选）
+    - custom_future_days: 自定义预测周期数（可选，None表示使用默认值）
+    - anchor_date: 锚点日期（可选，用于截取历史某段K线。指定后，将从该日期往前推window_size根K线作为匹配区间）
+    - stock_type_filter: 股票类型筛选列表（可选，如 ['上证主板', '创业板']）
     
     技术点：
     - K线模式识别：通过滑动窗口方法识别历史K线形态
@@ -1908,6 +2620,8 @@ def find_similar_patterns(
     - 自适应权重调整：根据市场波动率调整特征权重
     - 批量计算优化：提高计算效率
     - 多周期支持：支持日线、周线、月线数据的相似度计算
+    - 可配置回测：支持自定义时间范围、匹配周期数和预测周期数
+    - 锚点回测：支持截取历史某段K线进行分析
     """
     source_df = df.copy() if isinstance(df, pd.DataFrame) else None
     if source_df is None or source_df.empty:
@@ -1921,7 +2635,11 @@ def find_similar_patterns(
         period_type=period_type,
         window_size=window_size,
         force_update=force_update,
-        source_code=current_code or 'current'
+        source_code=current_code or 'current',
+        start_date=start_date,
+        end_date=end_date,
+        custom_future_days=custom_future_days,
+        anchor_date=anchor_date
     )
 
     max_n = max(1, int(top_n))
@@ -1935,7 +2653,8 @@ def find_similar_patterns(
         source_code=current_code or 'current',
         source_type=security_type,
         current_df_for_period=source_period_df,
-        similarity_weights=similarity_weights
+        similarity_weights=similarity_weights,
+        anchor_date=anchor_date
     )
 
     def _normalize_candidate_code(raw_code: object) -> str | None:
@@ -2011,6 +2730,14 @@ def find_similar_patterns(
             print(f"跨标的候选码读取失败: {e}")
             candidate_codes = []
 
+    # 股票类型筛选
+    if stock_type_filter and candidate_codes:
+        candidate_codes = [
+            code for code in candidate_codes 
+            if get_stock_category(code) in stock_type_filter
+        ]
+        print(f"[股票类型筛选] 从 {len(_dedupe_keep_order(candidate_codes))} 只中筛选出 {len(candidate_codes)} 只符合类型的股票")
+
     candidate_codes = _dedupe_keep_order(candidate_codes)
 
     # 过滤重复并控制总量，优先保留当前标的
@@ -2075,10 +2802,14 @@ def find_similar_patterns(
 
     candidate_patterns.sort(key=lambda item: float(item.get('similarity', 0.0)), reverse=True)
 
-    # 去重：同一来源同一起始点只保留一个
+    # 去重：同一来源同一起始点只保留一个，且同一股票内的模式间隔至少一个窗口
     deduped = []
     seen_keys = set()
+    # 记录每个股票已选中的模式位置，用于时间间隔过滤
+    source_positions = {}  # {source_code: [start_idx1, start_idx2, ...]}
+    
     for pattern in candidate_patterns:
+        # 基本去重key
         key = (
             pattern.get('source_code', ''),
             str(pattern.get('start_date', '')),
@@ -2087,6 +2818,34 @@ def find_similar_patterns(
         )
         if key in seen_keys:
             continue
+        
+        # 对同一股票内的模式进行时间间隔过滤
+        source_code = pattern.get('source_code', '')
+        pattern_start = pattern.get('start_date')
+        
+        if source_code and pattern_start is not None:
+            # 将日期转换为位置索引（简化处理：通过日期差估算）
+            if source_code not in source_positions:
+                source_positions[source_code] = []
+            
+            # 检查与已选中的同股票模式是否间隔太近
+            too_close = False
+            for existing_start in source_positions[source_code]:
+                # 计算交易日间隔（假设平均每月22个交易日）
+                try:
+                    days_diff = abs((pattern_start - existing_start).days)
+                    trading_days_diff = days_diff * 22 / 30  # 转换为交易日
+                    if trading_days_diff < (window_size * 0.5):  # 至少50%不重合
+                        too_close = True
+                        break
+                except:
+                    pass
+            
+            if too_close:
+                continue
+            
+            source_positions[source_code].append(pattern_start)
+        
         seen_keys.add(key)
         deduped.append(pattern)
 
@@ -2568,7 +3327,7 @@ def get_analysis_prompt(query, relevant_chunks, chat_history=None):
     
     return prompt
 
-def display_market_analysis(current_df, similar_patterns, future_dates=None, security_info=None):
+def display_market_analysis(current_df, similar_patterns, future_dates=None, security_info=None, search_across_market=False):
     """
     市场分析主函数 - 专业股票软件风格，4格多股同列布局
     """
@@ -2627,17 +3386,17 @@ def display_market_analysis(current_df, similar_patterns, future_dates=None, sec
         )
     
     with col2:
-        # 显示数据统计
+        # 显示数据统计 - 所有周期统一显示120个
         if time_period == "日线":
             display_count = min(120, len(current_df))
             st.markdown(f"**显示**: {display_count}交易日")
         elif time_period == "周线":
             weekly_df = convert_to_weekly(current_df)
-            display_count = min(52, len(weekly_df))
+            display_count = min(120, len(weekly_df))
             st.markdown(f"**显示**: {display_count}周")
         else:  # 月线
             monthly_df = convert_to_monthly(current_df)
-            display_count = min(24, len(monthly_df))
+            display_count = min(120, len(monthly_df))
             st.markdown(f"**显示**: {display_count}月")
     
     with col3:
@@ -2653,8 +3412,8 @@ def display_market_analysis(current_df, similar_patterns, future_dates=None, sec
         # 均线设置
         _ma_settings = st.multiselect(
             "均线设置",
-            ["MA5", "MA10", "MA20", "MA60", "MA120"],
-            default=["MA5", "MA10", "MA20"],
+            ["MA5", "MA10", "MA20", "MA30", "MA60", "MA120"],
+            default=["MA5", "MA10", "MA20", "MA30", "MA60"],
             key="pro_ma"
         )
 
@@ -2691,7 +3450,7 @@ def display_market_analysis(current_df, similar_patterns, future_dates=None, sec
         display_df_current, chart_title_current = prepare_chart_data(current_df, time_period)
 
         # 统一均线设置
-        ma_windows = [int(x.replace("MA", "")) for x in _ma_settings] if _ma_settings else [5, 10, 20]
+        ma_windows = [int(x.replace("MA", "")) for x in _ma_settings] if _ma_settings else [5, 10, 20, 30, 60]
 
         # 检查是否需要自动降级从2x2到展开模式
         auto_degraded = False
@@ -2706,7 +3465,7 @@ def display_market_analysis(current_df, similar_patterns, future_dates=None, sec
                     x0=max(0, x0) - 0.5,
                     x1=max(0, x1) + 0.5,
                     fillcolor=color_fill,
-                    opacity=0.18,
+                    opacity=0.40,
                     line_width=0,
                     layer='below',
                     annotation_text=label_text,
@@ -2745,13 +3504,19 @@ def display_market_analysis(current_df, similar_patterns, future_dates=None, sec
                 display_mode = "展开模式(大图)"
         
         if display_mode == "多股同列(2x2)":
-            # 创建2x2网格布局
-            col1, col2 = st.columns(2)
-            col3, col4 = st.columns(2)
-            grid_columns = [col1, col2, col3, col4]
-
-            # 格子1: 当前股票K线
-            with grid_columns[0]:
+            # 高亮颜色用于标记相似片段（扩展为10个颜色）- 增加透明度使颜色更明显
+            palette = [
+                'rgba(255,0,0,0.55)', 'rgba(0,128,0,0.55)', 'rgba(0,0,255,0.55)',
+                'rgba(255,128,0,0.55)', 'rgba(128,0,128,0.55)', 'rgba(0,128,128,0.55)',
+                'rgba(255,0,128,0.55)', 'rgba(128,128,0,0.55)', 'rgba(0,255,128,0.55)', 'rgba(128,0,255,0.55)'
+            ]
+            
+            # 第一行：当前股票K线 + TOP1 并排显示
+            st.markdown("#### 📈 当前K线 vs TOP1 最相似历史模式")
+            col_current, col_top1 = st.columns(2)
+            
+            # 左侧：当前股票K线
+            with col_current:
                 st.markdown('<div class="chart-container">', unsafe_allow_html=True)
                 st.markdown(f'<div class="chart-title">📈 当前K线 - {security_info.get("code", "")}</div>', unsafe_allow_html=True)
 
@@ -2766,7 +3531,7 @@ def display_market_analysis(current_df, similar_patterns, future_dates=None, sec
 
                 fig_current = apply_professional_style(fig_current, "当前股票")
 
-                # 在当前图中高亮“与历史模式对比的相似段落”（尾部窗口）
+                # 在当前图中高亮"与历史模式对比的相似段落"（尾部窗口）
                 current_match_len = 0
                 if similar_patterns and similar_patterns[0].get('pattern_data') is not None:
                     pattern_for_len, _ = prepare_chart_data(similar_patterns[0]['pattern_data'].copy(), time_period)
@@ -2783,64 +3548,191 @@ def display_market_analysis(current_df, similar_patterns, future_dates=None, sec
                     )
 
                 st.plotly_chart(fig_current, use_container_width=True, config={'displayModeBar': True})
-
-                st.markdown('<div class="info-panel">', unsafe_allow_html=True)
-                latest = display_df_current.iloc[-1]
-                prev_close = display_df_current.iloc[-2]['close'] if len(display_df_current) > 1 else latest['close']
-                change = latest['close'] - prev_close
-                change_pct = (change / prev_close * 100) if prev_close != 0 else 0
-                st.metric("最新价", f"{latest['close']:.2f}", f"{change:+.2f} ({change_pct:+.2f}%)")
-                if 'volume' in latest:
-                    st.markdown(f"**成交量**: {latest['volume']:,.0f}")
-                amplitude = ((latest['high'] - latest['low']) / latest['close'] * 100) if latest['close'] != 0 else 0
-                st.markdown(f"**振幅**: {amplitude:.1f}%")
                 st.markdown('</div>', unsafe_allow_html=True)
-                st.markdown('</div>', unsafe_allow_html=True)
-
-            # 格子2-4: 相似度最高的3个历史模式
-            # 高亮颜色用于标记相似片段
-            palette = ['rgba(255,0,0,0.25)', 'rgba(0,128,0,0.25)', 'rgba(0,0,255,0.25)']
-            for i in range(3):
-                with grid_columns[i + 1]:
-                    pattern = similar_patterns[i]
+            
+            # 右侧：TOP1历史模式
+            with col_top1:
+                if len(similar_patterns) > 0:
+                    pattern = similar_patterns[0]
                     st.markdown('<div class="chart-container">', unsafe_allow_html=True)
                     similarity_percent = f"{pattern['similarity']:.1%}"
-                    st.markdown(f"""
-                    <div class="chart-title">
-                        <span class="similarity-badge">相似度 {similarity_percent}</span>
-                        TOP {i+1} 历史模式
-                    </div>
-                    """, unsafe_allow_html=True)
+                    
+                    source_code = pattern.get('source_code', '')
+                    source_name = pattern.get('source_name', '')
+                    
+                    if search_across_market and source_code:
+                        if source_name and source_name != source_code:
+                            title_text = f"TOP 1: {source_name}"
+                        else:
+                            title_text = f"TOP 1: {source_code}"
+                    else:
+                        title_text = "TOP 1 历史模式"
+                    
+                    st.markdown(f'<div style="font-size: 16px; margin-bottom: 8px;"><span style="background-color: #1f449c; color: white; padding: 3px 8px; border-radius: 3px;">{similarity_percent}</span> <strong>{title_text}</strong></div>', unsafe_allow_html=True)
+                    
                     date_range = f"{pattern['start_date'].strftime('%Y-%m-%d')} 至 {pattern['end_date'].strftime('%Y-%m-%d')}"
-                    st.markdown(f'<div style="color: #8b949e; font-size: 12px; margin-bottom: 10px;">{date_range}</div>', unsafe_allow_html=True)
+                    st.markdown(f'<div style="color: #8b949e; font-size: 12px; margin-bottom: 8px;">{date_range}</div>', unsafe_allow_html=True)
 
-                    # 索引轴模式下只保留真实有效交易数据，禁止补齐休市空档
                     pattern_data_raw = pattern['pattern_data'].copy() if pattern['pattern_data'] is not None else None
                     future_data_raw = pattern['future_data'].copy() if pattern['future_data'] is not None and not pattern['future_data'].empty else pattern['future_data']
 
                     display_df_history, _ = prepare_chart_data(pattern_data_raw, time_period)
                     fig_history = plot_kline(
                         display_df_history,
-                        f"历史模式 {i+1}",
+                        "TOP1历史模式",
                         future_df=future_data_raw,
                         show_future_data=True,
                         show_volume=True,
                         show_indicators=show_indicators,
                         ma_windows=ma_windows
                     )
-                    fig_history = apply_professional_style(fig_history, f"历史模式 {i+1}")
-                    # 在历史图中高亮“相似段落”（pattern_data区间，不包含future_data）
+                    fig_history = apply_professional_style(fig_history, "TOP1历史模式")
                     history_segment_len = len(display_df_history)
                     if history_segment_len > 0:
                         add_similarity_segment_highlight(
                             fig_history,
                             x0=0,
                             x1=history_segment_len - 1,
-                            color_fill=palette[i % len(palette)],
-                            label_text=f'TOP{i+1} 相似段'
+                            color_fill=palette[0],
+                            label_text='TOP1'
                         )
                     st.plotly_chart(fig_history, use_container_width=True, config={'displayModeBar': True})
                     st.markdown('</div>', unsafe_allow_html=True)
+
+            # TOP2-10历史模式，左右2个显示
+            if len(similar_patterns) > 1:
+                st.markdown("#### TOP 2-10 历史模式（左右对比）")
+                
+                for i in range(1, min(10, len(similar_patterns)), 2):
+                    col_left, col_right = st.columns(2)
+                    
+                    # 左侧模式
+                    with col_left:
+                        if i < len(similar_patterns):
+                            pattern = similar_patterns[i]
+                            st.markdown('<div class="chart-container">', unsafe_allow_html=True)
+                            similarity_percent = f"{pattern['similarity']:.1%}"
+                            
+                            source_code = pattern.get('source_code', '')
+                            source_name = pattern.get('source_name', '')
+                            
+                            if search_across_market and source_code:
+                                if source_name and source_name != source_code:
+                                    title_text = f"TOP {i+1}: {source_name}"
+                                else:
+                                    title_text = f"TOP {i+1}: {source_code}"
+                            else:
+                                title_text = f"TOP {i+1}"
+                            
+                            st.markdown(f'<div style="font-size: 14px; margin-bottom: 8px;"><span style="background-color: #1f449c; color: white; padding: 3px 8px; border-radius: 3px;">{similarity_percent}</span> <strong>{title_text}</strong></div>', unsafe_allow_html=True)
+                            
+                            date_range = f"{pattern['start_date'].strftime('%Y-%m-%d')} 至 {pattern['end_date'].strftime('%Y-%m-%d')}"
+                            st.markdown(f'<div style="color: #8b949e; font-size: 12px; margin-bottom: 8px;">{date_range}</div>', unsafe_allow_html=True)
+
+                            pattern_data_raw = pattern['pattern_data'].copy() if pattern['pattern_data'] is not None else None
+                            future_data_raw = pattern['future_data'].copy() if pattern['future_data'] is not None and not pattern['future_data'].empty else pattern['future_data']
+
+                            display_df_history, _ = prepare_chart_data(pattern_data_raw, time_period)
+                            fig_history = plot_kline(
+                                display_df_history,
+                                f"历史模式 {i+1}",
+                                future_df=future_data_raw,
+                                show_future_data=True,
+                                show_volume=True,
+                                show_indicators=show_indicators,
+                                ma_windows=ma_windows
+                            )
+                            fig_history = apply_professional_style(fig_history, f"历史模式 {i+1}")
+                            history_segment_len = len(display_df_history)
+                            if history_segment_len > 0:
+                                add_similarity_segment_highlight(
+                                    fig_history,
+                                    x0=0,
+                                    x1=history_segment_len - 1,
+                                    color_fill=palette[i % len(palette)],
+                                    label_text=f'TOP{i+1}'
+                                )
+                            st.plotly_chart(fig_history, use_container_width=True, config={'displayModeBar': True})
+                            st.markdown('</div>', unsafe_allow_html=True)
+                    
+                    # 右侧模式
+                    with col_right:
+                        if i + 1 < len(similar_patterns):
+                            pattern = similar_patterns[i + 1]
+                            st.markdown('<div class="chart-container">', unsafe_allow_html=True)
+                            similarity_percent = f"{pattern['similarity']:.1%}"
+                            
+                            source_code = pattern.get('source_code', '')
+                            source_name = pattern.get('source_name', '')
+                            
+                            if search_across_market and source_code:
+                                if source_name and source_name != source_code:
+                                    title_text = f"TOP {i+2}: {source_name}"
+                                else:
+                                    title_text = f"TOP {i+2}: {source_code}"
+                            else:
+                                title_text = f"TOP {i+2}"
+                            
+                            st.markdown(f'<div style="font-size: 14px; margin-bottom: 8px;"><span style="background-color: #1f449c; color: white; padding: 3px 8px; border-radius: 3px;">{similarity_percent}</span> <strong>{title_text}</strong></div>', unsafe_allow_html=True)
+                            
+                            date_range = f"{pattern['start_date'].strftime('%Y-%m-%d')} 至 {pattern['end_date'].strftime('%Y-%m-%d')}"
+                            st.markdown(f'<div style="color: #8b949e; font-size: 12px; margin-bottom: 8px;">{date_range}</div>', unsafe_allow_html=True)
+
+                            pattern_data_raw = pattern['pattern_data'].copy() if pattern['pattern_data'] is not None else None
+                            future_data_raw = pattern['future_data'].copy() if pattern['future_data'] is not None and not pattern['future_data'].empty else pattern['future_data']
+
+                            display_df_history, _ = prepare_chart_data(pattern_data_raw, time_period)
+                            fig_history = plot_kline(
+                                display_df_history,
+                                f"历史模式 {i+2}",
+                                future_df=future_data_raw,
+                                show_future_data=True,
+                                show_volume=True,
+                                show_indicators=show_indicators,
+                                ma_windows=ma_windows
+                            )
+                            fig_history = apply_professional_style(fig_history, f"历史模式 {i+2}")
+                            history_segment_len = len(display_df_history)
+                            if history_segment_len > 0:
+                                add_similarity_segment_highlight(
+                                    fig_history,
+                                    x0=0,
+                                    x1=history_segment_len - 1,
+                                    color_fill=palette[(i+1) % len(palette)],
+                                    label_text=f'TOP{i+2}'
+                                )
+                            st.plotly_chart(fig_history, use_container_width=True, config={'displayModeBar': True})
+                            st.markdown('</div>', unsafe_allow_html=True)
+            
+            # 计算并显示上涨概率（放在最底部）
+            up_count = 0
+            total_patterns = min(10, len(similar_patterns))
+            for i in range(total_patterns):
+                pattern = similar_patterns[i]
+                future_data = pattern.get('future_data')
+                if future_data is not None and not future_data.empty and len(future_data) > 0:
+                    pattern_end_price = pattern['pattern_data']['close'].iloc[-1] if pattern['pattern_data'] is not None and not pattern['pattern_data'].empty else 0
+                    future_end_price = future_data['close'].iloc[-1]
+                    if pattern_end_price > 0 and future_end_price > pattern_end_price:
+                        up_count += 1
+            
+            up_probability = (up_count / total_patterns * 100) if total_patterns > 0 else 50
+            color = '#ff4d4d' if up_probability > 50 else '#26a69a'
+            trend_text = '偏多' if up_probability > 60 else '偏空' if up_probability < 40 else '震荡'
+            
+            # 显示上涨概率
+            st.markdown(f"""
+            <div style='background-color: #e8f4fd; padding: 20px; border-radius: 10px; margin: 30px 0; text-align: center; border: 2px solid #1f449c;'>
+                <h3 style='color: #1f449c; margin: 0 0 15px 0;'>📊 基于TOP{total_patterns}相似样本走势评估</h3>
+                <div style='font-size: 48px; font-weight: bold; color: {color}; margin: 15px 0;'>
+                    上涨概率: {up_probability:.1f}%
+                </div>
+                <div style='color: #666; font-size: 16px; margin-top: 10px;'>
+                    <strong>{up_count}/{total_patterns}</strong> 个样本后续上涨 | <strong style="color: {color};">{trend_text}</strong>
+                </div>
+            </div>
+            """, unsafe_allow_html=True)
+
         elif display_mode == "展开模式(大图)":
             st.info("当前为展开模式：单图更大，便于细节观察")
 
@@ -2873,8 +3765,8 @@ def display_market_analysis(current_df, similar_patterns, future_dates=None, sec
             fig_current.update_layout(height=1100)
             st.plotly_chart(fig_current, use_container_width=True, config={'displayModeBar': True})
 
-            # 相似模式按大图顺序展示
-            for i in range(3):
+            # 相似模式按大图顺序展示（TOP1-10）
+            for i in range(min(10, len(similar_patterns))):
                 pattern = similar_patterns[i]
                 st.markdown(f"### TOP {i+1} 历史模式（相似度 {pattern['similarity']:.1%}）")
                 # 索引轴模式下只保留真实有效交易数据，禁止补齐休市空档
@@ -2894,7 +3786,7 @@ def display_market_analysis(current_df, similar_patterns, future_dates=None, sec
                 fig_history = apply_professional_style(fig_history, f"历史模式 {i+1}")
                 history_segment_len = len(display_df_history)
                 if history_segment_len > 0:
-                    palette = ['rgba(255,0,0,0.25)', 'rgba(0,128,0,0.25)', 'rgba(0,0,255,0.25)']
+                    palette = ['rgba(255,0,0,0.55)', 'rgba(0,128,0,0.55)', 'rgba(0,0,255,0.55)']
                     add_similarity_segment_highlight(
                         fig_history,
                         x0=0,
@@ -2961,21 +3853,10 @@ def display_market_analysis(current_df, similar_patterns, future_dates=None, sec
         st.warning("未找到足够的相似模式进行多股同列分析")
         # 回退到单图显示
         display_df, chart_title = prepare_chart_data(current_df, time_period)
-        ma_windows = [int(x.replace("MA", "")) for x in _ma_settings] if _ma_settings else [5, 10, 20]
+        ma_windows = [int(x.replace("MA", "")) for x in _ma_settings] if _ma_settings else [5, 10, 20, 30, 60]
         fig = plot_kline(display_df, chart_title, future_dates=future_dates, show_volume=True, show_indicators=show_indicators, ma_windows=ma_windows)
         fig = apply_professional_style(fig, "当前股票")
         st.plotly_chart(fig, use_container_width=True)
-    
-    # 下方显示趋势分析和持仓收益（保持原有功能）
-    if similar_patterns:
-        # 显示趋势分析
-        display_trend_analysis(similar_patterns)
-        
-        # 计算和显示持仓收益分析
-        holding_stats = analyze_holding_returns(similar_patterns)
-        display_holding_period_analysis(holding_stats)
-        
-        return holding_stats
     
     return None
 
@@ -2990,13 +3871,13 @@ def prepare_chart_data(df, time_period):
     elif time_period == "周线":
         display_df = convert_to_weekly(df)
         chart_title = "周K线"
-        if len(display_df) > 52:
-            display_df = display_df.tail(52)
+        if len(display_df) > 120:
+            display_df = display_df.tail(120)
     else:  # 月线
         display_df = convert_to_monthly(df)
         chart_title = "月K线"
-        if len(display_df) > 24:
-            display_df = display_df.tail(24)
+        if len(display_df) > 120:
+            display_df = display_df.tail(120)
     
     return display_df, chart_title
 
@@ -3032,16 +3913,17 @@ def apply_professional_style(fig, title):
         },
         showlegend=True,
         legend={
-            'yanchor': 'top',
-            'y': 0.99,
-            'xanchor': 'left',
-            'x': 0.01,
+            'orientation': 'h',  # 水平排列
+            'yanchor': 'bottom',
+            'y': -0.15,  # 放在图表下方
+            'xanchor': 'center',
+            'x': 0.5,  # 水平居中
             'bgcolor': 'rgba(255, 255, 255, 0.9)',
             'bordercolor': '#e0e0e0',
             'borderwidth': 1,
             'font': {'color': '#333333'}
         },
-        margin=dict(l=40, r=40, t=60, b=40)
+        margin=dict(l=40, r=40, t=60, b=80)  # 增加底部边距为图例留空间
     )
     
     # 更新K线颜色（必须保留A股语义）
@@ -3161,6 +4043,95 @@ def main():
     主函数：实现金融数据分析系统的整体功能流程
     """
 
+    # ========== 用户信息与数据源配置（侧边栏）==========
+    with st.sidebar:
+        # 用户信息区域 - 使用f-string避免转义问题
+        current_user = st.session_state.get('current_user', '未知用户')
+        user_role = '管理员' if current_user == 'admin' else '普通用户'
+        
+        user_html = f'''
+        <style>
+        .user-section {{
+            background: linear-gradient(135deg, rgba(212, 175, 55, 0.15) 0%, rgba(212, 175, 55, 0.05) 100%);
+            border-radius: 12px;
+            padding: 15px;
+            margin-bottom: 20px;
+            border: 1px solid rgba(212, 175, 55, 0.3);
+        }}
+        .user-name {{
+            color: #D4AF37;
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }}
+        .user-role {{
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 12px;
+        }}
+        </style>
+        <div class="user-section">
+            <div style="font-size: 24px; margin-bottom: 8px;">👤</div>
+            <div class="user-name">{current_user}</div>
+            <div class="user-role">{user_role}</div>
+        </div>
+        '''
+        st.markdown(user_html, unsafe_allow_html=True)
+        
+        if st.button("🚪 退出登录", use_container_width=True):
+            logout_user()
+            st.rerun()
+        
+        st.markdown("---")
+        st.markdown("### ⚙️ 数据源配置")
+        
+        # 默认路径
+        default_tdx_path = r"D:\new_tdx\vipdoc"
+        
+        # 从 session_state 获取已保存的路径
+        if 'tdx_data_path' not in st.session_state:
+            st.session_state.tdx_data_path = default_tdx_path
+        
+        # 路径输入框
+        tdx_path_input = st.text_input(
+            "TDX 数据源路径",
+            value=st.session_state.tdx_data_path,
+            help="修改后按回车生效，如：D:\\new_tdx\\vipdoc",
+            key="tdx_path_input"
+        )
+        
+        # 如果路径改变，更新 session_state
+        if tdx_path_input != st.session_state.tdx_data_path:
+            st.session_state.tdx_data_path = tdx_path_input
+            st.success(f"✅ 数据源已切换到：{tdx_path_input}")
+        
+        # 显示当前状态
+        if os.path.exists(st.session_state.tdx_data_path):
+            st.caption(f"✅ 当前数据源：{st.session_state.tdx_data_path}")
+        else:
+            st.caption(f"⚠️ 当前数据源：{st.session_state.tdx_data_path}（路径不存在）")
+        
+        # 快捷按钮
+        col_path1, col_path2 = st.columns(2)
+        with col_path1:
+            if st.button("恢复默认", key="restore_default_path"):
+                st.session_state.tdx_data_path = default_tdx_path
+                # 同时更新TDX reader的路径
+                from tdx_reader import set_tdx_data_dir
+                set_tdx_data_dir(default_tdx_path)
+                st.rerun()
+        with col_path2:
+            if st.button("测试路径", key="test_path_btn"):
+                if os.path.exists(st.session_state.tdx_data_path):
+                    st.success("✅ 路径有效！")
+                else:
+                    st.error("❌ 路径无效！")
+        
+        # 立即应用路径设置到TDX reader
+        from tdx_reader import set_tdx_data_dir
+        set_tdx_data_dir(st.session_state.tdx_data_path)
+
+        st.markdown("---")
+
     # 简洁专业的CSS样式 - 轻量化设计
     st.markdown("""
     <style>
@@ -3240,16 +4211,26 @@ def main():
     </style>
     """, unsafe_allow_html=True)
 
-    # 优化标题和导航
-    st.markdown("""
-    <div style='text-align: center; margin-bottom: 1.5em;'>
-        <h1 style='color: #1f449c; margin-bottom: 0.2em;'>A股 K线智能分析系统</h1>
-        <p style='color: #666; font-size: 1.1em;'>专业级A股技术分析工具 | 多周期K线 | 智能相似度匹配</p>
-    </div>
-    """, unsafe_allow_html=True)
+    # 万向金枢 - 顶部导航栏（简洁版）
+    st.markdown(
+        '<div style="background: linear-gradient(90deg, #0a0a0f 0%, #1a1a2e 50%, #16213e 100%); '
+        'padding: 12px 24px; margin-bottom: 20px; border-radius: 8px; '
+        'border: 1px solid rgba(212, 175, 55, 0.3); display: flex; align-items: center; gap: 15px;">'
+        '<span style="font-size: 28px;">🧭</span>'
+        '<div style="display: flex; flex-direction: column;">'
+        '<span style="font-size: 22px; font-weight: 700; color: #D4AF37; letter-spacing: 6px;">万向金枢</span>'
+        '<span style="font-size: 10px; color: rgba(212, 175, 55, 0.7); letter-spacing: 3px;">UNIVERSAL GOLDEN HUB</span>'
+        '</div>'
+        '</div>',
+        unsafe_allow_html=True
+    )
     
     # 添加导航标签页
-    tab1, tab2, tab3 = st.tabs(["证券搜索", "技术分析", "智能问答"])
+    tab1, tab2, tab3, tab4 = st.tabs(["证券搜索", "技术分析", "智能问答", "⭐ 我的自选股"])
+    
+    # 初始化自选股（从磁盘加载）
+    if 'watchlist' not in st.session_state:
+        st.session_state.watchlist = load_watchlist()
     
     with tab1:
         # 搜索证券 - 优化布局
@@ -3290,16 +4271,27 @@ def main():
                         with col3:
                             st.metric("类型", result['type'].upper())
                         
-                        # 显示交易所信息
-                        col4, col5 = st.columns(2)
+                        # 显示详细类型和源文件
+                        col4, col5 = st.columns([1, 2])
                         with col4:
-                            if result.get('exchange'):
-                                st.metric("交易所", result['exchange'])
+                            # 使用新的详细类型分类
+                            detailed_type = get_detailed_type(result['code'], result['type'])
+                            st.metric("类型", detailed_type)
+                        with col5:
+                            source_file = result.get('source_file', '')
+                            if source_file:
+                                st.caption(f"📁 {source_file}")
                             else:
-                                st.metric("交易所", "未知")
+                                st.caption("📁 数据源: 本地TDX")
                         
-                        # 添加分析按钮 - 使用唯一key，包含索引防止重复
+# 添加分析按钮 - 使用唯一key，包含索引防止重复
                         if st.button(f"开始分析 {result['name']}", key=f"analyze_{i}_{result['code']}_{result['type']}"):
+                            # 检测股票切换，清除旧的搜索缓存
+                            old_security = st.session_state.get('selected_security')
+                            if old_security and old_security.get('code') != result.get('code'):
+                                # 股票切换，清除缓存
+                                if 'similar_patterns_cache' in st.session_state:
+                                    del st.session_state.similar_patterns_cache
                             st.session_state.selected_security = result
                             st.session_state.active_tab = "技术分析"
                             st.rerun()
@@ -3316,14 +4308,47 @@ def main():
         else:
             result = st.session_state.selected_security
             
-            # 显示证券标题
-            st.markdown(f"""
-            <div style='background-color: #e8f4fd; padding: 15px; border-radius: 10px; margin-bottom: 20px;'>
-                <h3 style='color: #1f449c; margin: 0;'>
-                    正在分析：{result['name']} ({result['code']}) - {result['type'].upper()}
-                </h3>
-            </div>
-            """, unsafe_allow_html=True)
+# 显示证券标题和加入自选股按钮
+            # 获取数据日期范围
+            market_data_for_date = get_market_data(result['code'], result['type'], days=None)  # 获取所有可用数据
+            data_date_range = ""
+            if market_data_for_date is not None and not market_data_for_date.empty:
+                earliest_date = market_data_for_date['trade_date'].min().strftime('%Y-%m-%d')
+                latest_date = market_data_for_date['trade_date'].max().strftime('%Y-%m-%d')
+                data_date_range = f"数据范围：{earliest_date} 至 {latest_date} ({len(market_data_for_date)} 根K线)"
+            
+            title_col, btn_col = st.columns([4, 1])
+            with title_col:
+                st.markdown(f"""
+                <div style='background-color: #e8f4fd; padding: 15px; border-radius: 10px; margin-bottom: 20px;'>
+                    <h3 style='color: #1f449c; margin: 0;'>
+                        正在分析：{result['name']} ({result['code']}) - {result['type'].upper()}
+                    </h3>
+                    <div style='color: #666; font-size: 12px; margin-top: 5px;'>
+                        {data_date_range}
+                    </div>
+                </div>
+                """, unsafe_allow_html=True)
+            with btn_col:
+                st.markdown("<br>", unsafe_allow_html=True)
+                # 检查是否已在自选股中
+                is_in_watchlist = any(w['code'] == result['code'] and w['type'] == result['type'] 
+                                     for w in st.session_state.watchlist)
+                if is_in_watchlist:
+                    if st.button("✅ 已在自选", key="add_to_watchlist_tab2", disabled=True):
+                        pass
+                else:
+                    if st.button("➕ 加入自选", key="add_to_watchlist_tab2"):
+                        st.session_state.watchlist.append({
+                            'code': result['code'],
+                            'name': result['name'],
+                            'type': result['type'],
+                            'exchange': result.get('exchange', '未知'),
+                            'added_time': datetime.now().strftime('%Y-%m-%d %H:%M')
+                        })
+                        save_watchlist(st.session_state.watchlist)
+                        st.success(f"已添加 {result['name']} 到自选股")
+                        st.rerun()
             
             # 相似度分析周期选择器
             col1, col2 = st.columns([1, 3])
@@ -3341,42 +4366,425 @@ def main():
                     index=0,
                     help="选择仅在当前股票历史中查找，或跨股票联合查找"
                 )
+                
+                # 对比范围相关控制
+                search_across_market = compare_scope == "不同股票共同参与对比"
+                
+                if search_across_market:
+                    st.markdown("---")
+                    
+                    # 股票类型筛选
+                    st.markdown("**📊 股票类型筛选**")
+                    
+                    # 获取可用股票代码并统计分类
+                    try:
+                        from tdx_reader import get_tdx_reader
+                        tdx_path = st.session_state.get('tdx_data_path', r"D:\new_tdx\vipdoc")
+                        tdx_reader = get_tdx_reader(tdx_path)
+                        available_codes = tdx_reader.get_available_codes()
+                        all_codes = list(available_codes.get('sh', [])) + list(available_codes.get('sz', []))
+                        
+                        # 统计各分类数量
+                        category_counts = count_stocks_by_category(all_codes)
+                        
+                        # 股票类型选项（按常见程度排序）
+                        stock_type_options = {
+                            '上证主板': '上证主板',
+                            '深证主板': '深证主板',
+                            '创业板': '创业板',
+                            '中小板': '中小板',
+                            '科创板': '科创板',
+                            'ETF基金': 'ETF基金',
+                            '北交所': '北交所',
+                            '可转债': '可转债'
+                        }
+                        
+                        # 初始化选中状态（默认全选）
+                        if 'selected_stock_types' not in st.session_state:
+                            st.session_state.selected_stock_types = list(stock_type_options.values())
+                        
+                        # 创建多列布局显示复选框
+                        type_cols = st.columns(4)
+                        selected_types = []
+                        
+                        for idx, (type_key, type_name) in enumerate(stock_type_options.items()):
+                            with type_cols[idx % 4]:
+                                count = category_counts.get(type_name, 0)
+                                is_selected = type_name in st.session_state.selected_stock_types
+                                
+                                if st.checkbox(
+                                    f"{type_name} ({count})",
+                                    value=is_selected,
+                                    key=f"stock_type_{type_name}"
+                                ):
+                                    selected_types.append(type_name)
+                        
+                        # 更新session_state
+                        st.session_state.selected_stock_types = selected_types
+                        
+                        # 显示总计
+                        total_selected = sum(category_counts.get(t, 0) for t in selected_types)
+                        total_all = sum(category_counts.values())
+                        st.caption(f"📈 已选择 {len(selected_types)} 个类型，共 **{total_selected}** / {total_all} 只股票 | 候选标的: {total_selected}")
+                        
+                    except Exception as e:
+                        st.warning(f"无法加载股票类型统计: {str(e)}")
+                        selected_types = ['上证主板', '深证主板', '创业板', '中小板', '科创板', 'ETF基金']
+                        total_selected = 0
+                else:
+                    selected_types = []
+                    total_selected = 0
+                
+                # 根据选中的股票类型计算候选数量（取消200限制）
+                max_candidate_codes = total_selected if search_across_market and total_selected > 0 else 80
+            
+            # 分析数据时间范围选择
+            with st.expander("📅 分析数据时间范围", expanded=False):
+                st.markdown("**选择用于分析的历史数据时间范围**（默认使用全部数据）")
+                
+                # 获取数据范围用于限制日期选择器
+                market_data_for_range = get_market_data(result['code'], result['type'], days=None)
+                data_min_date = None
+                data_max_date = None
+                if market_data_for_range is not None and not market_data_for_range.empty:
+                    data_min_date = market_data_for_range['trade_date'].min().date()
+                    data_max_date = market_data_for_range['trade_date'].max().date()
+                    st.caption(f"📊 可用数据范围：{data_min_date} 至 {data_max_date}")
+                
+                # 是否使用自定义时间范围
+                if 'use_custom_time_range' not in st.session_state:
+                    st.session_state.use_custom_time_range = False
+                
+                use_custom_time_range = st.checkbox(
+                    "启用自定义时间范围",
+                    value=st.session_state.use_custom_time_range,
+                    help="勾选后可限定分析使用的历史数据范围，取消则使用全部数据"
+                )
+                st.session_state.use_custom_time_range = use_custom_time_range
+                
+                if use_custom_time_range:
+                    col_range1, col_range2 = st.columns(2)
+                    with col_range1:
+                        analysis_start_date = st.date_input(
+                            "开始日期",
+                            value=data_min_date if data_min_date else None,
+                            min_value=data_min_date if data_min_date else None,
+                            max_value=data_max_date if data_max_date else None,
+                            help="分析数据的起始日期"
+                        )
+                    with col_range2:
+                        analysis_end_date = st.date_input(
+                            "结束日期",
+                            value=data_max_date if data_max_date else None,
+                            min_value=data_min_date if data_min_date else None,
+                            max_value=data_max_date if data_max_date else None,
+                            help="分析数据的结束日期"
+                        )
+                    
+                    # 验证日期范围
+                    if analysis_start_date and analysis_end_date:
+                        if analysis_start_date > analysis_end_date:
+                            st.warning(f"⚠️ 开始日期 {analysis_start_date} 晚于结束日期 {analysis_end_date}，将自动调整")
+                            analysis_start_date, analysis_end_date = analysis_end_date, analysis_start_date
+                        
+                        # 显示可用K线数量估算
+                        if market_data_for_range is not None:
+                            start_dt = pd.to_datetime(analysis_start_date)
+                            end_dt = pd.to_datetime(analysis_end_date)
+                            filtered_data = market_data_for_range[
+                                (market_data_for_range['trade_date'] >= start_dt) &
+                                (market_data_for_range['trade_date'] <= end_dt)
+                            ]
+                            st.info(f"📈 选定时间范围内包含 **{len(filtered_data)}** 根K线")
+                else:
+                    analysis_start_date = None
+                    analysis_end_date = None
+                    if data_min_date and data_max_date:
+                        st.caption(f"📊 当前使用全部数据：{data_min_date} 至 {data_max_date}")
+            
+            # Store time range in session_state for use in analysis
+            st.session_state.analysis_start_date = analysis_start_date if use_custom_time_range else None
+            st.session_state.analysis_end_date = analysis_end_date if use_custom_time_range else None
+            
+            # 回测参数配置面板
+            with st.expander("⚙️ 回测参数配置（可配置模式）", expanded=False):
+                st.markdown("**匹配区间设置（截取历史某段K线进行回测）**")
+                
+                # 获取当前股票的数据范围用于日期选择器的限制
+                market_data_for_config = get_market_data(result['code'], result['type'], days=365*5)
+                min_date = None
+                max_date = None
+                if market_data_for_config is not None and not market_data_for_config.empty:
+                    min_date = market_data_for_config['trade_date'].min().date()
+                    max_date = market_data_for_config['trade_date'].max().date()
+                
+                col_date1, col_date2 = st.columns(2)
+                with col_date1:
+                    # 选择匹配区间的结束日期（即分析的锚点日期）
+                    anchor_date = st.date_input(
+                        "匹配区间结束日期（分析锚点）",
+                        value=max_date if max_date else None,
+                        min_value=min_date if min_date else None,
+                        max_value=max_date if max_date else None,
+                        help="选择要分析的历史K线段的结束日期（最近一个交易日）。系统将从该日期往前推N根K线作为匹配区间。"
+                    )
+                with col_date2:
+                    # 根据周期类型设置默认值
+                    default_window = {"日线": 30, "周线": 20, "月线": 20}.get(similarity_period, 30)
+                    custom_window_size = st.number_input(
+                        "匹配周期数（往前推N根K线）",
+                        min_value=5,
+                        max_value=100,
+                        value=default_window,
+                        step=1,
+                        help=f"从结束日期往前推多少根K线作为匹配区间。默认：日线{30}根，周线/月线{20}根"
+                    )
+                
+                st.markdown("**预测设置**")
+                col_period1, col_period2 = st.columns(2)
+                with col_period1:
+                    # 根据周期类型设置默认值
+                    default_future = {"日线": 20, "周线": 4, "月线": 1}.get(similarity_period, 20)
+                    custom_future_days = st.number_input(
+                        "预测周期数（未来天数）",
+                        min_value=1,
+                        max_value=60,
+                        value=default_future,
+                        step=1,
+                        help=f"预测未来多少个周期的走势。默认：日线{20}天，周线{4}周，月线{1}个月"
+                    )
+                with col_period2:
+                    # 是否使用最近数据模式
+                    # 关键修复：使用session_state来保持复选框状态，避免每次刷新重置
+                    if 'use_latest_data' not in st.session_state:
+                        st.session_state.use_latest_data = True
+                    
+                    use_latest_data = st.checkbox(
+                        "使用最新数据",
+                        value=st.session_state.use_latest_data,
+                        help="勾选则使用最新的K线数据（忽略上面的结束日期设置）。取消勾选则使用上面选择的结束日期作为分析锚点。"
+                    )
+                    # 更新session_state
+                    st.session_state.use_latest_data = use_latest_data
+                
+                # 计算并显示匹配区间
+                if anchor_date and not use_latest_data:
+                    if market_data_for_config is not None and not market_data_for_config.empty:
+                        # 找到锚点日期在数据中的位置
+                        anchor_datetime = pd.to_datetime(anchor_date)
+                        data_before_anchor = market_data_for_config[market_data_for_config['trade_date'] <= anchor_datetime]
+                        
+                        if len(data_before_anchor) >= custom_window_size:
+                            start_idx = len(data_before_anchor) - custom_window_size
+                            match_start_date = data_before_anchor.iloc[start_idx]['trade_date'].strftime('%Y-%m-%d')
+                            match_end_date = data_before_anchor.iloc[-1]['trade_date'].strftime('%Y-%m-%d')
+                            
+                            st.info(f"📊 当前配置：匹配 **{match_start_date}** 至 **{match_end_date}** 的 **{custom_window_size}** 根{similarity_period}K线，" +
+                                   f"预测未来 **{custom_future_days}** 个{similarity_period}的走势")
+                        else:
+                            st.warning(f"⚠️ 警告：从 {anchor_date} 往前推 {custom_window_size} 根K线超出了数据范围，" +
+                                      f"该日期前只有 {len(data_before_anchor)} 根K线")
+                else:
+                    st.info(f"📊 当前配置：匹配 **最近{custom_window_size}** 个{similarity_period}，" +
+                           f"预测未来 **{custom_future_days}** 个{similarity_period}的走势")
+            
+            # 将配置参数存储到session_state
+            # 计算实际的起始和结束日期
+            if use_latest_data or anchor_date is None:
+                # 使用最新数据模式
+                st.session_state.backtest_start_date = None
+                st.session_state.backtest_end_date = None
+                st.session_state.anchor_date = None
+            else:
+                # 使用锚点日期模式
+                anchor_datetime = pd.to_datetime(anchor_date)
+                st.session_state.anchor_date = anchor_datetime
+                # 结束日期就是锚点日期
+                st.session_state.backtest_end_date = anchor_datetime
+                # 起始日期会通过window_size在后续逻辑中计算
+                st.session_state.backtest_start_date = None
+            
+            st.session_state.custom_window_size = custom_window_size
+            st.session_state.custom_future_days = custom_future_days
+            st.session_state.use_latest_data = use_latest_data
 
-            # 可调权重面板（形态/趋势/量能 + MACD/KDJ优先级）
+# 可调权重面板（形态/趋势/量能/MA + MACD/KDJ优先级）
             default_similarity_weights = {
                 'trend': 0,
                 'volume': 0,
                 'pattern': 100,
+                'ma': 0,
                 'macd': 0,
                 'kdj': 0,
                 'regime': 0,
             }
             if 'similarity_weights' not in st.session_state:
                 st.session_state.similarity_weights = default_similarity_weights.copy()
+            # 向后兼容：如果旧配置没有MA权重，添加默认值
+            if 'ma' not in st.session_state.similarity_weights:
+                st.session_state.similarity_weights['ma'] = 0
+            
+            # 保存的配置方案列表
+            if 'saved_configurations' not in st.session_state:
+                st.session_state.saved_configurations = []
+            
+            # 当前配置是否已保存的标志
+            if 'config_saved' not in st.session_state:
+                st.session_state.config_saved = False
 
-            with st.expander("🎛️ 可调权重面板（趋势/量能/形态/MACD/KDJ）"):
+            with st.expander("🎛️ 可调权重面板（趋势/量能/形态/MA/MACD/KDJ）"):
+                # 使用session_state直接控制滑块值，避免无限刷新
+                # 初始化权重到session_state
+                for key in ['trend', 'volume', 'pattern', 'ma', 'macd', 'kdj', 'regime']:
+                    slider_key = f'weight_slider_{key}'
+                    if slider_key not in st.session_state:
+                        st.session_state[slider_key] = st.session_state.similarity_weights.get(key, 0)
+                
+                # 权重动态约束回调函数
+                def on_weight_change(changed_key):
+                    """当某个权重变化时，自动调整其他权重保持总和为100"""
+                    # 获取所有当前值
+                    current_values = {
+                        'trend': st.session_state.weight_slider_trend,
+                        'volume': st.session_state.weight_slider_volume,
+                        'pattern': st.session_state.weight_slider_pattern,
+                        'ma': st.session_state.weight_slider_ma,
+                        'macd': st.session_state.weight_slider_macd,
+                        'kdj': st.session_state.weight_slider_kdj,
+                        'regime': st.session_state.weight_slider_regime,
+                    }
+                    
+                    total = sum(current_values.values())
+                    if total == 0:
+                        # 如果全部归零，恢复默认值
+                        st.session_state.similarity_weights = {'trend': 0, 'volume': 0, 'pattern': 100, 'ma': 0, 'macd': 0, 'kdj': 0, 'regime': 0}
+                        for k, v in st.session_state.similarity_weights.items():
+                            st.session_state[f'weight_slider_{k}'] = v
+                        return
+                    
+                    if total == 100:
+                        # 总和正好100，直接保存
+                        st.session_state.similarity_weights = current_values.copy()
+                        return
+                    
+                    # 需要调整其他权重
+                    new_value = current_values[changed_key]
+                    other_keys = [k for k in current_values if k != changed_key]
+                    other_total = sum(current_values[k] for k in other_keys)
+                    
+                    if other_total == 0 and new_value < 100:
+                        # 其他都是0，将剩余值平均分配
+                        remaining = 100 - new_value
+                        per_key = remaining // len(other_keys)
+                        for key in other_keys:
+                            current_values[key] = per_key
+                        # 处理余数
+                        remainder = 100 - sum(current_values.values())
+                        if remainder > 0 and other_keys:
+                            current_values[other_keys[0]] += remainder
+                    elif other_total > 0:
+                        # 按比例调整其他权重
+                        remaining = 100 - new_value
+                        for key in other_keys:
+                            proportion = current_values[key] / other_total
+                            current_values[key] = max(0, int(remaining * proportion))
+                        
+                        # 确保总和为100
+                        current_sum = sum(current_values.values())
+                        if current_sum != 100:
+                            diff = 100 - current_sum
+                            for key in other_keys:
+                                if current_values[key] + diff >= 0:
+                                    current_values[key] += diff
+                                    break
+                    
+                    # 更新session_state
+                    st.session_state.similarity_weights = current_values.copy()
+                    for k, v in current_values.items():
+                        st.session_state[f'weight_slider_{k}'] = v
+                
                 wcol1, wcol2, wcol3 = st.columns(3)
                 with wcol1:
-                    w_trend = st.slider("趋势权重", 0, 100, int(st.session_state.similarity_weights.get('trend', 0)), 1)
-                    w_volume = st.slider("量能权重", 0, 100, int(st.session_state.similarity_weights.get('volume', 0)), 1)
+                    st.slider("趋势权重", 0, 100, key='weight_slider_trend',
+                             on_change=on_weight_change, args=('trend',))
+                    st.slider("量能权重", 0, 100, key='weight_slider_volume',
+                             on_change=on_weight_change, args=('volume',))
                 with wcol2:
-                    w_pattern = st.slider("K线形态权重", 0, 100, int(st.session_state.similarity_weights.get('pattern', 100)), 1)
-                    w_regime = st.slider("市场状态权重", 0, 100, int(st.session_state.similarity_weights.get('regime', 0)), 1)
+                    st.slider("K线形态权重", 0, 100, key='weight_slider_pattern',
+                             on_change=on_weight_change, args=('pattern',))
+                    st.slider("MA均线权重", 0, 100, key='weight_slider_ma',
+                             on_change=on_weight_change, args=('ma',))
                 with wcol3:
-                    w_macd = st.slider("MACD权重", 0, 100, int(st.session_state.similarity_weights.get('macd', 0)), 1)
-                    w_kdj = st.slider("KDJ权重", 0, 100, int(st.session_state.similarity_weights.get('kdj', 0)), 1)
-
+                    st.slider("MACD权重", 0, 100, key='weight_slider_macd',
+                             on_change=on_weight_change, args=('macd',))
+                    st.slider("KDJ权重", 0, 100, key='weight_slider_kdj',
+                             on_change=on_weight_change, args=('kdj',))
+                    st.slider("市场状态权重", 0, 100, key='weight_slider_regime',
+                             on_change=on_weight_change, args=('regime',))
+                
+                # 从滑块同步到similarity_weights（用于初始化和备份）
                 st.session_state.similarity_weights = {
-                    'trend': w_trend,
-                    'volume': w_volume,
-                    'pattern': w_pattern,
-                    'macd': w_macd,
-                    'kdj': w_kdj,
-                    'regime': w_regime,
+                    'trend': st.session_state.weight_slider_trend,
+                    'volume': st.session_state.weight_slider_volume,
+                    'pattern': st.session_state.weight_slider_pattern,
+                    'ma': st.session_state.weight_slider_ma,
+                    'macd': st.session_state.weight_slider_macd,
+                    'kdj': st.session_state.weight_slider_kdj,
+                    'regime': st.session_state.weight_slider_regime,
                 }
 
                 total_weight = sum(st.session_state.similarity_weights.values())
-                st.caption(f"当前权重总和: {total_weight}（系统会自动归一化）")
+                st.caption(f"当前权重总和: {total_weight}（已锁定为100）")
+
+                # 方案管理按钮
+                btn_col1, btn_col2, btn_col3 = st.columns(3)
+                with btn_col1:
+                    if st.button("💾 保存方案", help="保存当前配置方案"):
+                        config_name = f"方案{len(st.session_state.saved_configurations) + 1}"
+                        saved_config = {
+                            'name': config_name,
+                            'weights': st.session_state.similarity_weights.copy(),
+                            'window_size': st.session_state.get('custom_window_size', 30),
+                            'future_days': st.session_state.get('custom_future_days', 20),
+                            'period': similarity_period
+                        }
+                        st.session_state.saved_configurations.append(saved_config)
+                        st.session_state.config_saved = True
+                        st.success(f"已保存: {config_name}")
+                
+                with btn_col2:
+                    if st.button("🗑️ 清空方案", help="清空所有保存的方案"):
+                        st.session_state.saved_configurations = []
+                        st.session_state.config_saved = False
+                        st.info("已清空所有方案")
+                
+                with btn_col3:
+                    # 显示已保存的方案数量
+                    st.caption(f"已保存方案: {len(st.session_state.saved_configurations)}个")
+                
+                # 显示已保存的方案列表
+                if st.session_state.saved_configurations:
+                    with st.container():
+                        st.markdown("**已保存方案列表**")
+                        for i, config in enumerate(st.session_state.saved_configurations):
+                            col_name, col_load, col_del = st.columns([3, 1, 1])
+                            with col_name:
+                                st.text(f"{config['name']} - 窗口:{config['window_size']} 预测:{config['future_days']}")
+                            with col_load:
+                                if st.button("加载", key=f"load_config_{i}"):
+                                    # 更新权重配置
+                                    st.session_state.similarity_weights = config['weights'].copy()
+                                    # 同步到滑块
+                                    for k, v in config['weights'].items():
+                                        st.session_state[f'weight_slider_{k}'] = v
+                                    st.session_state.custom_window_size = config['window_size']
+                                    st.session_state.custom_future_days = config['future_days']
+                                    st.success(f"已加载: {config['name']}")
+                                    st.rerun()  # 重新渲染以更新滑块显示
+                            with col_del:
+                                if st.button("删除", key=f"del_config_{i}"):
+                                    st.session_state.saved_configurations.pop(i)
+                                    st.rerun()
             
             # 周/月K线缓存控制
             if similarity_period in ["周线", "月线"]:
@@ -3417,30 +4825,21 @@ def main():
                     f"行数: {cache_status_monthly['rows']}"
                 )
             
-            # 对比范围控制
-            col3, col4 = st.columns([1, 3])
-            with col3:
-                search_across_market = compare_scope == "不同股票共同参与对比"
-                st.caption(f"当前范围: {'跨股票' if search_across_market else '仅本股票历史'}")
-
-            with col4:
-                if search_across_market:
-                    max_candidate_codes = st.slider(
-                        "最大候选标的数",
-                        min_value=10,
-                        max_value=200,
-                        value=80,
-                        step=10,
-                        help="限制跨股票搜索候选数，平衡速度与覆盖面"
-                    )
-                else:
-                    max_candidate_codes = 80
+# 重新搜索按钮 - 防止参数变化自动触发搜索
+            col_search1, col_search2, col_search3 = st.columns([2, 1, 1])
+            with col_search1:
+                st.caption("调整参数后，点击'重新搜索'执行分析")
+            with col_search2:
+                do_search = st.button("🔍 重新搜索", type="primary", help="使用当前参数执行相似度搜索")
+            with col_search3:
+                # 标记是否需要进行搜索
+                st.session_state.need_search = do_search
             
-            # 获取市场数据
+# 获取市场数据
             try:
                 with st.spinner('正在加载市场数据...'):
-                    # 获取5年数据，确保有足够的历史数据用于周线/月线计算
-                    market_data = get_market_data(result['code'], result['type'], days=365*5)
+                    # 获取所有可用数据
+                    market_data = get_market_data(result['code'], result['type'], days=None)
                 
                 if market_data is None or market_data.empty:
                     st.error(f"无法获取 {result['name']} 的市场数据。请检查：")
@@ -3448,6 +4847,22 @@ def main():
                     st.info("2. 检查证券代码是否正确")
                     st.info("3. 尝试重新搜索并选择证券")
                     return
+                
+                # 应用时间范围过滤
+                analysis_start = st.session_state.get('analysis_start_date')
+                analysis_end = st.session_state.get('analysis_end_date')
+                if analysis_start or analysis_end:
+                    original_len = len(market_data)
+                    if analysis_start:
+                        market_data = market_data[market_data['trade_date'] >= pd.to_datetime(analysis_start)]
+                    if analysis_end:
+                        market_data = market_data[market_data['trade_date'] <= pd.to_datetime(analysis_end)]
+                    filtered_len = len(market_data)
+                    st.info(f"📅 已应用时间范围过滤：{analysis_start or '最早'} 至 {analysis_end or '最新'}，共 {filtered_len} 根K线（原始数据 {original_len} 根）")
+                    
+                    if market_data.empty:
+                        st.error("筛选时间范围内没有数据，请调整时间范围")
+                        return
             
             except Exception as e:
                 st.error(f"加载市场数据时出错: {str(e)}")
@@ -3464,53 +4879,115 @@ def main():
                     freq='B'  # 'B' 表示工作日
                 )
                 
-                # 寻找相似K线形态
-                try:
-                    # 根据选择的周期类型设置参数
-                    period_type_map = {
-                        "日线": "daily",
-                        "周线": "weekly", 
-                        "月线": "monthly"
-                    }
-                    period_type = period_type_map.get(similarity_period, "daily")
-                    
-                    # 检查是否需要强制更新缓存
-                    force_update = st.session_state.get('force_cache_update', False)
-                    
-                    with st.spinner(f'正在分析{similarity_period}相似K线形态...'):
-                        similar_patterns = find_similar_patterns(
-                            market_data, 
-                            window_size=30, 
-                            top_n=10, 
-                            use_optimized=True,
-                            period_type=period_type,
-                            search_across_market=search_across_market,
-                            max_candidate_codes=max_candidate_codes,
-                            current_code=result['code'],
-                            security_type=result['type'],
-                            force_update=force_update,
-                            similarity_weights=st.session_state.get('similarity_weights', default_similarity_weights)
-                        )
-                    
-                    # 重置强制更新标志
-                    if force_update:
-                        st.session_state.force_cache_update = False
-                    
-                    if not similar_patterns:
-                        st.warning("未找到足够相似的K线形态进行分析")
-                        st.info("这可能是因为：")
-                        st.info("1. 该证券的历史数据较短")
-                        st.info("2. 当前K线形态比较独特")
-                        st.info("3. 可以尝试分析其他时间周期")
+# 寻找相似K线形态
+                # 搜索触发逻辑：
+                # 1. 首次加载且无缓存结果时，触发搜索
+                # 2. 用户点击"重新搜索"按钮时，触发搜索
+                # 3. 参数修改不会自动触发搜索，需要用户手动点击按钮
                 
-                except Exception as e:
-                    st.error(f"分析相似K线形态时出错: {str(e)}")
-                    st.info("请尝试重新搜索并选择证券")
-                    similar_patterns = []
+                # 初始化搜索状态（首次加载时如果有缓存则使用缓存）
+                if 'similar_patterns_cache' not in st.session_state:
+                    st.session_state.similar_patterns_cache = None
+                    st.session_state.need_search = True  # 首次加载需要搜索
+                
+                # 获取当前搜索状态
+                need_search = st.session_state.get('need_search', False)
+                
+                # 执行搜索的条件：用户点击了重新搜索 OR 首次加载无缓存
+                if need_search or st.session_state.similar_patterns_cache is None:
+                    try:
+                        # 根据选择的周期类型设置参数
+                        period_type_map = {
+                            "日线": "daily",
+                            "周线": "weekly", 
+                            "月线": "monthly"
+                        }
+                        period_type = period_type_map.get(similarity_period, "daily")
+                        
+                        # 检查是否需要强制更新缓存
+                        force_update = st.session_state.get('force_cache_update', False)
+                        
+                        # 获取股票名称映射（用于跨股票比较结果显示）
+                        stock_name_map = get_securities_name_map() if search_across_market else {}
+                        
+                        with st.spinner(f'正在分析{similarity_period}相似K线形态...'):
+                            # 判断是否使用锚点日期模式
+                            use_latest = st.session_state.get('use_latest_data', True)
+                            anchor_date = None if use_latest else st.session_state.get('anchor_date')
+                            
+                            # 调试信息：显示当前使用的模式
+                            if use_latest:
+                                st.info(f"📊 使用最新数据模式 - 匹配最近{st.session_state.get('custom_window_size', 30)}个{similarity_period}")
+                            else:
+                                st.info(f"📊 使用历史锚点模式 - 匹配至 {anchor_date.strftime('%Y-%m-%d') if anchor_date else '未设置'} 的K线")
+                            
+                            similar_patterns = find_similar_patterns(
+                                market_data, 
+                                window_size=st.session_state.get('custom_window_size', 30), 
+                                top_n=10, 
+                                use_optimized=True,
+                                period_type=period_type,
+                                search_across_market=search_across_market,
+                                max_candidate_codes=max_candidate_codes,
+                                current_code=result['code'],
+                                security_type=result['type'],
+                                force_update=force_update,
+                                similarity_weights=st.session_state.get('similarity_weights', default_similarity_weights),
+                                start_date=st.session_state.get('backtest_start_date'),
+                                end_date=st.session_state.get('backtest_end_date'),
+                                custom_future_days=st.session_state.get('custom_future_days'),
+                                anchor_date=anchor_date,
+                                stock_type_filter=st.session_state.get('selected_stock_types') if search_across_market else None
+                            )
+                        
+                        # 为跨股票比较结果添加股票名称
+                        if search_across_market and similar_patterns:
+                            for pattern in similar_patterns:
+                                source_code = pattern.get('source_code', '')
+                                source_name = get_stock_name_by_code(source_code, stock_name_map)
+                                pattern['source_name'] = source_name
+                        
+                        # 缓存搜索结果
+                        st.session_state.similar_patterns_cache = similar_patterns
+                        st.session_state.need_search = False  # 搜索完成后重置标志
+                        
+                        # 重置强制更新标志
+                        if force_update:
+                            st.session_state.force_cache_update = False
+                        
+                        if not similar_patterns:
+                            st.warning("未找到足够相似的K线形态进行分析")
+                            st.info("这可能是因为：")
+                            st.info("1. 该证券的历史数据较短")
+                            st.info("2. 当前K线形态比较独特")
+                            st.info("3. 可以尝试分析其他时间周期")
+                    
+                    except Exception as e:
+                        st.error(f"分析相似K线形态时出错: {str(e)}")
+                        st.info("请尝试重新搜索并选择证券")
+                        similar_patterns = []
+                else:
+                    # 使用缓存的结果
+                    similar_patterns = st.session_state.get('similar_patterns_cache', [])
                 
                 # 显示市场分析（专业4格布局）
                 try:
-                    holding_stats = display_market_analysis(market_data, similar_patterns, future_dates, security_info=result)
+                    # 如果使用锚点日期模式，截取对应的K线数据用于显示
+                    display_df = market_data.copy()
+                    anchor_date_display = st.session_state.get('anchor_date')
+                    custom_window = st.session_state.get('custom_window_size', 30)
+                    
+                    if anchor_date_display is not None and not st.session_state.get('use_latest_data', True):
+                        # 锚点日期模式：截取锚点日期前window_size根K线作为当前显示
+                        anchor_dt = pd.to_datetime(anchor_date_display)
+                        df_before_anchor = display_df[display_df['trade_date'] <= anchor_dt].copy()
+                        if len(df_before_anchor) >= custom_window:
+                            display_df = df_before_anchor.tail(custom_window).copy()
+                            print(f"[显示] 使用锚点日期模式，显示 {anchor_date_display.strftime('%Y-%m-%d')} 前 {custom_window} 根K线")
+                        else:
+                            print(f"[显示警告] 锚点日期前数据不足：{len(df_before_anchor)} < {custom_window}")
+                    
+                    holding_stats = display_market_analysis(display_df, similar_patterns, future_dates, security_info=result, search_across_market=search_across_market)
                 except Exception as e:
                     st.error(f"显示市场分析时出错: {str(e)}")
                     st.info("请尝试重新加载页面")
@@ -3534,7 +5011,7 @@ def main():
             
             # 重新获取数据用于问答
             with st.spinner('正在准备问答数据...'):
-                market_data = get_market_data(result['code'], result['type'], days=365*5)
+                market_data = get_market_data(result['code'], result['type'], days=None)  # 获取所有可用数据
                 if market_data is not None:
                     similar_patterns = find_similar_patterns(market_data, window_size=30, top_n=10, use_optimized=True, period_type='daily')
                     holding_stats = analyze_holding_returns(similar_patterns) if similar_patterns else None
@@ -3548,11 +5025,122 @@ def main():
         st.markdown("---")
         st.markdown("""
         <div style='text-align: center; color: #666; font-size: 0.9em; margin-top: 2em;'>
-            <p><strong>A股 K线智能分析系统</strong> | 版本 2.0 | 支持日线/周线/月线多周期分析</p>
+            <p><strong>万向金枢 | Universal Golden Hub</strong> | 版本 2.0 | 支持日线/周线/月线多周期分析</p>
             <p>功能特点：多周期K线显示 | 智能相似度匹配 | 技术指标分析 | AI智能问答</p>
             <p style='font-size: 0.8em;'>数据来源：TDX | 分析算法：优化多维度相似度匹配 | 更新时间：2025年</p>
         </div>
         """, unsafe_allow_html=True)
+    
+    with tab4:
+        st.markdown("""
+        <div style='background-color: #f8f9fa; padding: 20px; border-radius: 10px; margin-bottom: 20px;'>
+            <h3 style='color: #1f449c; margin-top: 0;'>⭐ 我的自选股</h3>
+            <p style='color: #666;'>实时追踪您关注的股票，显示最新行情数据</p>
+        </div>
+        """, unsafe_allow_html=True)
+        
+        # 初始化自选股
+        if 'watchlist' not in st.session_state:
+            st.session_state.watchlist = load_watchlist()
+        
+        # 刷新数据按钮
+        col1, col2, col3 = st.columns([1, 1, 4])
+        with col1:
+            if st.button("🔄 刷新数据", key="refresh_watchlist"):
+                st.rerun()
+        with col2:
+            if st.button("🗑️ 清空自选股", key="clear_all_watchlist"):
+                st.session_state.watchlist = []
+                save_watchlist([])
+                st.success("已清空所有自选股")
+                st.rerun()
+        
+        # 显示自选股列表
+        if st.session_state.watchlist:
+            st.markdown(f"**共 {len(st.session_state.watchlist)} 只自选股**")
+            
+            # 获取实时数据并显示
+            watchlist_data = []
+            for stock in st.session_state.watchlist:
+                with st.spinner(f'正在获取 {stock["name"]} 的数据...'):
+                    latest_data = get_stock_latest_data(stock['code'], stock['type'])
+                    if latest_data:
+                        watchlist_data.append({
+                            **stock,
+                            **latest_data
+                        })
+                    else:
+                        watchlist_data.append({
+                            **stock,
+                            'price': None,
+                            'change_pct': None,
+                            'change_amount': None,
+                            'volume': None,
+                            'trade_date': None
+                        })
+            
+            # 显示为表格
+            if watchlist_data:
+                # 创建DataFrame用于显示
+                df_data = []
+                for item in watchlist_data:
+                    df_data.append({
+                        '代码': item['code'],
+                        '名称': item['name'],
+                        '交易所': item.get('exchange', ''),
+                        '现价': f"{item['price']:.2f}" if item['price'] else '-',
+                        '涨跌': f"{item['change_amount']:+.2f}" if item['change_amount'] else '-',
+                        '涨幅': f"{item['change_pct']:+.2f}%" if item['change_pct'] else '-',
+                        '成交量': f"{item['volume']/10000:.0f}万" if item['volume'] else '-',
+                        '日期': item.get('trade_date', '-')
+                    })
+                
+                df_watchlist = pd.DataFrame(df_data)
+                
+                # 使用data_editor显示，支持删除操作
+                st.dataframe(
+                    df_watchlist,
+                    use_container_width=True,
+                    hide_index=True,
+                    column_config={
+                        '代码': st.column_config.TextColumn('代码', width='small'),
+                        '名称': st.column_config.TextColumn('名称', width='medium'),
+                        '交易所': st.column_config.TextColumn('交易所', width='small'),
+                        '现价': st.column_config.TextColumn('现价', width='small'),
+                        '涨跌': st.column_config.TextColumn('涨跌', width='small'),
+                        '涨幅': st.column_config.TextColumn('涨幅', width='small'),
+                        '成交量': st.column_config.TextColumn('成交量', width='small'),
+                        '日期': st.column_config.TextColumn('日期', width='small')
+                    }
+                )
+                
+                # 为每只股票显示操作按钮
+                st.markdown("#### 操作")
+                for i, stock in enumerate(st.session_state.watchlist):
+                    col1, col2, col3, col4 = st.columns([2, 2, 1, 1])
+                    with col1:
+                        st.markdown(f"**{stock['name']}** ({stock['code']})")
+                    with col2:
+                        st.caption(f"添加时间: {stock.get('added_time', '-')}")
+                    with col3:
+                        if st.button("📊 分析", key=f"analyze_watch_{i}"):
+                            st.session_state.selected_security = stock
+                            st.session_state.active_tab = "技术分析"
+                            st.rerun()
+                    with col4:
+                        if st.button("❌ 删除", key=f"del_watch_{i}"):
+                            st.session_state.watchlist.pop(i)
+                            save_watchlist(st.session_state.watchlist)
+                            st.rerun()
+        else:
+            st.info("暂无自选股，请在「技术分析」页面点击「加入自选」按钮添加")
+            st.markdown("""
+            **使用说明：**
+            1. 在「证券搜索」页面搜索并选择股票
+            2. 进入「技术分析」页面
+            3. 点击股票名称旁的「➕ 加入自选」按钮
+            4. 股票将保存到本地，下次打开不会丢失
+            """)
 
 def fill_trading_dates(df):
     """
@@ -4099,6 +5687,30 @@ def plot_kline_index_based(df, title, future_df=None, future_dates=None, show_fu
         volume_row = None
         xaxis_rows = [1]
     
+    # 计算涨跌幅
+    change_pct = []
+    for i in range(len(valid_data)):
+        if i == 0:
+            change_pct.append(0.0)
+        else:
+            prev_close = valid_data['close'].iloc[i-1]
+            curr_close = valid_data['close'].iloc[i]
+            pct = ((curr_close - prev_close) / prev_close * 100) if prev_close != 0 else 0.0
+            change_pct.append(pct)
+    
+    # 准备hover文本
+    hover_text = []
+    for i in range(len(valid_data)):
+        date_str = valid_data['trade_date'].iloc[i].strftime('%Y-%m-%d') if hasattr(valid_data['trade_date'].iloc[i], 'strftime') else str(valid_data['trade_date'].iloc[i])
+        text = f"时间: {date_str}<br>" + \
+               f"开盘: {valid_data['open'].iloc[i]:.2f}<br>" + \
+               f"最高: {valid_data['high'].iloc[i]:.2f}<br>" + \
+               f"最低: {valid_data['low'].iloc[i]:.2f}<br>" + \
+               f"收盘: {valid_data['close'].iloc[i]:.2f}<br>" + \
+               f"成交量: {valid_data['volume'].iloc[i]/10000:.0f}万<br>" + \
+               f"涨幅: {change_pct[i]:+.2f}%"
+        hover_text.append(text)
+    
     # 添加主K线 - A股颜色标准：上涨红色，下跌绿色
     # 使用索引轴：x=display_indices
     fig.add_trace(go.Candlestick(
@@ -4108,17 +5720,20 @@ def plot_kline_index_based(df, title, future_df=None, future_dates=None, show_fu
         low=valid_data['low'],
         close=valid_data['close'],
         name='K线',
+        text=hover_text,
+        hoverinfo='text',
         increasing=dict(line=dict(color='#ff4d4d'), fillcolor='#ff4d4d'),  # 上涨红色
         decreasing=dict(line=dict(color='#26a69a'), fillcolor='#26a69a')   # 下跌绿色
     ), row=price_row, col=1)
     
     # 叠加均线到K线主图
     if ma_windows is None:
-        ma_windows = [5, 10, 20]
+        ma_windows = [5, 10, 20, 30, 60]
     ma_color_map = {
         5: '#fdd835',
         10: '#29b6f6',
         20: '#ab47bc',
+        30: '#7e57c2',
         60: '#ffa726',
         120: '#66bb6a'
     }

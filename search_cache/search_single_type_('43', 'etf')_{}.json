@@ -1,0 +1,65 @@
+[
+  {
+    "code": "501043",
+    "name": "ETF-501043",
+    "type": "etf",
+    "exchange": "上海",
+    "source_file": "D:\\new_tdx\\vipdoc\\sh\\lday\\sh501043.day"
+  },
+  {
+    "code": "588430",
+    "name": "ETF-588430",
+    "type": "etf",
+    "exchange": "上海",
+    "source_file": "D:\\new_tdx\\vipdoc\\sh\\lday\\sh588430.day"
+  },
+  {
+    "code": "159143",
+    "name": "ETF-159143",
+    "type": "etf",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz159143.day"
+  },
+  {
+    "code": "159243",
+    "name": "ETF-159243",
+    "type": "etf",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz159243.day"
+  },
+  {
+    "code": "159543",
+    "name": "ETF-159543",
+    "type": "etf",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz159543.day"
+  },
+  {
+    "code": "159643",
+    "name": "ETF-159643",
+    "type": "etf",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz159643.day"
+  },
+  {
+    "code": "159743",
+    "name": "ETF-159743",
+    "type": "etf",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz159743.day"
+  },
+  {
+    "code": "159843",
+    "name": "ETF-159843",
+    "type": "etf",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz159843.day"
+  },
+  {
+    "code": "159943",
+    "name": "ETF-159943",
+    "type": "etf",
+    "exchange": "深圳",
+    "source_file": "D:\\new_tdx\\vipdoc\\sz\\lday\\sz159943.day"
+  }
+]
