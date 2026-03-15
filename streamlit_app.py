@@ -2776,6 +2776,16 @@ def find_similar_patterns(
 
         if candidate_df is None or candidate_df.empty:
             continue
+        
+        # 应用时间范围过滤（重要修复）
+        if start_date is not None:
+            candidate_df = candidate_df[candidate_df['trade_date'] >= pd.to_datetime(start_date)]
+        if end_date is not None:
+            candidate_df = candidate_df[candidate_df['trade_date'] <= pd.to_datetime(end_date)]
+        
+        if candidate_df.empty:
+            print(f"[时间范围过滤] {code} 在指定时间范围内无数据，跳过")
+            continue
 
         transformed_df, candidate_window_size, candidate_future_days = _prepare_similarity_df(
             candidate_df,
@@ -4226,7 +4236,7 @@ def main():
     )
     
     # 添加导航标签页
-    tab1, tab2, tab3, tab4 = st.tabs(["证券搜索", "技术分析", "智能问答", "⭐ 我的自选股"])
+    tab1, tab2, tab3, tab4, tab5 = st.tabs(["证券搜索", "技术分析", "智能问答", "⭐ 我的自选股", "📊 策略回测"])
     
     # 初始化自选股（从磁盘加载）
     if 'watchlist' not in st.session_state:
@@ -6205,7 +6215,299 @@ def display_holding_period_analysis(stats, initial_money=10000):
             </ul>
         </div>
     </details>
-    """, unsafe_allow_html=True)
+        """, unsafe_allow_html=True)
+
+    with tab5:
+        # 策略回测界面
+        st.markdown("""
+        <div style='background-color: #f8f9fa; padding: 20px; border-radius: 10px; margin-bottom: 20px;'>
+            <h3 style='color: #1f449c; margin-top: 0;'>📊 策略回测</h3>
+            <p style='color: #666;'>基于K线相似度的量化策略回测，验证历史表现</p>
+        </div>
+        """, unsafe_allow_html=True)
+        
+        # 检查是否选择了股票
+        if 'selected_stock' not in st.session_state or not st.session_state.selected_stock:
+            st.warning("⚠️ 请先搜索并选择一只股票进行回测")
+        else:
+            # 获取当前选择的股票
+            stock_info = st.session_state.selected_stock
+            
+            st.markdown(f"**当前回测标的**: {stock_info.get('name', '')} ({stock_info.get('code', '')})")
+            
+            # 策略参数配置
+            st.markdown("### ⚙️ 策略参数")
+            
+            col1, col2, col3 = st.columns(3)
+            
+            with col1:
+                similarity_threshold = st.slider(
+                    "相似度阈值",
+                    min_value=0.65,
+                    max_value=0.95,
+                    value=0.75,
+                    step=0.01,
+                    help="最低相似度要求"
+                )
+                
+                win_rate_threshold = st.slider(
+                    "胜率阈值",
+                    min_value=0.50,
+                    max_value=0.90,
+                    value=0.65,
+                    step=0.01,
+                    help="历史最低胜率要求"
+                )
+            
+            with col2:
+                holding_days = st.number_input(
+                    "持有天数",
+                    min_value=5,
+                    max_value=60,
+                    value=20,
+                    step=5,
+                    help="最大持有天数"
+                )
+                
+                window_size = st.number_input(
+                    "匹配窗口",
+                    min_value=10,
+                    max_value=120,
+                    value=30,
+                    step=5,
+                    help="K线匹配窗口大小"
+                )
+            
+            with col3:
+                stop_loss = st.slider(
+                    "止损比例",
+                    min_value=0.02,
+                    max_value=0.15,
+                    value=0.05,
+                    step=0.01,
+                    format="%.0%%",
+                    help="止损比例"
+                )
+                
+                take_profit = st.slider(
+                    "止盈比例",
+                    min_value=0.05,
+                    max_value=0.30,
+                    value=0.10,
+                    step=0.01,
+                    format="%.0%%",
+                    help="止盈比例"
+                )
+            
+            # 回测范围
+            st.markdown("### 📅 回测范围")
+            
+            col_date1, col_date2 = st.columns(2)
+            
+            with col_date1:
+                start_date = st.date_input(
+                    "开始日期",
+                    value=pd.to_datetime("2020-01-01"),
+                    help="回测开始日期"
+                )
+            
+            with col_date2:
+                end_date = st.date_input(
+                    "结束日期",
+                    value=pd.to_datetime("2023-12-31"),
+                    help="回测结束日期"
+                )
+            
+            # 开始回测按钮
+            if st.button("🚀 开始回测", type="primary", use_container_width=True):
+                try:
+                    with st.spinner("正在加载数据并运行回测..."):
+                        # 导入策略模块
+                        import sys
+                        sys.path.insert(0, '.')
+                        from strategy.backtest import BacktestEngine
+                        from strategy.strategies.similarity import SimilarityStrategy
+                        
+                        # 加载数据
+                        market_data = get_market_data(
+                            stock_info['code'],
+                            stock_info['type'],
+                            days=None  # 获取全部数据
+                        )
+                        
+                        if market_data is None or market_data.empty:
+                            st.error("❌ 无法获取股票数据")
+                        else:
+                            # 创建策略
+                            strategy = SimilarityStrategy(
+                                similarity_threshold=similarity_threshold,
+                                win_rate_threshold=win_rate_threshold,
+                                holding_days=holding_days,
+                                stop_loss=stop_loss,
+                                take_profit=take_profit,
+                                window_size=window_size
+                            )
+                            
+                            # 创建回测引擎
+                            engine = BacktestEngine(
+                                initial_capital=100000.0,
+                                commission_rate=0.0003,
+                                slippage=0.001
+                            )
+                            
+                            # 运行回测
+                            result = engine.run(
+                                strategy=strategy,
+                                data=market_data,
+                                start_date=pd.to_datetime(start_date),
+                                end_date=pd.to_datetime(end_date)
+                            )
+                            
+                            # 显示回测结果
+                            st.success("✅ 回测完成！")
+                            
+                            # 关键指标
+                            st.markdown("### 📈 回测结果")
+                            
+                            metric_col1, metric_col2, metric_col3, metric_col4 = st.columns(4)
+                            
+                            with metric_col1:
+                                st.metric(
+                                    "总收益率",
+                                    f"{result.total_return:.1%}",
+                                    f"年化 {result.annualized_return:.1%}"
+                                )
+                            
+                            with metric_col2:
+                                st.metric(
+                                    "最大回撤",
+                                    f"{result.max_drawdown:.1%}",
+                                    f"{result.max_drawdown_duration}天"
+                                )
+                            
+                            with metric_col3:
+                                st.metric(
+                                    "夏普比率",
+                                    f"{result.sharpe_ratio:.2f}",
+                                    f"卡玛 {result.calmar_ratio:.2f}"
+                                )
+                            
+                            with metric_col4:
+                                st.metric(
+                                    "交易次数",
+                                    f"{result.total_trades}",
+                                    f"胜率 {result.win_rate:.0%}"
+                                )
+                            
+                            # 资金曲线
+                            st.markdown("### 💰 资金曲线")
+                            
+                            if not result.equity_curve.empty:
+                                import plotly.graph_objects as go
+                                from plotly.subplots import make_subplots
+                                
+                                fig = make_subplots(
+                                    rows=2, cols=1,
+                                    shared_xaxes=True,
+                                    vertical_spacing=0.1,
+                                    subplot_titles=('资金曲线', '回撤'),
+                                    row_heights=[0.7, 0.3]
+                                )
+                                
+                                # 资金曲线
+                                fig.add_trace(
+                                    go.Scatter(
+                                        x=result.equity_curve.index,
+                                        y=result.equity_curve['equity'],
+                                        mode='lines',
+                                        name='总资产',
+                                        line=dict(color='#1f449c', width=2)
+                                    ),
+                                    row=1, col=1
+                                )
+                                
+                                # 初始资金线
+                                fig.add_hline(
+                                    y=result.initial_capital,
+                                    line_dash="dash",
+                                    line_color="gray",
+                                    row=1, col=1
+                                )
+                                
+                                # 回撤
+                                if not result.drawdown_curve.empty:
+                                    fig.add_trace(
+                                        go.Scatter(
+                                            x=result.drawdown_curve.index,
+                                            y=result.drawdown_curve['drawdown'] * 100,
+                                            mode='lines',
+                                            name='回撤',
+                                            line=dict(color='red', width=1),
+                                            fill='tozeroy'
+                                        ),
+                                        row=2, col=1
+                                    )
+                                
+                                fig.update_layout(
+                                    height=600,
+                                    showlegend=True,
+                                    hovermode='x unified'
+                                )
+                                
+                                st.plotly_chart(fig, use_container_width=True)
+                            
+                            # 详细统计
+                            with st.expander("查看详细统计数据"):
+                                detail_col1, detail_col2 = st.columns(2)
+                                
+                                with detail_col1:
+                                    st.markdown("#### 收益指标")
+                                    st.write(f"- 初始资金: ¥{result.initial_capital:,.0f}")
+                                    st.write(f"- 最终资产: ¥{result.final_value:,.0f}")
+                                    st.write(f"- 年化收益: {result.annualized_return:.2%}")
+                                    st.write(f"- 波动率: {result.volatility:.2%}")
+                                    st.write(f"- 索提诺比率: {result.sortino_ratio:.2f}")
+                                
+                                with detail_col2:
+                                    st.markdown("#### 交易统计")
+                                    st.write(f"- 总交易: {result.total_trades}")
+                                    st.write(f"- 盈利交易: {result.winning_trades}")
+                                    st.write(f"- 亏损交易: {result.losing_trades}")
+                                    st.write(f"- 平均盈利: ¥{result.avg_profit:,.0f}")
+                                    st.write(f"- 平均亏损: ¥{result.avg_loss:,.0f}")
+                                    st.write(f"- 盈亏比: {result.profit_loss_ratio:.2f}")
+                            
+                            # 交易记录
+                            if result.trades:
+                                with st.expander("查看交易记录"):
+                                    trades_df = pd.DataFrame([
+                                        {
+                                            '日期': t.timestamp.strftime('%Y-%m-%d'),
+                                            '代码': t.code,
+                                            '方向': '买入' if t.direction == 'buy' else '卖出',
+                                            '价格': f"¥{t.price:.2f}",
+                                            '数量': t.quantity,
+                                            '手续费': f"¥{t.commission:.2f}",
+                                            '原因': t.reason[:30] + '...' if len(t.reason) > 30 else t.reason
+                                        }
+                                        for t in result.trades
+                                    ])
+                                    
+                                    st.dataframe(trades_df, use_container_width=True)
+                                    
+                                    # 导出按钮
+                                    csv = trades_df.to_csv(index=False).encode('utf-8')
+                                    st.download_button(
+                                        "📥 导出交易记录",
+                                        csv,
+                                        f"trades_{stock_info['code']}_{start_date}_{end_date}.csv",
+                                        "text/csv"
+                                    )
+                            
+                except Exception as e:
+                    st.error(f"❌ 回测出错: {str(e)}")
+                    import traceback
+                    st.code(traceback.format_exc())
 
 if __name__ == "__main__":
     main()
