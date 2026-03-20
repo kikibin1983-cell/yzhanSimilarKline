@@ -29,6 +29,9 @@ python-dotenv==1.0.1
 # 图像处理
 Pillow==10.4.0
 
+# 性能优化（Numba JIT编译加速）
+numba==0.60.0
+
 # 其他工具
 altair==5.4.1
 pyarrow==17.0.0
