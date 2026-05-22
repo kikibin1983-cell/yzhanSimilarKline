@@ -675,6 +675,11 @@
     "exchange": "上海"
   },
   {
+    "fund_code": "508020",
+    "short_name": "ETF-508020",
+    "exchange": "上海"
+  },
+  {
     "fund_code": "508021",
     "short_name": "ETF-508021",
     "exchange": "上海"
@@ -1510,6 +1515,16 @@
     "exchange": "上海"
   },
   {
+    "fund_code": "512450",
+    "short_name": "ETF-512450",
+    "exchange": "上海"
+  },
+  {
+    "fund_code": "512460",
+    "short_name": "ETF-512460",
+    "exchange": "上海"
+  },
+  {
     "fund_code": "512480",
     "short_name": "ETF-512480",
     "exchange": "上海"
@@ -2040,6 +2055,11 @@
     "exchange": "上海"
   },
   {
+    "fund_code": "513930",
+    "short_name": "ETF-513930",
+    "exchange": "上海"
+  },
+  {
     "fund_code": "513950",
     "short_name": "ETF-513950",
     "exchange": "上海"
@@ -2240,6 +2260,11 @@
     "exchange": "上海"
   },
   {
+    "fund_code": "515460",
+    "short_name": "ETF-515460",
+    "exchange": "上海"
+  },
+  {
     "fund_code": "515530",
     "short_name": "ETF-515530",
     "exchange": "上海"
@@ -2272,6 +2297,11 @@
   {
     "fund_code": "515630",
     "short_name": "ETF-515630",
+    "exchange": "上海"
+  },
+  {
+    "fund_code": "515640",
+    "short_name": "ETF-515640",
     "exchange": "上海"
   },
   {
@@ -2547,6 +2577,11 @@
   {
     "fund_code": "516360",
     "short_name": "ETF-516360",
+    "exchange": "上海"
+  },
+  {
+    "fund_code": "516370",
+    "short_name": "ETF-516370",
     "exchange": "上海"
   },
   {
@@ -3045,6 +3080,11 @@
     "exchange": "上海"
   },
   {
+    "fund_code": "520680",
+    "short_name": "ETF-520680",
+    "exchange": "上海"
+  },
+  {
     "fund_code": "520690",
     "short_name": "ETF-520690",
     "exchange": "上海"
@@ -3072,6 +3112,11 @@
   {
     "fund_code": "520780",
     "short_name": "ETF-520780",
+    "exchange": "上海"
+  },
+  {
+    "fund_code": "520790",
+    "short_name": "ETF-520790",
     "exchange": "上海"
   },
   {
@@ -3390,6 +3435,11 @@
     "exchange": "上海"
   },
   {
+    "fund_code": "560210",
+    "short_name": "ETF-560210",
+    "exchange": "上海"
+  },
+  {
     "fund_code": "560220",
     "short_name": "ETF-560220",
     "exchange": "上海"
@@ -3457,6 +3507,16 @@
   {
     "fund_code": "560390",
     "short_name": "ETF-560390",
+    "exchange": "上海"
+  },
+  {
+    "fund_code": "560400",
+    "short_name": "ETF-560400",
+    "exchange": "上海"
+  },
+  {
+    "fund_code": "560410",
+    "short_name": "ETF-560410",
     "exchange": "上海"
   },
   {
@@ -4895,6 +4955,16 @@
     "exchange": "上海"
   },
   {
+    "fund_code": "589250",
+    "short_name": "ETF-589250",
+    "exchange": "上海"
+  },
+  {
+    "fund_code": "589260",
+    "short_name": "ETF-589260",
+    "exchange": "上海"
+  },
+  {
     "fund_code": "589300",
     "short_name": "ETF-589300",
     "exchange": "上海"
@@ -5037,6 +5107,31 @@
   {
     "fund_code": "159005",
     "short_name": "ETF-159005",
+    "exchange": "深圳"
+  },
+  {
+    "fund_code": "159007",
+    "short_name": "ETF-159007",
+    "exchange": "深圳"
+  },
+  {
+    "fund_code": "159009",
+    "short_name": "ETF-159009",
+    "exchange": "深圳"
+  },
+  {
+    "fund_code": "159019",
+    "short_name": "ETF-159019",
+    "exchange": "深圳"
+  },
+  {
+    "fund_code": "159022",
+    "short_name": "ETF-159022",
+    "exchange": "深圳"
+  },
+  {
+    "fund_code": "159026",
+    "short_name": "ETF-159026",
     "exchange": "深圳"
   },
   {
@@ -5310,6 +5405,11 @@
     "exchange": "深圳"
   },
   {
+    "fund_code": "159160",
+    "short_name": "ETF-159160",
+    "exchange": "深圳"
+  },
+  {
     "fund_code": "159162",
     "short_name": "ETF-159162",
     "exchange": "深圳"
@@ -5322,6 +5422,11 @@
   {
     "fund_code": "159165",
     "short_name": "ETF-159165",
+    "exchange": "深圳"
+  },
+  {
+    "fund_code": "159166",
+    "short_name": "ETF-159166",
     "exchange": "深圳"
   },
   {
@@ -5340,13 +5445,118 @@
     "exchange": "深圳"
   },
   {
+    "fund_code": "159170",
+    "short_name": "ETF-159170",
+    "exchange": "深圳"
+  },
+  {
     "fund_code": "159171",
     "short_name": "ETF-159171",
     "exchange": "深圳"
   },
   {
+    "fund_code": "159172",
+    "short_name": "ETF-159172",
+    "exchange": "深圳"
+  },
+  {
+    "fund_code": "159173",
+    "short_name": "ETF-159173",
+    "exchange": "深圳"
+  },
+  {
     "fund_code": "159175",
     "short_name": "ETF-159175",
+    "exchange": "深圳"
+  },
+  {
+    "fund_code": "159176",
+    "short_name": "ETF-159176",
+    "exchange": "深圳"
+  },
+  {
+    "fund_code": "159177",
+    "short_name": "ETF-159177",
+    "exchange": "深圳"
+  },
+  {
+    "fund_code": "159179",
+    "short_name": "ETF-159179",
+    "exchange": "深圳"
+  },
+  {
+    "fund_code": "159180",
+    "short_name": "ETF-159180",
+    "exchange": "深圳"
+  },
+  {
+    "fund_code": "159181",
+    "short_name": "ETF-159181",
+    "exchange": "深圳"
+  },
+  {
+    "fund_code": "159183",
+    "short_name": "ETF-159183",
+    "exchange": "深圳"
+  },
+  {
+    "fund_code": "159185",
+    "short_name": "ETF-159185",
+    "exchange": "深圳"
+  },
+  {
+    "fund_code": "159186",
+    "short_name": "ETF-159186",
+    "exchange": "深圳"
+  },
+  {
+    "fund_code": "159187",
+    "short_name": "ETF-159187",
+    "exchange": "深圳"
+  },
+  {
+    "fund_code": "159188",
+    "short_name": "ETF-159188",
+    "exchange": "深圳"
+  },
+  {
+    "fund_code": "159189",
+    "short_name": "ETF-159189",
+    "exchange": "深圳"
+  },
+  {
+    "fund_code": "159190",
+    "short_name": "ETF-159190",
+    "exchange": "深圳"
+  },
+  {
+    "fund_code": "159191",
+    "short_name": "ETF-159191",
+    "exchange": "深圳"
+  },
+  {
+    "fund_code": "159195",
+    "short_name": "ETF-159195",
+    "exchange": "深圳"
+  },
+  {
+    "fund_code": "159196",
+    "short_name": "ETF-159196",
+    "exchange": "深圳"
+  },
+  {
+    "fund_code": "159197",
+    "short_name": "ETF-159197",
+    "exchange": "深圳"
+  },
+  {
+    "fund_code": "159198",
+    "short_name": "ETF-159198",
+    "exchange": "深圳"
+  },
+  {
+    "fund_code": "159199",
+    "short_name": "ETF-159199",
     "exchange": "深圳"
   },
   {

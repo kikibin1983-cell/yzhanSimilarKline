@@ -1,0 +1,25 @@
+{
+  "initial_cash": 1000000,
+  "cash": 997125.0,
+  "positions": {
+    "688518": {
+      "shares": 100,
+      "avg_cost": 28.7
+    }
+  },
+  "trade_history": [
+    {
+      "date": "2026-05-13 21:58:15",
+      "code": "688518",
+      "name": "688518",
+      "type": "买入",
+      "shares": 100,
+      "price": 28.7,
+      "amount": 2870.0,
+      "commission": 5,
+      "stamp_tax": 0
+    }
+  ],
+  "daily_snapshots": [],
+  "created_at": "2026-05-13 21:26:48"
+}

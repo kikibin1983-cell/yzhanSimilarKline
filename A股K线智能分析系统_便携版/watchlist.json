@@ -1,0 +1,37 @@
+[
+  {
+    "code": "688518",
+    "name": "联赢激光",
+    "type": "stock",
+    "exchange": "上海",
+    "added_time": "2026-03-15 17:21"
+  },
+  {
+    "code": "000001",
+    "name": "上证指数",
+    "type": "index",
+    "exchange": "深圳",
+    "added_time": "2026-03-15 18:20"
+  },
+  {
+    "code": "301236",
+    "name": "软通动力",
+    "type": "stock",
+    "exchange": "深圳",
+    "added_time": "2026-03-15 20:47"
+  },
+  {
+    "code": "300339",
+    "name": "润和软件",
+    "type": "stock",
+    "exchange": "深圳",
+    "added_time": "2026-03-15 20:51"
+  },
+  {
+    "code": "512880",
+    "name": "ETF-512880",
+    "type": "etf",
+    "exchange": "上海",
+    "added_time": "2026-03-15 20:56"
+  }
+]

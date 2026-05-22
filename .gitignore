@@ -39,6 +39,25 @@ env/
 *.log
 logs/
 
+# Windows device file
+nul
+
+# Big binary distributions
+*.zip
+*.tar.gz
+
+# Cache directories
+weekly_cache/
+monthly_cache/
+search_cache/
+securities_cache/
+shareholder_cache/
+stock_cache/
+technical_cache/
+macd_precompute_cache/
+cache/
+*.pkl
+
 # System
 .DS_Store
 Thumbs.db
