@@ -43,46 +43,46 @@ All paths below relative to `games/block-sandbox/`.
 ### Task 1: Deterministic world and chunk surfaces
 
 Consumes block definitions; produces generator/world/mesh interfaces above.
-- [ ] Write tests for seed determinism, negative-coordinate edits, bedrock/bounds, tree chunk order, sparse air edits, solid occlusion and face counts from hand-built fixtures.
-- [ ] Run `node --test tests/world.test.mjs`; expected missing-feature failures.
-- [ ] Implement blocks, coordinate hashing/noise, caves/trees/water, lazy typed chunk data and sparse overrides, face-culling mesh data.
-- [ ] Run all available tests; expected zero failures. Commit only project files.
+- [x] Write tests for seed determinism, negative-coordinate edits, bedrock/bounds, tree chunk order, sparse air edits, solid occlusion and face counts from hand-built fixtures.
+- [x] Run `node --test tests/world.test.mjs`; expected missing-feature failures.
+- [x] Implement blocks, coordinate hashing/noise, caves/trees/water, lazy typed chunk data and sparse overrides, face-culling mesh data.
+- [x] Run all available tests; expected zero failures. Commit only project files.
 
 ### Task 2: Physics and block interaction
 
 Consumes `World.getBlock/setBlock`, `isSolid`; produces player and interaction interfaces.
-- [ ] Write wall/floor/ceiling, fast movement/flying/bounds, safe-spawn, ray distance/direction and placing-inside-player tests.
-- [ ] Run `node --test tests/physics.test.mjs`; expected missing behavior failures.
-- [ ] Implement fixed-step/substep axis collisions, movement, swimming/flying, safe spawn, voxel DDA and validated edits.
-- [ ] Run entire suite; expected zero failures. Commit tested modules.
+- [x] Write wall/floor/ceiling, fast movement/flying/bounds, safe-spawn, ray distance/direction and placing-inside-player tests.
+- [x] Run `node --test tests/physics.test.mjs`; expected missing behavior failures.
+- [x] Implement fixed-step/substep axis collisions, movement, swimming/flying, safe spawn, voxel DDA and validated edits.
+- [x] Run entire suite; expected zero failures. Commit tested modules.
 
 ### Task 3: Persistent saves and import validation
 
 Consumes world edits and player/UI state; produces versioned snapshot/storage queue.
-- [ ] Write tests for schema/version/bounds/IDs, air-edit roundtrip, player/slot/settings validation, stale-write serialization and write-failure recovery.
-- [ ] Run `node --test tests/storage.test.mjs`; expected missing behavior failures.
-- [ ] Implement strict bounded save validation, IndexedDB transactions, defensive snapshot copy, ordered writes, read errors and file import size guard.
-- [ ] Run entire suite; expected zero failures. Commit storage tests and implementation.
+- [x] Write tests for schema/version/bounds/IDs, air-edit roundtrip, player/slot/settings validation, stale-write serialization and write-failure recovery.
+- [x] Run `node --test tests/storage.test.mjs`; expected missing behavior failures.
+- [x] Implement strict bounded save validation, IndexedDB transactions, defensive snapshot copy, ordered writes, read errors and file import size guard.
+- [x] Run entire suite; expected zero failures. Commit storage tests and implementation.
 
 ### Task 4: Playable scene and interface
 
 Consumes all Task 1–3 interfaces.
-- [ ] Add startup smoke expectations: local HTTP page/JS/vendor reachable, Chinese menu, create/continue/settings, actual WebGL world, HUD and save restore.
-- [ ] Verify startup smoke fails before creating app files.
-- [ ] Pin/install Three.js in project only; copy renderer and license to vendor with lockfile. Implement local pixel atlas, shaded chunk geometries, fog/sky/clouds, selected outline and bounded disposal.
-- [ ] Implement Chinese start/pause/settings/inventory dialogs, 9 slots, mouse/key inputs, lock/focus clear, simulation accumulator, incremental chunk work, audio, 5-second autosave, explicit save/export/import, failures without overwrites.
-- [ ] Run suite and browser smoke; record which actual user inputs automation can verify. Commit game files.
+- [x] Add startup smoke expectations: local HTTP page/JS/vendor reachable, Chinese menu, create/continue/settings, actual WebGL world, HUD and save restore.
+- [x] Verify startup smoke fails before creating app files.
+- [x] Pin/install Three.js in project only; copy renderer and license to vendor with lockfile. Implement local pixel atlas, shaded chunk geometries, fog/sky/clouds, selected outline and bounded disposal.
+- [x] Implement Chinese start/pause/settings/inventory dialogs, 9 slots, mouse/key inputs, lock/focus clear, simulation accumulator, incremental chunk work, audio, 5-second autosave, explicit save/export/import, failures without overwrites.
+- [x] Run suite and browser smoke; record which actual user inputs automation can verify. Commit game files.
 
 ### Task 5: Launcher, delivery, learning and final validation
 
 Consumes local game files and save/UI behavior.
-- [ ] Write HTTP tests for serving, traversal rejection, server identity, MIME, missing file and duplicate port handling; run RED.
-- [ ] Implement localhost-only static service/Windows launcher with script-relative paths and existing server identity check.
-- [ ] Run all Node tests, affected JS syntax checks and existing Python regression suite; record pre-existing failures if any.
-- [ ] Use real browser to inspect screenshots and replay edits/save/import/refresh; record performance and resource bounds.
-- [ ] Write README/LEARNING/VALIDATION and self-contained ZIP with vendored library, excluding node_modules and user data.
-- [ ] Independent final review against spec/plan. Fix important findings RED→GREEN; final full suite.
-- [ ] Commit only this project's artifacts, preserve original stock changes, show runnable entry and evidence.
+- [x] Write HTTP tests for serving, traversal rejection, server identity, MIME, missing file and duplicate port handling; run RED.
+- [x] Implement localhost-only static service/Windows launcher with script-relative paths and existing server identity check.
+- [x] Run all Node tests, affected JS syntax checks and existing Python regression suite; record pre-existing failures if any.
+- [x] Use real browser to inspect screenshots and replay edits/save/import/refresh; record performance and resource bounds.
+- [x] Write README/LEARNING/VALIDATION and self-contained ZIP with vendored library, excluding node_modules and user data.
+- [x] Independent final review against spec/plan. Fix important findings RED→GREEN; final full suite.
+- [x] Commit only this project's artifacts, preserve original stock changes, show runnable entry and evidence.
 
 ## Plan Self Review
 

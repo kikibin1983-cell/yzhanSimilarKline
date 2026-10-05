@@ -1,0 +1,31 @@
+{
+  "checks": [
+    "Chinese menu",
+    "WebGL scene",
+    "pointer lock",
+    "WASD movement",
+    "flight",
+    "left/right mouse edits",
+    "inventory",
+    "save/export",
+    "reload restore",
+    "valid import",
+    "invalid import preserves world",
+    "offline play"
+  ],
+  "stats": {
+    "chunks": 49,
+    "triangles": 50744,
+    "geometries": 48,
+    "pending": 0,
+    "fps": 59.99400059994001,
+    "renderer": "WebKit WebGL"
+  },
+  "errors": [],
+  "external": [],
+  "fixture": {
+    "x": 1,
+    "y": 47,
+    "z": -5
+  }
+}

@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#283a2d" />
+    <title>青岚方块 · 自己的世界</title>
+    <link rel="icon" href="/favicon.svg" />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <canvas id="scene" aria-label="三维方块世界"></canvas>
+    <div id="veil"></div>
+    <header id="brand">
+      <img src="/favicon.svg" alt="" />
+      <div><strong>青岚方块</strong><small>QINGLAN / BLOCK WORLD</small></div>
+    </header>
+    <div id="edition">单机世界 <span>•</span> 创造模式</div>
+    <main id="home" class="panel home-panel">
+      <div class="eyebrow">
+        <span class="tiny-square"></span> 一片绿谷，无限想象
+      </div>
+      <h1>每一格，<br />都由你决定<span>。</span></h1>
+      <p class="intro">
+        穿过树林，挖开山丘，造一间自己的小屋。<br />从第一块方块开始，让想象慢慢生长。
+      </p>
+      <button id="continue" class="button primary" disabled>
+        继续我的世界 <span>↗</span>
+      </button>
+      <button id="new-world" class="button secondary">
+        创建新世界 <span>＋</span>
+      </button>
+      <div class="menu-row">
+        <button id="home-help" class="text-button">操作指南</button><i></i
+        ><button id="home-settings" class="text-button">游戏设置</button><i></i
+        ><button id="home-import" class="text-button">导入存档</button>
+      </div>
+      <p id="home-status" class="muted">正在准备世界…</p>
+    </main>
+    <div id="landmark">
+      <span>01 / THE GREEN VALLEY</span><strong>去探索，也去创造。</strong
+      ><small>你的建筑会留在这里，等你下次回来。</small>
+    </div>
+    <footer id="home-footer">
+      <span>本地保存 · 无需账号</span><span>创造模式首版 / 1.0</span>
+    </footer>
+    <div id="hud" hidden>
+      <div id="play-title">青岚方块 <span id="mode">创造 · 步行</span></div>
+      <div id="save-status">准备就绪</div>
+      <div id="crosshair"></div>
+      <div id="target-label"></div>
+      <div id="toast" role="status"></div>
+      <div id="info" hidden></div>
+      <div id="hotbar"></div>
+      <div id="controls-hint">
+        WASD 移动 · 空格 跳跃 · 左键 挖掘 · 右键 放置 · E 方块 · F 飞行 · Esc
+        暂停
+      </div>
+    </div>
+    <section id="pause" class="panel compact-panel" hidden>
+      <div class="eyebrow">TAKE A BREATH</div>
+      <h2>歇一会儿</h2>
+      <p class="muted">世界已暂停，你的想象还在这里。</p>
+      <button id="resume" class="button primary">
+        继续探索 <span>↗</span>
+      </button>
+      <div class="two-buttons">
+        <button id="save" class="button secondary">立即保存</button
+        ><button id="export" class="button secondary">导出备份</button>
+      </div>
+      <div class="two-buttons">
+        <button id="pause-settings" class="button secondary">游戏设置</button
+        ><button id="pause-help" class="button secondary">操作指南</button>
+      </div>
+      <button id="to-home" class="text-button full">返回首页</button>
+      <p id="pause-status" class="muted"></p>
+    </section>
+    <dialog id="new-dialog">
+      <form id="new-form">
+        <div class="eyebrow">A NEW BEGINNING</div>
+        <h2>种下一个新世界</h2>
+        <p class="muted">相同种子，会长出相同的山川与树林。</p>
+        <label for="seed">世界种子</label>
+        <div class="input-row">
+          <input id="seed" maxlength="128" required value="青岚-2026" /><button
+            type="button"
+            id="random-seed"
+            class="square-button"
+            aria-label="随机种子"
+          >
+            ↻
+          </button>
+        </div>
+        <p class="detail">512 × 512 格 · 山地、洞穴、树林与水岸</p>
+        <div class="two-buttons">
+          <button
+            type="button"
+            data-close="new-dialog"
+            class="button secondary"
+          >
+            取消</button
+          ><button id="create" class="button primary" type="submit">
+            创建并进入
+          </button>
+        </div>
+      </form>
+    </dialog>
+    <dialog id="settings-dialog">
+      <div class="eyebrow">MAKE IT YOURS</div>
+      <h2>舒服地玩</h2>
+      <label for="view-distance">视距 <span>越远，画面负担越大</span></label
+      ><select id="view-distance">
+        <option value="2">近 · 流畅优先</option>
+        <option value="3" selected>中 · 均衡</option>
+        <option value="4">远 · 更开阔</option></select
+      ><label for="sensitivity"
+        >鼠标灵敏度 <output id="sensitivity-value">1.0</output></label
+      ><input
+        type="range"
+        id="sensitivity"
+        min="0.5"
+        max="2"
+        step="0.1"
+        value="1"
+      /><label for="volume">音量 <output id="volume-value">25%</output></label
+      ><input
+        type="range"
+        id="volume"
+        min="0"
+        max="1"
+        step="0.05"
+        value="0.25"
+      /><label for="pixel-ratio">画质</label
+      ><select id="pixel-ratio">
+        <option value="1">轻量</option>
+        <option value="1.5" selected>标准</option>
+        <option value="2">精细</option></select
+      ><button data-close="settings-dialog" class="button primary full">
+        完成
+      </button>
+    </dialog>
+    <dialog id="help-dialog">
+      <div class="eyebrow">A SMALL GUIDE</div>
+      <h2>开始你的冒险</h2>
+      <dl class="keys">
+        <dt>W A S D</dt>
+        <dd>前后左右移动</dd>
+        <dt>鼠标 / 空格</dt>
+        <dd>观察 / 跳跃（水中上浮）</dd>
+        <dt>Shift</dt>
+        <dd>冲刺</dd>
+        <dt>左键 / 右键</dt>
+        <dd>挖掘 / 放置方块</dd>
+        <dt>1 – 9 / 滚轮</dt>
+        <dd>切换手中的方块</dd>
+        <dt>E</dt>
+        <dd>选择更多方块</dd>
+        <dt>F</dt>
+        <dd>切换飞行；空格上升、Ctrl 下降</dd>
+        <dt>F3 / Esc</dt>
+        <dd>显示信息 / 暂停并释放鼠标</dd>
+      </dl>
+      <p class="detail">
+        创造模式方块无限。水不会流动，基岩不能挖掘。关闭前请等待“已保存”；导出备份可保留你的建筑。
+      </p>
+      <button data-close="help-dialog" class="button primary full">
+        知道了
+      </button>
+    </dialog>
+    <dialog id="inventory-dialog">
+      <div class="eyebrow">BUILD SOMETHING</div>
+      <h2>选一块，开始建造</h2>
+      <p class="muted">点击方块，替换当前快捷栏槽位。</p>
+      <div id="inventory-grid"></div>
+      <button data-close="inventory-dialog" class="button secondary full">
+        返回游戏
+      </button>
+    </dialog>
+    <dialog id="confirm-dialog">
+      <h2 id="confirm-title">替换当前世界？</h2>
+      <p id="confirm-message" class="muted"></p>
+      <div class="two-buttons">
+        <button id="confirm-no" class="button secondary">取消</button
+        ><button id="confirm-yes" class="button primary">确认替换</button>
+      </div>
+    </dialog>
+    <input
+      id="import-file"
+      type="file"
+      accept=".json,application/json"
+      hidden
+    />
+    <div id="fatal" role="alert" hidden>
+      <h2>暂时无法进入世界</h2>
+      <p id="fatal-message"></p>
+      <button onclick="location.reload()" class="button primary">
+        刷新重试
+      </button>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
